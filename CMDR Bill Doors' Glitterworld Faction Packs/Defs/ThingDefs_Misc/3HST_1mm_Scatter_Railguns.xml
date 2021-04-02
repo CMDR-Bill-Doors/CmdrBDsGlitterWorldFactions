@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseMakeableGun">
+    <defName>3HST_Scatter_Railgun</defName>
+    <label>3HST "NCQ Sprayer" Scatter Railgun</label>
+    <description>A pistol-sized automatic scatter railgun developed by 3HST Limited during the Third Elven Civil War. It is composed of a 19-barrel micro-railgun assembly and fires 19 minature railgun rounds at once.</description>
+    <graphicData>
+      <texPath>Things/Weapons/3HST_DWR_07_NCQ_Sprayer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <WorkToMake>43000</WorkToMake>
+      <Mass>2.5</Mass>
+      <Bulk>3.1</Bulk>
+      <SwayFactor>1.87</SwayFactor>
+      <ShotSpread>0.15</ShotSpread>
+      <SightsEfficiency>0.7</SightsEfficiency>
+      <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>CE_Sidearm</li>
+      <li>CE_OneHandedWeapon</li>
+    </weaponTags>
+    <costList>
+      <Steel>30</Steel>
+      <Plasteel>20</Plasteel>
+      <Chemfuel>5</Chemfuel>
+      <ComponentIndustrial>9</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Projectile_6mmScatterRG</defaultProjectile>
+        <warmupTime>1.1</warmupTime>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>18</ticksBetweenBurstShots>
+        <range>10</range>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <recoilAmount>1.58</recoilAmount>
+        <muzzleFlashScale>5</muzzleFlashScale>
+      </li>
+    </verbs>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawSize>0.93,0.93</DrawSize>
+        <DrawOffset>0.0,0.0</DrawOffset>
+      </li>
+    </modExtensions>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>18</magazineSize>
+        <reloadTime>4</reloadTime>
+        <ammoSet>AmmoSet_6mmScatterRG</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aimedBurstShotCount>2</aimedBurstShotCount>
+        <aiAimMode>Snapshot</aiAimMode>
+      </li>
+    </comps>
+
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.54</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>muzzle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.54</cooldownTime>
+        <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+      </li>
+    </tools>
+
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+
+
+</Defs>
