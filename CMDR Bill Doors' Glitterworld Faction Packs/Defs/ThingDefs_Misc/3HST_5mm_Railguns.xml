@@ -110,7 +110,7 @@
     </tools>
 
     <recipeMaker>
-      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <researchPrerequisite>3HST_Railgun</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
       </recipeUsers>
@@ -141,6 +141,7 @@
       <Plasteel>25</Plasteel>
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>11</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -205,7 +206,7 @@
     </tools>
 
     <recipeMaker>
-      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <researchPrerequisite>3HST_Railgun</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
       </recipeUsers>

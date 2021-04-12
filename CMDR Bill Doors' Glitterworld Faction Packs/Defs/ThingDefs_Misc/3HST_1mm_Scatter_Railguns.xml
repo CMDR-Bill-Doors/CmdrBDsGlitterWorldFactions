@@ -27,6 +27,7 @@
       <Plasteel>20</Plasteel>
       <Chemfuel>5</Chemfuel>
       <ComponentIndustrial>9</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -86,7 +87,7 @@
     </tools>
 
     <recipeMaker>
-      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <researchPrerequisite>3HST_Railgun</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
       </recipeUsers>

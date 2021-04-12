@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+  <!-- ================== 4mm autopistol =====================-->
   <ThingDef ParentName="BaseMakeableGun">
     <defName>3HST_4mm_AutoRailPistol</defName>
     <label>3HST 4mm AutoRailPistol</label>
@@ -80,13 +81,99 @@
     </tools>
 
     <recipeMaker>
-      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <researchPrerequisite>3HST_Railgun</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
       </recipeUsers>
     </recipeMaker>
   </ThingDef>
 
+  <!-- =================== 4mm Triple ========================-->
+  <ThingDef ParentName="BaseMakeableGun">
+    <defName>3HST_4mm_TriRailPistol</defName>
+    <label>3HST 4mm Triple RailPistol</label>
+    <description>A highly simplified railgun that don't even contains srevos. Standard sidearm for 3HST slave-fodders</description>
+    <graphicData>
+      <texPath>Things/Weapons/3HST_DWR_04_RailPistol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <statBases>
+      <WorkToMake>22000</WorkToMake>
+      <Mass>0.4</Mass>
+      <Bulk>1.75</Bulk>
+      <SwayFactor>0.72</SwayFactor>
+      <ShotSpread>0.19</ShotSpread>
+      <SightsEfficiency>0.7</SightsEfficiency>
+      <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>CE_Sidearm</li>
+      <li>CE_OneHandedWeapon</li>
+    </weaponTags>
+    <costList>
+      <Steel>15</Steel>
+      <Plasteel>15</Plasteel>
+      <Chemfuel>5</Chemfuel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Ammo_3HST4mmRG_Steel</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>-1</ticksBetweenBurstShots>
+        <range>9</range>
+        <soundCast>ChargeLance_Fire</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <recoilAmount>0</recoilAmount>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>3</magazineSize>
+        <reloadTime>0.85</reloadTime>
+        <reloadOneAtATime>true</reloadOneAtATime>
+        <ammoSet>AmmoSet_3HST4mmRG</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiAimMode>Snapshot</aiAimMode>
+      </li>
+    </comps>
 
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.54</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>muzzle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.54</cooldownTime>
+        <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+      </li>
+    </tools>
+
+    <recipeMaker>
+      <researchPrerequisite>3HST_Railgun</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
 
 </Defs>
