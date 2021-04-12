@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>3HST_Railgun</defName>
+    <label>3HST railguns</label>
+    <description>Allows production of 3HST-designed railguns.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>GasOperation</li>
+    </prerequisites>
+    <requiredResearchFacilities>
+      <li>ChargedShot</li>
+    </requiredResearchFacilities>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>16.00</researchViewX>
+    <researchViewY>3.8</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>
