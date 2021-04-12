@@ -232,12 +232,11 @@
 
 
   <!-- ==================== Recipes ========================== -->
-  <!--
   <RecipeDef ParentName="AmmoRecipeBase">
     <defName>MakeAmmo_3HST25x320mm_FMJ</defName>
-    <label>make 30x173mm NATO (FMJ) cartridge x200</label>
-    <description>Craft 200 30x173mm NATO (FMJ) cartridges.</description>
-    <jobString>Making 30x173mm NATO (FMJ) cartridges.</jobString>
+    <label>make 25x320 anti-ship (FMJ) cartridge x200</label>
+    <description>Craft 25x320 anti-ship (FMJ) cartridges.</description>
+    <jobString>Making 25x320 anti-ship (FMJ) cartridges.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -254,16 +253,16 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_30x173mmNATO_FMJ>200</Ammo_30x173mmNATO_FMJ>
+      <Ammo_3HST25x320mm_FMJ>200</Ammo_3HST25x320mm_FMJ>
     </products>
     <workAmount>16800</workAmount>
   </RecipeDef>
 
   <RecipeDef ParentName="AdvancedAmmoRecipeBase">
-    <defName>MakeAmmo_3HST25x320mm_Incendiary</defName>
-    <label>make 30x173mm NATO (AP-I) cartridge x200</label>
-    <description>Craft 200 .30x173mm NATO (AP-I) cartridges.</description>
-    <jobString>Making .30x173mm NATO (AP-I) cartridges.</jobString>
+      <defName>MakeAmmo_3HST25x320mm_Incendiary</defName>
+      <label>make 25x320 anti-ship (AP-I) cartridge x200</label>
+      <description>Craft 25x320 anti-ship (AP-I) cartridges.</description>
+      <jobString>Making 25x320 anti-ship (AP-I) cartridges.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -289,16 +288,16 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_30x173mmNATO_Incendiary>200</Ammo_30x173mmNATO_Incendiary>
+      <Ammo_3HST25x320mm_Incendiary>200</Ammo_3HST25x320mm_Incendiary>
     </products>
     <workAmount>24400</workAmount>
   </RecipeDef>
 
   <RecipeDef ParentName="AdvancedAmmoRecipeBase">
-    <defName>MakeAmmo_30x173mmNATO_HE</defName>
-    <label>make 30x173mm NATO (HE) cartridge x200</label>
-    <description>Craft 200 .30x173mm NATO (HE) cartridges.</description>
-    <jobString>Making .30x173mm NATO (HE) cartridges.</jobString>
+    <defName>MakeAmmo_3HST25x320mm_HE</defName>
+    <label>make 25x320 anti-ship (HE) cartridge x200</label>
+    <description>Craft 25x320 anti-ship (HE) cartridges.</description>
+    <jobString>Making 25x320 anti-ship (HE) cartridges.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -324,16 +323,16 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_30x173mmNATO_HE>200</Ammo_30x173mmNATO_HE>
-    </products>
+      <Ammo_3HST25x320mm_HE>200</Ammo_3HST25x320mm_HE>
+  </products>
     <workAmount>30800</workAmount>
   </RecipeDef>
 
   <RecipeDef ParentName="AdvancedAmmoRecipeBase">
-    <defName>MakeAmmo_30x173mmNATO_Sabot</defName>
-    <label>make 30x173mm NATO (Sabot) cartridge x200</label>
-    <description>Craft 200 .30x173mm NATO (Sabot) cartridges.</description>
-    <jobString>Making .30x173mm NATO (Sabot) cartridges.</jobString>
+    <defName>MakeAmmo_3HST25x320mm_Sabot</defName>
+    <label>make 25x320 anti-ship (Sabot) cartridge x200</label>
+    <description>Craft 25x320 anti-ship (Sabot) cartridges.</description>
+    <jobString>Making 25x320 anti-ship (Sabot) cartridges.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -368,9 +367,71 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_30x173mmNATO_Sabot>200</Ammo_30x173mmNATO_Sabot>
+      <Ammo_3HST25x320mm_Sabot>200</Ammo_3HST25x320mm_Sabot>
     </products>
     <workAmount>22600</workAmount>
-  </RecipeDef>-->
+  </RecipeDef>
+
+  <RecipeDef ParentName="AdvancedAmmoRecipeBase">
+    <defName>MakeAmmo_3HST25x320mm_Frag</defName>
+    <label>make 25x320 anti-ship (Frag) cartridge x200</label>
+    <description>Craft 25x320 anti-ship (Frag) cartridges.</description>
+    <jobString>Making 25x320 anti-ship (Frag) cartridges.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>168</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FSX</li>
+          </thingDefs>
+        </filter>
+        <count>55</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>FSX</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_3HST25x320mm_Frag>200</Ammo_3HST25x320mm_Frag>
+    </products>
+    <workAmount>30800</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_3HST25x320mm_Buck</defName>
+    <label>make 25x320 anti-ship (Buck) cartridge x200</label>
+    <description>Craft 25x320 anti-ship (Buck) cartridges.</description>
+    <jobString>Making 25x320 anti-ship (Buck) cartridges.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>168</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_3HST25x320mm_Buck>200</Ammo_3HST25x320mm_Buck>
+    </products>
+    <workAmount>16800</workAmount>
+  </RecipeDef>
+
 
 </Defs>
