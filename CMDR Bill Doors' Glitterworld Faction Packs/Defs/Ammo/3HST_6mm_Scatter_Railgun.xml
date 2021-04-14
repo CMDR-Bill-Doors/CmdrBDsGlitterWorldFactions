@@ -3,7 +3,7 @@
 
   <ThingCategoryDef>
     <defName>AmmoCategory_6mmScatterRG</defName>
-    <label>6mm Scatter Railgun Cartridge</label>
+    <label>3HST 6mm Scatter Railgun Cartridge</label>
     <parent>AmmoAdvanced</parent>
     <iconPath>UI/Icons/ThingCategories/CaliberRailgunPistol</iconPath>
   </ThingCategoryDef>
@@ -12,7 +12,7 @@
 
   <CombatExtended.AmmoSetDef>
     <defName>AmmoSet_6mmScatterRG</defName>
-    <label>XAR(S)-44 6mm Scatter Railgun Cartridge</label>
+    <label>3HST 6mm scatter railgun</label>
     <ammoTypes>
       <Ammo_6mmScatterRG>Projectile_6mmScatterRG</Ammo_6mmScatterRG>
     </ammoTypes>
@@ -22,7 +22,7 @@
 
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
     <defName>Ammo_6mmScatterRG</defName>
-    <label>6mm Scatter Railgun Cartridge</label>
+    <label>3HST 6mm Scatter Railgun Cartridge</label>
     <description>Pistol round sized cartridge containing 19 1mm railgun sabots. Used on light 3HST scatter railguns.</description>
     <statBases>
       <Mass>0.01</Mass>
