@@ -107,7 +107,7 @@
     </modExtensions>
 
     <recipeMaker>
-      <researchPrerequisite>CE_Launchers</researchPrerequisite>
+      <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
       </recipeUsers>
@@ -115,7 +115,7 @@
   </ThingDef>
   
   <!--=====================Disposable LGIS Launchers ===================-->
-  <ThingDef Name="BaseGun_CE" Abstract="True">
+  <ThingDef Name="BaseDisposableLGIS" Abstract="True">
     <category>Item</category>
     <thingClass>ThingWithComps</thingClass>
     <equipmentType>Primary</equipmentType>
@@ -147,7 +147,7 @@
     </comps>
   </ThingDef>
 
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseDisposableLGIS">
     <defName>Gun_3HST_LGIS_Launcher_Disposable_frag</defName>
     <label>Disposable frag LGIS launcher</label>
     <description>A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range.</description>
@@ -235,7 +235,7 @@
     </modExtensions>
   </ThingDef>
 
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseDisposableLGIS">
     <defName>Gun_3HST_LGIS_Launcher_Disposable_thermobaric</defName>
     <label>Disposable thermobaric LGIS launcher</label>
     <description>A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range.</description>
@@ -323,7 +323,7 @@
     </modExtensions>
   </ThingDef>
 
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseDisposableLGIS">
     <defName>Gun_3HST_LGIS_Launcher_Disposable_heat</defName>
     <label>Disposable HEAT LGIS launcher</label>
     <description>A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range.</description>
@@ -462,7 +462,7 @@
     <products>
       <Gun_3HST_LGIS_Launcher_Disposable_frag>5</Gun_3HST_LGIS_Launcher_Disposable_frag>
     </products>
-    <researchPrerequisite>CE_Launchers</researchPrerequisite>
+    <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
   </RecipeDef>
 
   <RecipeDef ParentName="GrenadeRecipeBase">
@@ -516,7 +516,7 @@
     <products>
       <Gun_3HST_LGIS_Launcher_Disposable_heat>5</Gun_3HST_LGIS_Launcher_Disposable_heat>
     </products>
-    <researchPrerequisite>CE_Launchers</researchPrerequisite>
+    <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
   </RecipeDef>
 
   <RecipeDef ParentName="GrenadeRecipeBase">
@@ -570,7 +570,7 @@
     <products>
       <Gun_3HST_LGIS_Launcher_Disposable_thermobaric>5</Gun_3HST_LGIS_Launcher_Disposable_thermobaric>
   </products>
-    <researchPrerequisite>CE_Launchers</researchPrerequisite>
+    <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
   </RecipeDef>
 
   <!--====================== Multiple high-angle LGIS Turret ===============-->
@@ -611,19 +611,15 @@
       <turretGunDef>Gun_MLGIS_ID</turretGunDef>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretTopDrawSize>4</turretTopDrawSize>
-      <buildingTags>
-        <li>Artillery_BaseDestroyer</li>
-        <li>Artillery_MannedMortar</li>
-      </buildingTags>
     </building>
     <placeWorkers>
       <li>PlaceWorker_NotUnderRoof</li>
       <li>PlaceWorker_TurretTop</li>
     </placeWorkers>
     <size>(2,2)</size>
-    <minifiedDef>MinifiedThing</minifiedDef>
     <researchPrerequisites>
       <li>CE_TurretHeavyWeapons</li>
+      <li>CE_AdvancedLaunchers</li>
     </researchPrerequisites>
     <designationCategory>Security</designationCategory>
   </ThingDef>
@@ -721,6 +717,7 @@
     <minifiedDef>MinifiedThing</minifiedDef>
     <researchPrerequisites>
       <li>CE_TurretHeavyWeapons</li>
+      <li>CE_AdvancedLaunchers</li>
     </researchPrerequisites>
     <designationCategory>Security</designationCategory>
   </ThingDef>
