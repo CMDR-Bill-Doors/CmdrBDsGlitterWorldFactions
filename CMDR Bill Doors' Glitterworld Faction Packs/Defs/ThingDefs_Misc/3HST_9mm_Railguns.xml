@@ -36,6 +36,7 @@
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <recoilAmount>0</recoilAmount>
         <muzzleFlashScale>10</muzzleFlashScale>
+        <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
       </li>
     </verbs>
     <modExtensions>
@@ -55,9 +56,116 @@
       </li>
     </comps>
     <weaponTags>
-      <li>CE_AI_Rifle</li>
+      <li>SniperRifle</li>
+      <li>SpacerGun</li>
     </weaponTags>
-    <AllowWithRunAndGun>false</AllowWithRunAndGun>
+    <!--<AllowWithRunAndGun>false</AllowWithRunAndGun>-->
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2.02</cooldownTime>
+        <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>muzzle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+      </li>
+    </tools>
+
+    <recipeMaker>
+      <researchPrerequisite>3HST_Railgun</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMakeableGun">
+    <defName>3HST_9mmHMG</defName>
+    <label>3HST 9mm heavy machine railgun</label>
+    <description>Heavy machine railgun installed on 3HST fighting vehicles and carried by power armor soldiers, devastating against personnel and light vehicles.</description>
+    <graphicData>
+      <texPath>Things/Weapons/3HST_HWR_03_HMG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <WorkToMake>83500</WorkToMake>
+      <Mass>49</Mass>
+      <Bulk>25</Bulk>
+      <SwayFactor>7.2</SwayFactor>
+      <ShotSpread>0.01</ShotSpread>
+      <SightsEfficiency>1</SightsEfficiency>
+      <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>220</Steel>
+      <Plasteel>80</Plasteel>
+      <Chemfuel>45</Chemfuel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <ComponentSpacer>8</ComponentSpacer>
+    </costList>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Projectile_3HST9mmRG_Steel</defaultProjectile>
+        <warmupTime>1.1</warmupTime>
+        <burstShotCount>10</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <range>86</range>
+        <soundCast>ChargeLance_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <recoilAmount>2.14</recoilAmount>
+        <muzzleFlashScale>18</muzzleFlashScale>
+        <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+      </li>
+    </verbs>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawSize>1.45,1.45</DrawSize>
+        <DrawOffset>0.12,-0.20</DrawOffset>
+      </li>
+    </modExtensions>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>60</magazineSize>
+        <reloadTime>7.8</reloadTime>
+        <ammoSet>AmmoSet_3HST9mmRG</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aimedBurstShotCount>5</aimedBurstShotCount>
+        <aiUseBurstMode>FALSE</aiUseBurstMode>
+        <aiAimMode>SuppressFire</aiAimMode>
+      </li>
+    </comps>
+    <weaponTags>
+      <li>GunHeavy</li>
+      <li>SpacerGun</li>
+    </weaponTags>
+    <!--<AllowWithRunAndGun>false</AllowWithRunAndGun>-->
     <tools>
       <li Class="CombatExtended.ToolCE">
         <label>stock</label>

@@ -108,7 +108,10 @@
         <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
       </li>
     </tools>
-
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+      <li>CE_AI_Rifle</li>
+    </weaponTags>
     <recipeMaker>
       <researchPrerequisite>3HST_Railgun</researchPrerequisite>
       <recipeUsers Inherit="False">
@@ -170,7 +173,116 @@
         <aiAimMode>Snapshot</aiAimMode>
       </li>
     </comps>
+    <weaponTags>
+      <li>SpacerGun</li>
+      <li>CE_AI_Rifle</li>
+    </weaponTags>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2.02</cooldownTime>
+        <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>muzzle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+      </li>
+    </tools>
 
+    <recipeMaker>
+      <researchPrerequisite>3HST_Railgun</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+  <!--=============== Light Machine Gun =====================-->
+  <ThingDef ParentName="BaseMakeableGun">
+    <defName>3HST_Light_Machine_Railgun</defName>
+    <label>3HST light machine railgun</label>
+    <description>Standard issue light machinegun of 3HST planetary forces.</description>
+    <graphicData>
+      <texPath>Things/Weapons/3HST_HWR_04_LMG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <WorkToMake>55500</WorkToMake>
+      <Mass>10.8</Mass>
+      <Bulk>14.5</Bulk>
+      <SwayFactor>1.7</SwayFactor>
+      <ShotSpread>0.02</ShotSpread>
+      <SightsEfficiency>1.1</SightsEfficiency>
+      <RangedWeapon_Cooldown>0.57</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>90</Steel>
+      <Plasteel>40</Plasteel>
+      <Chemfuel>15</Chemfuel>
+      <ComponentIndustrial>15</ComponentIndustrial>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Projectile_3HST5mmRG_Steel</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <burstShotCount>20</burstShotCount>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <range>65</range>
+        <soundCast>ChargeLance_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <recoilAmount>1.9</recoilAmount>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>160</magazineSize>
+        <reloadTime>4.5</reloadTime>
+        <ammoSet>AmmoSet_3HST5mmRG</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aimedBurstShotCount>8</aimedBurstShotCount>
+        <aiUseBurstMode>FALSE</aiUseBurstMode>
+        <aiAimMode>SuppressFire</aiAimMode>
+      </li>
+    </comps>
+    <weaponTags>
+      <li>CE_MachineGun</li>
+      <li>CE_AI_Suppressive</li>
+      <li>SpacerGun</li>
+    </weaponTags>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawSize>1.18,1.18</DrawSize>
+        <DrawOffset>0.13,-0.03</DrawOffset>
+      </li>
+    </modExtensions>
     <tools>
       <li Class="CombatExtended.ToolCE">
         <label>stock</label>

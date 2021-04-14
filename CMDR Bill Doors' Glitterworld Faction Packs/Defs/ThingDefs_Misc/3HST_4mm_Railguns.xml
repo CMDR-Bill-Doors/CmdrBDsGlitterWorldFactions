@@ -20,6 +20,7 @@
       <RangedWeapon_Cooldown>0.49</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
+      <li>SpacerGun</li>
       <li>CE_Sidearm</li>
       <li>CE_OneHandedWeapon</li>
     </weaponTags>

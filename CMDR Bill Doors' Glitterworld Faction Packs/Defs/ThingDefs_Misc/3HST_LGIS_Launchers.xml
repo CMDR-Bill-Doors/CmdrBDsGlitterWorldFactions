@@ -63,6 +63,9 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
+    <weaponTags>
+      <li>GunHeavy</li>
+    </weaponTags>
     <tools>
       <li Class="CombatExtended.ToolCE">
         <label>stock</label>
@@ -587,6 +590,8 @@
     </statBases>
     <techLevel>Spacer</techLevel>
     <comps>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>1200</basePowerConsumption>
@@ -631,9 +636,6 @@
       <texPath>Things/Building/Turrets/3HST_XML_25_MLGISL</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <weaponTags>
-      <li>Artillery_BaseDestroyer</li>
-    </weaponTags>
     <soundInteract>Artillery_ShellLoaded</soundInteract>
     <statBases>
       <SightsEfficiency>5</SightsEfficiency>
@@ -710,10 +712,6 @@
       <turretGunDef>Gun_DualLGIS_ID</turretGunDef>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretTopDrawSize>2</turretTopDrawSize>
-      <buildingTags>
-        <li>Artillery_BaseDestroyer</li>
-        <li>Artillery_MannedMortar</li>
-      </buildingTags>
     </building>
     <placeWorkers>
       <li>PlaceWorker_NotUnderRoof</li>
