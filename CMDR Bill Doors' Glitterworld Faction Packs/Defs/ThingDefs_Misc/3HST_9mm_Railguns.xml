@@ -23,7 +23,10 @@
       <Plasteel>35</Plasteel>
       <Chemfuel>15</Chemfuel>
       <ComponentIndustrial>9</ComponentIndustrial>
-      <ComponentSpacer>3</ComponentSpacer>
+      <ComponentSpacer>1</ComponentSpacer>
+      <RailComponent>2</RailComponent>
+      <MilitaryCapacitor>2</MilitaryCapacitor>
+
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -125,7 +128,11 @@
       <Plasteel>80</Plasteel>
       <Chemfuel>45</Chemfuel>
       <ComponentIndustrial>10</ComponentIndustrial>
-      <ComponentSpacer>8</ComponentSpacer>
+      <ComponentSpacer>1</ComponentSpacer>
+      <RailComponent>4</RailComponent>
+      <MilitaryCapacitor>4</MilitaryCapacitor>
+      <AdvancedServo>2</AdvancedServo>
+
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">

@@ -7,14 +7,32 @@
     <baseCost>1000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>GasOperation</li>
+      <li>ChargedShot</li>
     </prerequisites>
     <requiredResearchFacilities>
-      <li>ChargedShot</li>
+      <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <researchViewX>16.00</researchViewX>
     <researchViewY>3.8</researchViewY>
   </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>3HST_Railgun_Components</defName>
+    <label>3HST railgun components</label>
+    <description>Allows production of advanced electromagnetic accelerators used by 3HST railguns.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>3HST_Railgun</li>
+    </prerequisites>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>16.00</researchViewX>
+    <researchViewY>4.8</researchViewY>
+  </ResearchProjectDef>
+
 
 </Defs>

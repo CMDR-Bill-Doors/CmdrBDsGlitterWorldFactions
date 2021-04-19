@@ -23,8 +23,9 @@
       <Steel>30</Steel>
       <Plasteel>20</Plasteel>
       <Chemfuel>10</Chemfuel>
-      <ComponentIndustrial>10</ComponentIndustrial>
+      <ComponentIndustrial>4</ComponentIndustrial>
       <ComponentSpacer>1</ComponentSpacer>
+      <RailComponent>1</RailComponent>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -574,13 +575,70 @@
   </RecipeDef>
 
   <!--====================== Multiple high-angle LGIS Turret ===============-->
-  <ThingDef ParentName="BaseArtilleryBuilding">
+  <ThingDef Name="BaseMLGISArtilleryBuilding" ParentName="BuildingBase" Abstract="True">
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <graphicData>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <texPath>Things/Building/Turrets/3HST_Turret_VLS/3HST_Heavy_Turret_Base_VLS</texPath>
+      <drawSize>(4,4)</drawSize>
+      <damageData>
+        <rect>(0.38,0.2,0.56375,0.8)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+      </damageData>
+      <shadowData>
+        <offset>(-0.13,-0.87,-0.1)</offset>
+        <volume>(0.5,0.4,1.05)</volume>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <stealable>false</stealable>
+    <size>(2,2)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <tickerType>Normal</tickerType>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+    </comps>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <Flammability>0.7</Flammability>
+      <WorkToBuild>150000</WorkToBuild>
+      <Mass>1000</Mass>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <building>
+      <turretBurstWarmupTime>4.0</turretBurstWarmupTime>
+      <turretBurstCooldownTime>2</turretBurstCooldownTime>
+      <spawnedConceptLearnOpportunity>CE_MortarDirectFire</spawnedConceptLearnOpportunity>
+      <buildingTags>
+        <li>Artillery</li>
+      </buildingTags>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_NotUnderRoof</li>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <uiIconScale>1.1</uiIconScale>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMLGISArtilleryBuilding">
     <defName>Turret_MLGIS_ID</defName>
-    <label>Multiple high-angle LGIS turret</label>
+    <label>Multiple LGIS VLS</label>
     <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
     <graphicData>
       <drawSize>(2,2)</drawSize>
-      <texPath>Things/Building/Security/TurretHeavy_Base</texPath>
+      <texPath>Things/Building/Turrets/3HST_Turret_VLS/3HST_Heavy_Turret_Base_VLS</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
     </graphicData>
     <statBases>
       <MaxHitPoints>500</MaxHitPoints>
@@ -604,7 +662,8 @@
       <Plasteel>385</Plasteel>
       <Chemfuel>285</Chemfuel>
       <ComponentIndustrial>13</ComponentIndustrial>
-      <ComponentSpacer>5</ComponentSpacer>
+      <ComponentSpacer>2</ComponentSpacer>
+      <RailComponent>5</RailComponent>
     </costList>
     <specialDisplayRadius>15</specialDisplayRadius>
     <building>
@@ -612,10 +671,6 @@
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretTopDrawSize>4</turretTopDrawSize>
     </building>
-    <placeWorkers>
-      <li>PlaceWorker_NotUnderRoof</li>
-      <li>PlaceWorker_TurretTop</li>
-    </placeWorkers>
     <size>(2,2)</size>
     <researchPrerequisites>
       <li>CE_TurretHeavyWeapons</li>
@@ -627,9 +682,9 @@
   <ThingDef ParentName="BaseArtilleryWeapon">
     <defName>Gun_MLGIS_ID</defName>
     <label>multiple LGIS missile launcher</label>
-    <description>A multiple rocket launcher capable of holding and firing 27 LGIS missiles.  Built-in low-power rail accelerator gives missile greater range.</description>
+    <description>A multiple rocket launcher capable of holding and firing 25 LGIS missiles.  Built-in low-power rail accelerator gives missile greater range.</description>
     <graphicData>
-      <texPath>Things/Building/Turrets/3HST_XML_25_MLGISL</texPath>
+      <texPath>Things/none</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Artillery_ShellLoaded</soundInteract>
@@ -649,7 +704,7 @@
         <warmupTime>4.6</warmupTime>
         <minRange>15</minRange>
         <range>250</range>
-        <burstShotCount>27</burstShotCount>
+        <burstShotCount>25</burstShotCount>
         <soundCast>InfernoCannon_Fire</soundCast>
         <muzzleFlashScale>16</muzzleFlashScale>
         <circularError>4</circularError>
@@ -669,13 +724,13 @@
         </chargeSpeeds>
       </li>
       <li Class="CombatExtended.CompProperties_AmmoUser">
-        <magazineSize>27</magazineSize>
+        <magazineSize>25</magazineSize>
         <reloadTime>8.6</reloadTime>
         <reloadOneAtATime>true</reloadOneAtATime>
         <ammoSet>AmmoSet_70mmLGIS_Indirect</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
-        <aimedBurstShotCount>9</aimedBurstShotCount>
+        <aimedBurstShotCount>5</aimedBurstShotCount>
         <aiAimMode>SuppressFire</aiAimMode>
       </li>
     </comps>
@@ -780,4 +835,104 @@
       </li>
     </comps>
   </ThingDef>
+
+  <!--======================= Multiple Direct LGIS Turret =======================-->
+  <ThingDef ParentName="TurretAutoBase">
+    <defName>Turret_MLGIS</defName>
+    <label>Multiple LGIS Launcher</label>
+    <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+    <graphicData>
+      <drawSize>(2,2)</drawSize>
+      <texPath>Things/Building/Turrets/3HST_Turret_Heavy/3HST_Heavy_Turret_Base</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>150000</WorkToBuild>
+      <Mass>1000</Mass>
+      <Bulk>1000</Bulk>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>1200</basePowerConsumption>
+      </li>
+    </comps>
+    <fillPercent>0.9</fillPercent>
+    <description>A multiple LGIS missile turret with it's targeting system set to direct fire.</description>
+    <costList>
+      <Steel>1150</Steel>
+      <Plasteel>385</Plasteel>
+      <Chemfuel>285</Chemfuel>
+      <ComponentIndustrial>13</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+      <RailComponent>7</RailComponent>
+    </costList>
+    <specialDisplayRadius>10</specialDisplayRadius>
+    <building>
+      <turretGunDef>Gun_MLGIS</turretGunDef>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretTopDrawSize>3</turretTopDrawSize>
+    </building>
+    <size>(2,2)</size>
+    <researchPrerequisites>
+      <li>CE_TurretHeavyWeapons</li>
+      <li>CE_AdvancedLaunchers</li>
+    </researchPrerequisites>
+    <designationCategory>Security</designationCategory>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseArtilleryWeapon">
+    <defName>Gun_MLGIS</defName>
+    <label>multiple LGIS missile launcher</label>
+    <description>A multiple rocket launcher capable of holding and firing 27 LGIS missiles.  Built-in low-power rail accelerator gives missile greater range.</description>
+    <graphicData>
+      <texPath>Things/Building/Turrets/3HST_XML_25_MLGISL</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Artillery_ShellLoaded</soundInteract>
+    <statBases>
+      <SightsEfficiency>5</SightsEfficiency>
+      <ShotSpread>0.2</ShotSpread>
+      <SwayFactor>3.77</SwayFactor>
+      <RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
+      <MarketValue>16000</MarketValue>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Projectile_70mmLGIS_Frag</defaultProjectile>
+        <warmupTime>4.6</warmupTime>
+        <minRange>10</minRange>
+        <range>250</range>
+        <burstShotCount>27</burstShotCount>
+        <soundCast>InfernoCannon_Fire</soundCast>
+        <muzzleFlashScale>16</muzzleFlashScale>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_Charges">
+        <chargeSpeeds>
+          <li>30</li>
+          <li>50</li>
+          <li>70</li>
+          <li>90</li>
+        </chargeSpeeds>
+      </li>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>27</magazineSize>
+        <reloadTime>2.6</reloadTime>
+        <reloadOneAtATime>true</reloadOneAtATime>
+        <ammoSet>AmmoSet_70mmLGIS</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aimedBurstShotCount>9</aimedBurstShotCount>
+        <aiAimMode>SuppressFire</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+
 </Defs>

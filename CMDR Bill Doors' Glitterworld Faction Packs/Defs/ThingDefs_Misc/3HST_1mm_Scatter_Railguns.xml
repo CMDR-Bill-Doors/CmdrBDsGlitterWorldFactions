@@ -29,6 +29,9 @@
       <Chemfuel>5</Chemfuel>
       <ComponentIndustrial>9</ComponentIndustrial>
       <ComponentSpacer>1</ComponentSpacer>
+      <RailComponent>2</RailComponent>
+      <MilitaryCapacitor>1</MilitaryCapacitor>
+      <AdvancedServo>1</AdvancedServo>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">

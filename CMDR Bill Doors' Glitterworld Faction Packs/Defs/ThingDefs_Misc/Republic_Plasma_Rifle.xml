@@ -23,6 +23,8 @@
       <Plasteel>30</Plasteel>
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>10</ComponentIndustrial>
+      <MilitaryCapacitor>3</MilitaryCapacitor>
+      <AdvancedServo>2</AdvancedServo>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
