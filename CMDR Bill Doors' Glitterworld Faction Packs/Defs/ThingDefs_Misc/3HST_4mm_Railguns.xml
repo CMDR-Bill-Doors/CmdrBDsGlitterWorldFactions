@@ -23,6 +23,7 @@
       <li>SpacerGun</li>
       <li>CE_Sidearm</li>
       <li>CE_OneHandedWeapon</li>
+      <li>3HST_Sidearm</li>
     </weaponTags>
     <costList>
       <Steel>20</Steel>
@@ -41,7 +42,7 @@
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <range>12</range>
-        <soundCast>ChargeLance_Fire</soundCast>
+        <soundCast>RG_4mm</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <recoilAmount>5.23</recoilAmount>
         <muzzleFlashScale>8</muzzleFlashScale>
@@ -113,6 +114,7 @@
     <weaponTags>
       <li>CE_Sidearm</li>
       <li>CE_OneHandedWeapon</li>
+      <li>3HST_Sidearm</li>
     </weaponTags>
     <costList>
       <Steel>15</Steel>
@@ -130,7 +132,7 @@
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>-1</ticksBetweenBurstShots>
         <range>9</range>
-        <soundCast>ChargeLance_Fire</soundCast>
+        <soundCast>RG_4mm</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <recoilAmount>0</recoilAmount>
         <muzzleFlashScale>8</muzzleFlashScale>

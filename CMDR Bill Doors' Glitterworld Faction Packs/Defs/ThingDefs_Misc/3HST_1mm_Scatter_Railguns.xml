@@ -22,6 +22,7 @@
       <li>SpacerGun</li>
       <li>CE_Sidearm</li>
       <li>CE_OneHandedWeapon</li>
+      <li>3HST_Sidearm</li>
     </weaponTags>
     <costList>
       <Steel>30</Steel>
@@ -42,7 +43,7 @@
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>18</ticksBetweenBurstShots>
         <range>10</range>
-        <soundCast>Shot_Shotgun</soundCast>
+        <soundCast>RG_6mm</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <recoilAmount>1.58</recoilAmount>
         <muzzleFlashScale>5</muzzleFlashScale>

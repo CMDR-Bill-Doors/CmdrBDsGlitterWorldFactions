@@ -58,7 +58,7 @@
         <burstShotCount>6</burstShotCount>
         <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
         <range>62</range>
-        <soundCast>ChargeLance_Fire</soundCast>
+        <soundCast>RG_5mm</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <recoilAmount>2.62</recoilAmount>
         <muzzleFlashScale>5</muzzleFlashScale>
@@ -112,6 +112,7 @@
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
       <li>CE_AI_Rifle</li>
+      <li>3HST_SlaveRG</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>3HST_Railgun</researchPrerequisite>
@@ -159,7 +160,7 @@
         <burstShotCount>6</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <range>55</range>
-        <soundCast>ChargeLance_Fire</soundCast>
+        <soundCast>RG_5mm</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <recoilAmount>3.65</recoilAmount>
         <muzzleFlashScale>7</muzzleFlashScale>
@@ -180,6 +181,7 @@
     <weaponTags>
       <li>SpacerGun</li>
       <li>CE_AI_Rifle</li>
+      <li>3HST_ARG</li>
     </weaponTags>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -240,7 +242,7 @@
       <SwayFactor>1.7</SwayFactor>
       <ShotSpread>0.02</ShotSpread>
       <SightsEfficiency>1.1</SightsEfficiency>
-      <RangedWeapon_Cooldown>0.57</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.57</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>90</Steel>
@@ -259,9 +261,9 @@
         <defaultProjectile>Projectile_3HST5mmRG_Steel</defaultProjectile>
         <warmupTime>1.2</warmupTime>
         <burstShotCount>20</burstShotCount>
-        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
         <range>65</range>
-        <soundCast>ChargeLance_Fire</soundCast>
+        <soundCast>RG_5mm</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <recoilAmount>1.9</recoilAmount>
         <muzzleFlashScale>8</muzzleFlashScale>
@@ -270,7 +272,7 @@
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>160</magazineSize>
-        <reloadTime>4.5</reloadTime>
+        <reloadTime>6.5</reloadTime>
         <ammoSet>AmmoSet_3HST5mmRG</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -283,6 +285,7 @@
       <li>CE_MachineGun</li>
       <li>CE_AI_Suppressive</li>
       <li>SpacerGun</li>
+      <li>3HST_LMRG</li>
     </weaponTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">

@@ -66,6 +66,7 @@
     </comps>
     <weaponTags>
       <li>GunHeavy</li>
+      <li>3HST_LGIS_Reusable</li>
     </weaponTags>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -128,6 +129,11 @@
     </graphicData>
     <drawGUIOverlay>true</drawGUIOverlay>
     <statBases>
+      <SightsEfficiency>1.0</SightsEfficiency>
+      <ShotSpread>0.08</ShotSpread>
+      <SwayFactor>1.1</SwayFactor>
+      <Bulk>6.8</Bulk>
+      <Mass>2.5</Mass>
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>2</DeteriorationRate>
@@ -158,16 +164,11 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <SightsEfficiency>1.0</SightsEfficiency>
-      <ShotSpread>0.2</ShotSpread>
-      <SwayFactor>1.24</SwayFactor>
-      <Bulk>10.8</Bulk>
-      <Mass>2.5</Mass>
-      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
       <MarketValue>35.72</MarketValue>
     </statBases>
     <weaponTags>
       <li>GunHeavy</li>
+      <li>3HST_LGIS_Disposable</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -175,7 +176,7 @@
         <defaultProjectile>Projectile_70mmLGIS_Frag</defaultProjectile>
         <hasStandardCommand>true</hasStandardCommand>
         <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
-        <warmupTime>4.4</warmupTime>
+        <warmupTime>2.4</warmupTime>
         <burstShotCount />
         <range>90</range>
         <minRange>10</minRange>
@@ -246,16 +247,11 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <SightsEfficiency>1.0</SightsEfficiency>
-      <ShotSpread>0.2</ShotSpread>
-      <SwayFactor>1.24</SwayFactor>
-      <Bulk>10.8</Bulk>
-      <Mass>2.5</Mass>
-      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
       <MarketValue>35.72</MarketValue>
     </statBases>
     <weaponTags>
       <li>GunHeavy</li>
+      <li>3HST_LGIS_Disposable</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -263,7 +259,7 @@
         <defaultProjectile>Projectile_70mmLGIS_Thermobaric</defaultProjectile>
         <hasStandardCommand>true</hasStandardCommand>
         <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
-        <warmupTime>4.4</warmupTime>
+        <warmupTime>2.4</warmupTime>
         <burstShotCount />
         <range>90</range>
         <minRange>10</minRange>
@@ -334,16 +330,11 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <SightsEfficiency>1.0</SightsEfficiency>
-      <ShotSpread>0.2</ShotSpread>
-      <SwayFactor>1.24</SwayFactor>
-      <Bulk>10.8</Bulk>
-      <Mass>2.5</Mass>
-      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
       <MarketValue>35.72</MarketValue>
     </statBases>
     <weaponTags>
       <li>GunHeavy</li>
+      <li>3HST_LGIS_Disposable</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -351,7 +342,7 @@
         <defaultProjectile>Projectile_70mmLGIS_HEAT</defaultProjectile>
         <hasStandardCommand>true</hasStandardCommand>
         <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
-        <warmupTime>4.4</warmupTime>
+        <warmupTime>2.4</warmupTime>
         <burstShotCount />
         <range>90</range>
         <minRange>10</minRange>
@@ -574,6 +565,452 @@
     <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
   </RecipeDef>
 
+
+  <!--=====================Disposable Indirect LGIS Launchers ===================-->
+  <ThingDef ParentName="BaseDisposableLGIS">
+    <defName>Gun_3HST_LGIS_Launcher_Disposable_frag_ID</defName>
+    <label>Disposable indirect frag LGIS launcher</label>
+    <description>A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range. This one comes with a indirect fire sight</description>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <graphicData>
+      <texPath>Things/Weapons/3HST_IWL_10_disposable_launcher_frag_ID</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>35.72</MarketValue>
+    </statBases>
+    <weaponTags>
+      <li>GunHeavy</li>
+      <li>3HST_LGIS_Disposable_ID</li>
+    </weaponTags>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+        <defaultProjectile>Projectile_70mmLGIS_Frag_Indirect</defaultProjectile>
+        <hasStandardCommand>true</hasStandardCommand>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <warmupTime>4.4</warmupTime>
+        <burstShotCount />
+        <range>150</range>
+        <minRange>20</minRange>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>InfernoCannon_Fire</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>5</muzzleFlashScale>
+        <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+        <circularError>1</circularError>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>FALSE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+      <li Class="CombatExtended.CompProperties_Charges">
+        <chargeSpeeds>
+          <li>30</li>
+          <li>50</li>
+          <li>70</li>
+          <li>90</li>
+        </chargeSpeeds>
+      </li>
+    </comps>
+    <stackLimit>25</stackLimit>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2.02</cooldownTime>
+        <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>muzzle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawSize>1.0,1.0</DrawSize>
+        <DrawOffset>-0.3,0.0</DrawOffset>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseDisposableLGIS">
+    <defName>Gun_3HST_LGIS_Launcher_Disposable_thermobaric_ID</defName>
+    <label>Disposable indirect thermobaric LGIS launcher</label>
+    <description>A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range. This one comes with a indirect fire sight</description>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <graphicData>
+      <texPath>Things/Weapons/3HST_IWL_10_disposable_launcher_thermobaric_ID</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>35.72</MarketValue>
+    </statBases>
+    <weaponTags>
+      <li>GunHeavy</li>
+      <li>3HST_LGIS_Disposable_ID</li>
+    </weaponTags>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+        <defaultProjectile>Projectile_70mmLGIS_Thermobaric_Indirect</defaultProjectile>
+        <hasStandardCommand>true</hasStandardCommand>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <warmupTime>4.4</warmupTime>
+        <burstShotCount />
+        <range>150</range>
+        <minRange>20</minRange>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>InfernoCannon_Fire</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>5</muzzleFlashScale>
+        <circularError>1</circularError>
+        <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>FALSE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+      <li Class="CombatExtended.CompProperties_Charges">
+        <chargeSpeeds>
+          <li>30</li>
+          <li>50</li>
+          <li>70</li>
+          <li>90</li>
+        </chargeSpeeds>
+      </li>
+    </comps>
+    <stackLimit>25</stackLimit>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2.02</cooldownTime>
+        <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>muzzle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawSize>1.0,1.0</DrawSize>
+        <DrawOffset>-0.3,0.0</DrawOffset>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseDisposableLGIS">
+    <defName>Gun_3HST_LGIS_Launcher_Disposable_heat_ID</defName>
+    <label>Disposable indirect HEAT LGIS launcher</label>
+    <description>A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range. This one comes with a indirect fire sight</description>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <graphicData>
+      <texPath>Things/Weapons/3HST_IWL_10_disposable_launcher_heat_ID</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <SightsEfficiency>1.0</SightsEfficiency>
+      <ShotSpread>0.2</ShotSpread>
+      <SwayFactor>1.24</SwayFactor>
+      <Bulk>10.8</Bulk>
+      <Mass>2.5</Mass>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+      <MarketValue>35.72</MarketValue>
+    </statBases>
+    <weaponTags>
+      <li>GunHeavy</li>
+      <li>3HST_LGIS_Disposable_ID</li>
+    </weaponTags>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+        <defaultProjectile>Projectile_70mmLGIS_HEAT_Indirect</defaultProjectile>
+        <hasStandardCommand>true</hasStandardCommand>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <warmupTime>4.4</warmupTime>
+        <burstShotCount />
+        <range>90</range>
+        <minRange>10</minRange>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>InfernoCannon_Fire</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>5</muzzleFlashScale>
+        <circularError>1</circularError>
+        <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>FALSE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+      <li Class="CombatExtended.CompProperties_Charges">
+        <chargeSpeeds>
+          <li>30</li>
+          <li>50</li>
+          <li>70</li>
+          <li>90</li>
+        </chargeSpeeds>
+      </li>
+    </comps>
+    <stackLimit>25</stackLimit>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2.02</cooldownTime>
+        <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>muzzle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawSize>1.0,1.0</DrawSize>
+        <DrawOffset>-0.3,0.0</DrawOffset>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <RecipeDef ParentName="GrenadeRecipeBase">
+    <defName>MakeDLGISfragID</defName>
+    <label>make disposable indirect frag LGIS launcher x5</label>
+    <description>Craft 5 disposable frag LGIS launchers.</description>
+    <jobString>Making frag LGIS launchers.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FSX</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Ammo_70mmLGIS_Frag</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>FSX</li>
+        <li>ComponentIndustrial</li>
+        <li>Ammo_70mmLGIS_Frag</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Gun_3HST_LGIS_Launcher_Disposable_frag_ID>5</Gun_3HST_LGIS_Launcher_Disposable_frag_ID>
+    </products>
+    <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="GrenadeRecipeBase">
+    <defName>MakeDLGISheatID</defName>
+    <label>make disposable indirect HEAT LGIS launcher x5</label>
+    <description>Craft 5 disposable HEAT LGIS launchers.</description>
+    <jobString>Making HEAT LGIS launchers.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FSX</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Ammo_70mmLGIS_HEAT</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>FSX</li>
+        <li>ComponentIndustrial</li>
+        <li>Ammo_70mmLGIS_HEAT</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Gun_3HST_LGIS_Launcher_Disposable_heat_ID>5</Gun_3HST_LGIS_Launcher_Disposable_heat_ID>
+    </products>
+    <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="GrenadeRecipeBase">
+    <defName>MakeDLGISthermobaricID</defName>
+    <label>make disposable indirect thermobaric LGIS launcher x5</label>
+    <description>Craft 5 disposable thermobaric LGIS launchers.</description>
+    <jobString>Making thermobaric LGIS launchers.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FSX</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Ammo_70mmLGIS_Thermobaric</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>FSX</li>
+        <li>ComponentIndustrial</li>
+        <li>Ammo_70mmLGIS_Thermobaric</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Gun_3HST_LGIS_Launcher_Disposable_thermobaric_ID>5</Gun_3HST_LGIS_Launcher_Disposable_thermobaric_ID>
+    </products>
+    <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
+  </RecipeDef>
+
   <!--====================== Multiple high-angle LGIS Turret ===============-->
   <ThingDef Name="BaseMLGISArtilleryBuilding" ParentName="BuildingBase" Abstract="True">
     <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
@@ -695,6 +1132,7 @@
       <RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
       <MarketValue>16000</MarketValue>
     </statBases>
+    <thingCategories Inherit="False" />
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
         <verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
@@ -853,6 +1291,7 @@
       <Bulk>1000</Bulk>
     </statBases>
     <techLevel>Spacer</techLevel>
+    <thingCategories Inherit="False" />
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>

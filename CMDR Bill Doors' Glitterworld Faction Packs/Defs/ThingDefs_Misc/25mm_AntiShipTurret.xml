@@ -14,6 +14,7 @@
       <Mass>1000</Mass>
       <Bulk>1000</Bulk>
     </statBases>
+    <thingCategories Inherit="False" />
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
@@ -102,6 +103,7 @@
       <AimingAccuracy>0.8</AimingAccuracy>
       <ShootingAccuracyTurret>1</ShootingAccuracyTurret>
     </statBases>
+    <thingCategories Inherit="False" />
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="CompProperties_Power">
@@ -128,7 +130,6 @@
     <researchPrerequisites>
       <li>CE_TurretHeavyWeapons</li>
     </researchPrerequisites>
-    <minifiedDef>MinifiedThing</minifiedDef>
   </ThingDef>
   <ThingDef ParentName="BaseTurretGun">
     <defName>Gun_Dual25mmAntiShip</defName>
@@ -192,6 +193,7 @@
       <ShotSpread>0.1</ShotSpread>
       <SightsEfficiency>0.6</SightsEfficiency>
       <RangedWeapon_Cooldown>2.37</RangedWeapon_Cooldown>
+      <MarketValue>50</MarketValue>
     </statBases>
     <costList>
       <Steel>75</Steel>
@@ -230,6 +232,8 @@
     </comps>
     <weaponTags>
       <li>SniperRifle</li>
+      <li>CE_AI_Rifle</li>
+      <li>Gun</li>
     </weaponTags>
     <!--<AllowWithRunAndGun>false</AllowWithRunAndGun>-->
     <tools>
@@ -293,6 +297,7 @@
       <ShotSpread>0.28</ShotSpread>
       <SightsEfficiency>0.6</SightsEfficiency>
       <RangedWeapon_Cooldown>2.6</RangedWeapon_Cooldown>
+      <MarketValue>20</MarketValue>
     </statBases>
     <costList>
       <Steel>25</Steel>
@@ -333,6 +338,7 @@
       <li>CE_Sidearm</li>
       <li>CE_AI_Pistol</li>
       <li>CE_OneHandedWeapon</li>
+      <li>Gun</li>
     </weaponTags>
     <!--<AllowWithRunAndGun>false</AllowWithRunAndGun>-->
     <tools>

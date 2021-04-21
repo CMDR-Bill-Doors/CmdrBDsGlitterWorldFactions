@@ -35,7 +35,7 @@
         <defaultProjectile>Projectile_3HST9mmRG_Steel</defaultProjectile>
         <warmupTime>1.5</warmupTime>
         <range>75</range>
-        <soundCast>ChargeLance_Fire</soundCast>
+        <soundCast>RG_9mm</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <recoilAmount>0</recoilAmount>
         <muzzleFlashScale>10</muzzleFlashScale>
@@ -61,6 +61,7 @@
     <weaponTags>
       <li>SniperRifle</li>
       <li>SpacerGun</li>
+      <li>3HST_Sniper</li>
     </weaponTags>
     <!--<AllowWithRunAndGun>false</AllowWithRunAndGun>-->
     <tools>
@@ -143,7 +144,7 @@
         <burstShotCount>10</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <range>86</range>
-        <soundCast>ChargeLance_Fire</soundCast>
+        <soundCast>RG_9mm</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <recoilAmount>2.14</recoilAmount>
         <muzzleFlashScale>18</muzzleFlashScale>
@@ -171,6 +172,7 @@
     <weaponTags>
       <li>GunHeavy</li>
       <li>SpacerGun</li>
+      <li>3HST_HMRG</li>
     </weaponTags>
     <!--<AllowWithRunAndGun>false</AllowWithRunAndGun>-->
     <tools>
