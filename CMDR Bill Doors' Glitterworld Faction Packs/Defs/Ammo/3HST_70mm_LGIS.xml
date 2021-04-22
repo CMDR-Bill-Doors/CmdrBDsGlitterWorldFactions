@@ -15,6 +15,31 @@
     <description>Filled with confetti and a small explosive charge, barely destructive but extremely humiliating.</description>
   </CombatExtended.AmmoCategoryDef>
 
+  <CombatExtended.AmmoCategoryDef>
+    <defName>RocketIncendiary</defName>
+    <label>Incendiary</label>
+    <description>Filled with incendiary agent. The agent is dispersed on impact, covering the area in flames.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+  <CombatExtended.AmmoCategoryDef>
+    <defName>RocketSmoke</defName>
+    <label>Smoke</label>
+    <description>Filled with a smoke-producing agent. Explodes on impact to generate a thick smokescreen.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+  <CombatExtended.AmmoCategoryDef>
+    <defName>RocketEMP</defName>
+    <label>EMP</label>
+    <description>Creates an electro-magnetic burst on impact, temporarily disrupting electronic systems and Mechanoids.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+  <CombatExtended.AmmoCategoryDef>
+    <defName>RocketFoam</defName>
+    <label>foam</label>
+    <description>Special round designed for civilian fire-fighting purposes. Filled with fire-retardant foam to suppress fires in a large area.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+
   <!-- ==================== AmmoSet ========================== -->
 
   <CombatExtended.AmmoSetDef>
@@ -25,7 +50,10 @@
       <Ammo_70mmLGIS_Thermobaric>Projectile_70mmLGIS_Thermobaric</Ammo_70mmLGIS_Thermobaric>
       <Ammo_70mmLGIS_Frag>Projectile_70mmLGIS_Frag</Ammo_70mmLGIS_Frag>
       <Ammo_70mmLGIS_Confetti>Projectile_70mmLGIS_Confetti</Ammo_70mmLGIS_Confetti>
-
+      <Ammo_70mmLGIS_Incendiary>Projectile_70mmLGIS_Incendiary</Ammo_70mmLGIS_Incendiary>
+      <Ammo_70mmLGIS_Smoke>Projectile_70mmLGIS_Smoke</Ammo_70mmLGIS_Smoke>
+      <Ammo_70mmLGIS_Firefoam>Projectile_70mmLGIS_Firefoam</Ammo_70mmLGIS_Firefoam>
+      <Ammo_70mmLGIS_EMP>Projectile_70mmLGIS_EMP</Ammo_70mmLGIS_EMP>
     </ammoTypes>
   </CombatExtended.AmmoSetDef>
 
@@ -37,7 +65,10 @@
       <Ammo_70mmLGIS_Thermobaric>Projectile_70mmLGIS_Thermobaric_Indirect</Ammo_70mmLGIS_Thermobaric>
       <Ammo_70mmLGIS_Frag>Projectile_70mmLGIS_Frag_Indirect</Ammo_70mmLGIS_Frag>
       <Ammo_70mmLGIS_Confetti>Projectile_70mmLGIS_Confetti_Indirect</Ammo_70mmLGIS_Confetti>
-
+      <Ammo_70mmLGIS_Incendiary>Projectile_70mmLGIS_Incendiary_Indirect</Ammo_70mmLGIS_Incendiary>
+      <Ammo_70mmLGIS_Smoke>Projectile_70mmLGIS_Smoke_Indirect</Ammo_70mmLGIS_Smoke>
+      <Ammo_70mmLGIS_Firefoam>Projectile_70mmLGIS_Firefoam_Indirect</Ammo_70mmLGIS_Firefoam>
+      <Ammo_70mmLGIS_EMP>Projectile_70mmLGIS_EMP_Indirect</Ammo_70mmLGIS_EMP>
     </ammoTypes>
   </CombatExtended.AmmoSetDef>
   
@@ -125,6 +156,71 @@
     <ammoClass>RocketConfetti</ammoClass>
     <detonateProjectile>Projectile_70mmLGIS_Confetti</detonateProjectile>
   </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="70mmLGISBase">
+    <defName>Ammo_70mmLGIS_Incendiary</defName>
+    <label>LGIS missile (Incendiary)</label>
+    <graphicData>
+      <texPath>Things/Ammo/Rocket/70mm_LGIS_Incendiary</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>72.7</MarketValue>
+      <Mass>2</Mass>
+      <Bulk>4.62</Bulk>
+    </statBases>
+    <ammoClass>RocketIncendiary</ammoClass>
+    <detonateProjectile>Projectile_70mmLGIS_Firefoam</detonateProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="70mmLGISBase">
+    <defName>Ammo_70mmLGIS_Smoke</defName>
+    <label>LGIS missile (Smoke)</label>
+    <graphicData>
+      <texPath>Things/Ammo/Rocket/70mm_LGIS_Smoke</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>72.7</MarketValue>
+      <Mass>2</Mass>
+      <Bulk>4.62</Bulk>
+    </statBases>
+    <ammoClass>RocketSmoke</ammoClass>
+    <detonateProjectile>Projectile_70mmLGIS_Smoke</detonateProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="70mmLGISBase">
+    <defName>Ammo_70mmLGIS_Firefoam</defName>
+    <label>LGIS missile (Foam)</label>
+    <graphicData>
+      <texPath>Things/Ammo/Rocket/70mm_LGIS_Firefoam</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>72.7</MarketValue>
+      <Mass>2</Mass>
+      <Bulk>4.62</Bulk>
+    </statBases>
+    <ammoClass>RocketFoam</ammoClass>
+    <detonateProjectile>Projectile_70mmLGIS_Firefoam</detonateProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="70mmLGISBase">
+    <defName>Ammo_70mmLGIS_EMP</defName>
+    <label>LGIS missile (EMP)</label>
+    <graphicData>
+      <texPath>Things/Ammo/Rocket/70mm_LGIS_EMP</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>72.7</MarketValue>
+      <Mass>2</Mass>
+      <Bulk>4.62</Bulk>
+    </statBases>
+    <ammoClass>RocketEMP</ammoClass>
+    <detonateProjectile>Projectile_70mmLGIS_EMP</detonateProjectile>
+  </ThingDef>
+
 
   <!--======================= Confetti frags ==============-->
   
@@ -350,6 +446,87 @@
     </comps>
   </ThingDef>
 
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base70mmLGIS">
+    <defName>Projectile_70mmLGIS_Incendiary</defName>
+    <label>LGIS missile (Incendiary)</label>
+    <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Rocket/3HST_IAA_12_LGIS_Missile_incendiary_projectile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>PrometheumFlame</damageDef>
+      <damageAmountBase>0</damageAmountBase>
+      <armorPenetrationSharp>0</armorPenetrationSharp>
+      <armorPenetrationBlunt>0</armorPenetrationBlunt>
+      <explosionRadius>7</explosionRadius>
+      <preExplosionSpawnThingDef>FilthPrometheum</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.3</preExplosionSpawnChance>
+      <soundExplode>MortarIncendiary_Explode</soundExplode>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base70mmLGIS">
+    <defName>Projectile_70mmLGIS_Firefoam</defName>
+    <label>LGIS missile (Foam)</label>
+    <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Rocket/3HST_IAA_12_LGIS_Missile_firefoam_projectile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Extinguish</damageDef>
+      <armorPenetrationSharp>0</armorPenetrationSharp>
+      <armorPenetrationBlunt>0</armorPenetrationBlunt>
+      <explosionRadius>7</explosionRadius>
+      <soundExplode>Explosion_EMP</soundExplode>
+      <postExplosionSpawnThingDef>Filth_FireFoam</postExplosionSpawnThingDef>
+      <postExplosionSpawnChance>1</postExplosionSpawnChance>
+      <postExplosionSpawnThingCount>3</postExplosionSpawnThingCount>
+      <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      <explosionEffect>ExtinguisherExplosion</explosionEffect>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base70mmLGIS">
+    <defName>Projectile_70mmLGIS_Smoke</defName>
+    <label>LGIS missile (Smoke)</label>
+    <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Rocket/3HST_IAA_12_LGIS_Missile_smoke_projectile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Smoke</damageDef>
+      <armorPenetrationSharp>0</armorPenetrationSharp>
+      <armorPenetrationBlunt>0</armorPenetrationBlunt>
+      <explosionRadius>6</explosionRadius>
+      <soundExplode>Explosion_EMP</soundExplode>
+      <postExplosionSpawnThingDef>Gas_Smoke</postExplosionSpawnThingDef>
+      <preExplosionSpawnChance>1</preExplosionSpawnChance>
+      <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      <explosionEffect>ExtinguisherExplosion</explosionEffect>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base70mmLGIS">
+    <defName>Projectile_70mmLGIS_EMP</defName>
+    <label>LGIS missile (EMP)</label>
+    <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Rocket/3HST_IAA_12_LGIS_Missile_emp_projectile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>EMP</damageDef>
+      <damageAmountBase>85</damageAmountBase>
+      <armorPenetrationSharp>0</armorPenetrationSharp>
+      <armorPenetrationBlunt>0</armorPenetrationBlunt>
+      <explosionRadius>3.5</explosionRadius>
+    </projectile>
+  </ThingDef>
+  
+  
 
 
   <ThingDef Class="CombatExtended.AmmoDef" Name="Base70mmLGISIDR" ParentName="BaseBullet" Abstract="true">
@@ -466,6 +643,87 @@
       </li>
     </comps>
   </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base70mmLGISIDR">
+    <defName>Projectile_70mmLGIS_Incendiary_Indirect</defName>
+    <label>LGIS missile (Incendiary)</label>
+    <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Rocket/3HST_IAA_12_LGIS_Missile_incendiary_projectile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>PrometheumFlame</damageDef>
+      <damageAmountBase>0</damageAmountBase>
+      <armorPenetrationSharp>0</armorPenetrationSharp>
+      <armorPenetrationBlunt>0</armorPenetrationBlunt>
+      <explosionRadius>7</explosionRadius>
+      <preExplosionSpawnThingDef>FilthPrometheum</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.3</preExplosionSpawnChance>
+      <soundExplode>MortarIncendiary_Explode</soundExplode>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base70mmLGISIDR">
+    <defName>Projectile_70mmLGIS_Firefoam_Indirect</defName>
+    <label>LGIS missile (Foam)</label>
+    <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Rocket/3HST_IAA_12_LGIS_Missile_firefoam_projectile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Extinguish</damageDef>
+      <armorPenetrationSharp>0</armorPenetrationSharp>
+      <armorPenetrationBlunt>0</armorPenetrationBlunt>
+      <explosionRadius>7</explosionRadius>
+      <soundExplode>Explosion_EMP</soundExplode>
+      <postExplosionSpawnThingDef>Filth_FireFoam</postExplosionSpawnThingDef>
+      <postExplosionSpawnChance>1</postExplosionSpawnChance>
+      <postExplosionSpawnThingCount>3</postExplosionSpawnThingCount>
+      <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      <explosionEffect>ExtinguisherExplosion</explosionEffect>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base70mmLGISIDR">
+    <defName>Projectile_70mmLGIS_Smoke_Indirect</defName>
+    <label>LGIS missile (Smoke)</label>
+    <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Rocket/3HST_IAA_12_LGIS_Missile_smoke_projectile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Smoke</damageDef>
+      <armorPenetrationSharp>0</armorPenetrationSharp>
+      <armorPenetrationBlunt>0</armorPenetrationBlunt>
+      <explosionRadius>6</explosionRadius>
+      <soundExplode>Explosion_EMP</soundExplode>
+      <postExplosionSpawnThingDef>Gas_Smoke</postExplosionSpawnThingDef>
+      <preExplosionSpawnChance>1</preExplosionSpawnChance>
+      <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      <explosionEffect>ExtinguisherExplosion</explosionEffect>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base70mmLGISIDR">
+    <defName>Projectile_70mmLGIS_EMP_Indirect</defName>
+    <label>LGIS missile (EMP)</label>
+    <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Rocket/3HST_IAA_12_LGIS_Missile_emp_projectile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>EMP</damageDef>
+      <damageAmountBase>85</damageAmountBase>
+      <armorPenetrationSharp>0</armorPenetrationSharp>
+      <armorPenetrationBlunt>0</armorPenetrationBlunt>
+      <explosionRadius>3.5</explosionRadius>
+    </projectile>
+  </ThingDef>
+
 
 
   <!-- ==================== Recipes ========================== -->
@@ -605,7 +863,7 @@
             <li>FSX</li>
           </thingDefs>
         </filter>
-        <count>40</count>
+        <count>10</count>
       </li>
       <li>
         <filter>
@@ -689,6 +947,211 @@
     <products>
       <Ammo_70mmLGIS_Confetti>5</Ammo_70mmLGIS_Confetti>
   </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_70mmLGIS_Incendiary</defName>
+    <label>make LGIS incendiary missiles x5</label>
+    <description>Craft 5 LGIS incendiary missiles.</description>
+    <jobString>Making LGIS incendiary missiles.</jobString>
+    <workAmount>15000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Prometheum</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Prometheum</li>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_70mmLGIS_Incendiary>5</Ammo_70mmLGIS_Incendiary>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_70mmLGIS_Smoke</defName>
+    <label>make LGIS smoke missiles x5</label>
+    <description>Craft 5 LGIS smoke missiles.</description>
+    <jobString>Making LGIS smoke missiles.</jobString>
+    <workAmount>15000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Prometheum</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Prometheum</li>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_70mmLGIS_Smoke>5</Ammo_70mmLGIS_Smoke>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_70mmLGIS_Firefoam</defName>
+    <label>make LGIS firefoam missiles x5</label>
+    <description>Craft 5 LGIS firefoam missiles.</description>
+    <jobString>Making LGIS firefoam missiles.</jobString>
+    <workAmount>15000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_70mmLGIS_Firefoam>5</Ammo_70mmLGIS_Firefoam>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_70mmLGIS_EMP</defName>
+    <label>make LGIS smoke missiles x5</label>
+    <description>Craft 5 LGIS smoke missiles.</description>
+    <jobString>Making LGIS smoke missiles.</jobString>
+    <workAmount>22000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>16</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_70mmLGIS_EMP>5</Ammo_70mmLGIS_EMP>
+    </products>
   </RecipeDef>
 
 
