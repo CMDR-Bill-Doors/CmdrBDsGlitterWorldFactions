@@ -8,6 +8,8 @@
     <graphicData>
       <texPath>Things/Building/Turrets/FlakTurret_Base</texPath>
     </graphicData>
+    <uiIconPath>UI/Icons/Security/25mm_Antiship_Autocannon_icon</uiIconPath>
+    <tradeability>None</tradeability>
     <statBases>
       <WorkToBuild>144000</WorkToBuild>
       <MaxHitPoints>300</MaxHitPoints>
@@ -21,7 +23,7 @@
         <basePowerConsumption>150</basePowerConsumption>
       </li>
     </comps>
-    <description>A 3HST AC-25 anti-ship autocannon mounted on an automatic mount.</description>
+    <description>A 3HST AC-25 anti-ship autocannon mounted on an automatic mount. Despite the fact this turret is manually operated, this turret still needs a small amount of power to operate thanks to the electric powered loading mechanism of AC-25 cannons.</description>
     <costList>
       <Steel>450</Steel>
       <Plasteel>100</Plasteel>
@@ -95,9 +97,11 @@
       <drawSize>(3,3)</drawSize>
       <texPath>Things/Building/Security/TurretHeavy_Base</texPath>
     </graphicData>
+    <uiIconPath>UI/Icons/Security/Dual_25mm_Antiship_Autocannon_icon</uiIconPath>
+    <tradeability>None</tradeability>
     <statBases>
       <WorkToBuild>254000</WorkToBuild>
-      <MaxHitPoints>700</MaxHitPoints>
+      <MaxHitPoints>2500</MaxHitPoints>
       <Mass>2000</Mass>
       <Bulk>2000</Bulk>
       <AimingAccuracy>0.8</AimingAccuracy>
@@ -111,7 +115,7 @@
         <basePowerConsumption>2200</basePowerConsumption>
       </li>
     </comps>
-    <description>A 3HST AC-25 anti-ship autocannon mounted on an automatic mount.</description>
+    <description>An automatic, armored, dual AC-25 autocannon turret. Similar turrets have been used on civian space vessels to fend of against pirates. Although they are somewhat lacking in terms of anti-ship combat, they are indeed enough to repell weaker pirates. Not enough to penetrate heavier ship armor, though.</description>
     <costList>
       <Steel>3170</Steel>
       <Plasteel>200</Plasteel>

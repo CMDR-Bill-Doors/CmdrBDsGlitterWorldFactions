@@ -10,6 +10,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <techLevel>Ultra</techLevel>
     <statBases>
       <WorkToMake>62500</WorkToMake>
       <Mass>2</Mass>
@@ -144,7 +145,7 @@
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
     <tickerType>Never</tickerType>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Ultra</techLevel>
     <thingCategories>
       <li>WeaponsRanged</li>
     </thingCategories>
@@ -907,7 +908,7 @@
   <ThingDef ParentName="BaseDisposableLGIS">
     <defName>Gun_3HST_LGIS_Launcher_Disposable_frag_ID</defName>
     <label>Disposable indirect frag LGIS launcher</label>
-    <description Inherit="False">A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range. This one comes with a indirect fire sight</description>
+    <description Inherit="False">A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range. This one comes with a indirect fire targeting device.\nAfter the third elven civil war broke out, the rebelling 3HST limited cooperation saw the need for indirect infantry fire support, and this is their answer. Using a set of gyroscopes, range finders and fire parameter inputs, the target data was transmitted to the built-in inertia guidance system on board LGIS missiles, delivering accurate attack on their prey. However, the small warhead of LGIS missile left it's damage to be desired. It quickly phased out of favor after the civil war, but due to the sheer amount of manufactured units duing the war, some non-frontline troops are still supplied with disposable indirect LGIS launchers.</description>
     <graphicData>
       <texPath>Things/Weapons/Disposable_LGIS/3HST_IWL_10_disposable_launcher_frag_ID</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -954,7 +955,7 @@
   <ThingDef ParentName="BaseDisposableLGIS">
     <defName>Gun_3HST_LGIS_Launcher_Disposable_thermobaric_ID</defName>
     <label>Disposable indirect thermobaric LGIS launcher</label>
-    <description Inherit="False">A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range. This one comes with a indirect fire sight</description>
+    <description Inherit="False">A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range. This one comes with a indirect fire targeting device.\nAfter the third elven civil war broke out, the rebelling 3HST limited cooperation saw the need for indirect infantry fire support, and this is their answer. Using a set of gyroscopes, range finders and fire parameter inputs, the target data was transmitted to the built-in inertia guidance system on board LGIS missiles, delivering accurate attack on their prey. However, the small warhead of LGIS missile left it's damage to be desired. It quickly phased out of favor after the civil war, but due to the sheer amount of manufactured units duing the war, some non-frontline troops are still supplied with disposable indirect LGIS launchers.</description>
     <graphicData>
       <texPath>Things/Weapons/Disposable_LGIS/3HST_IWL_10_disposable_launcher_thermobaric_ID</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1001,7 +1002,7 @@
   <ThingDef ParentName="BaseDisposableLGIS">
     <defName>Gun_3HST_LGIS_Launcher_Disposable_heat_ID</defName>
     <label>Disposable indirect HEAT LGIS launcher</label>
-    <description Inherit="False">A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range. This one comes with a indirect fire sight</description>
+    <description Inherit="False">A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range. This one comes with a indirect fire targeting device.\nAfter the third elven civil war broke out, the rebelling 3HST limited cooperation saw the need for indirect infantry fire support, and this is their answer. Using a set of gyroscopes, range finders and fire parameter inputs, the target data was transmitted to the built-in inertia guidance system on board LGIS missiles, delivering accurate attack on their prey. However, the small warhead of LGIS missile left it's damage to be desired. It quickly phased out of favor after the civil war, but due to the sheer amount of manufactured units duing the war, some non-frontline troops are still supplied with disposable indirect LGIS launchers.</description>
     <graphicData>
       <texPath>Things/Weapons/Disposable_LGIS/3HST_IWL_10_disposable_launcher_heat_ID</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1048,7 +1049,7 @@
   <ThingDef ParentName="BaseDisposableLGIS">
     <defName>Gun_3HST_LGIS_Launcher_Disposable_confetti_ID</defName>
     <label>Disposable indirect confetti LGIS launcher</label>
-    <description Inherit="False">A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range. This one comes with a indirect fire sight</description>
+    <description Inherit="False">A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range. This one comes with a indirect fire targeting device.\nAfter the third elven civil war broke out, the rebelling 3HST limited cooperation saw the need for indirect infantry fire support, and this is their answer. Using a set of gyroscopes, range finders and fire parameter inputs, the target data was transmitted to the built-in inertia guidance system on board LGIS missiles, delivering accurate attack on their prey. However, the small warhead of LGIS missile left it's damage to be desired. It quickly phased out of favor after the civil war, but due to the sheer amount of manufactured units duing the war, some non-frontline troops are still supplied with disposable indirect LGIS launchers.</description>
     <graphicData>
       <texPath>Things/Weapons/Disposable_LGIS/3HST_IWL_10_disposable_launcher_confetti_ID</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1091,7 +1092,7 @@
   <ThingDef ParentName="BaseDisposableLGIS">
     <defName>Gun_3HST_LGIS_Launcher_Disposable_incendiary_ID</defName>
     <label>Disposable indirect incendiary LGIS launcher</label>
-    <description Inherit="False">A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range. This one comes with a indirect fire sight</description>
+    <description Inherit="False">A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range. This one comes with a indirect fire targeting device.\nAfter the third elven civil war broke out, the rebelling 3HST limited cooperation saw the need for indirect infantry fire support, and this is their answer. Using a set of gyroscopes, range finders and fire parameter inputs, the target data was transmitted to the built-in inertia guidance system on board LGIS missiles, delivering accurate attack on their prey. However, the small warhead of LGIS missile left it's damage to be desired. It quickly phased out of favor after the civil war, but due to the sheer amount of manufactured units duing the war, some non-frontline troops are still supplied with disposable indirect LGIS launchers.</description>
     <graphicData>
       <texPath>Things/Weapons/Disposable_LGIS/3HST_IWL_10_disposable_launcher_incendiary_ID</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1138,7 +1139,7 @@
   <ThingDef ParentName="BaseDisposableLGIS">
     <defName>Gun_3HST_LGIS_Launcher_Disposable_smoke_ID</defName>
     <label>Disposable indirect smoke LGIS launcher</label>
-    <description Inherit="False">A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range. This one comes with a indirect fire sight</description>
+    <description Inherit="False">A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range. This one comes with a indirect fire targeting device.\nAfter the third elven civil war broke out, the rebelling 3HST limited cooperation saw the need for indirect infantry fire support, and this is their answer. Using a set of gyroscopes, range finders and fire parameter inputs, the target data was transmitted to the built-in inertia guidance system on board LGIS missiles, delivering accurate attack on their prey. However, the small warhead of LGIS missile left it's damage to be desired. It quickly phased out of favor after the civil war, but due to the sheer amount of manufactured units duing the war, some non-frontline troops are still supplied with disposable indirect LGIS launchers.</description>
     <graphicData>
       <texPath>Things/Weapons/Disposable_LGIS/3HST_IWL_10_disposable_launcher_smoke_ID</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1181,7 +1182,7 @@
   <ThingDef ParentName="BaseDisposableLGIS">
     <defName>Gun_3HST_LGIS_Launcher_Disposable_firefoam_ID</defName>
     <label>Disposable indirect firefoam LGIS launcher</label>
-    <description Inherit="False">A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range. This one comes with a indirect fire sight</description>
+    <description Inherit="False">A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range. This one comes with a indirect fire targeting device.\nAfter the third elven civil war broke out, the rebelling 3HST limited cooperation saw the need for indirect infantry fire support, and this is their answer. Using a set of gyroscopes, range finders and fire parameter inputs, the target data was transmitted to the built-in inertia guidance system on board LGIS missiles, delivering accurate attack on their prey. However, the small warhead of LGIS missile left it's damage to be desired. It quickly phased out of favor after the civil war, but due to the sheer amount of manufactured units duing the war, some non-frontline troops are still supplied with disposable indirect LGIS launchers.</description>
     <graphicData>
       <texPath>Things/Weapons/Disposable_LGIS/3HST_IWL_10_disposable_launcher_firefoam_ID</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1221,11 +1222,10 @@
     </comps>
   </ThingDef>
 
-
   <ThingDef ParentName="BaseDisposableLGIS">
     <defName>Gun_3HST_LGIS_Launcher_Disposable_emp_ID</defName>
     <label>Disposable indirect EMP LGIS launcher</label>
-    <description Inherit="False">A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range. This one comes with a indirect fire sight</description>
+    <description Inherit="False">A single-use LGIS launcher designed to give cannon fodders some basic heavy fire capability. Instead of the rail accelerator found on normal LGIS launchers, this one uses chemical propellant to boost the missile's range. This one comes with a indirect fire targeting device.\nAfter the third elven civil war broke out, the rebelling 3HST limited cooperation saw the need for indirect infantry fire support, and this is their answer. Using a set of gyroscopes, range finders and fire parameter inputs, the target data was transmitted to the built-in inertia guidance system on board LGIS missiles, delivering accurate attack on their prey. However, the small warhead of LGIS missile left it's damage to be desired. It quickly phased out of favor after the civil war, but due to the sheer amount of manufactured units duing the war, some non-frontline troops are still supplied with disposable indirect LGIS launchers.</description>
     <graphicData>
       <texPath>Things/Weapons/Disposable_LGIS/3HST_IWL_10_disposable_launcher_EMP_ID</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1268,7 +1268,6 @@
       </li>
     </comps>
   </ThingDef>
-
 
   <RecipeDef ParentName="GrenadeRecipeBase">
     <defName>MakeDLGISfragID</defName>
@@ -1594,7 +1593,6 @@
     <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
   </RecipeDef>
 
-
   <RecipeDef ParentName="GrenadeRecipeBase">
     <defName>MakeDLGISfirefoamID</defName>
     <label>make disposable indirect firefoam LGIS launcher x5</label>
@@ -1648,7 +1646,6 @@
   </products>
     <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
   </RecipeDef>
-
 
   <RecipeDef ParentName="GrenadeRecipeBase">
     <defName>MakeDLGISempID</defName>
@@ -1706,39 +1703,26 @@
 
 
   <!--====================== Multiple high-angle LGIS Turret ===============-->
-  <ThingDef Name="BaseMLGISArtilleryBuilding" ParentName="BuildingBase" Abstract="True">
-    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+
+  <ThingDef ParentName="Base3HSTHeavyMannedTurretBuilding">
+    <defName>Turret_MLGIS_ID</defName>
+    <label>Multiple LGIS VLS</label>
+    <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <graphicData>
       <graphicClass>Graphic_Multi</graphicClass>
       <texPath>Things/Building/Turrets/3HST_Turret_VLS/3HST_Heavy_Turret_Base_VLS</texPath>
-      <drawSize>(4,4)</drawSize>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0,0,-0.1)</drawOffset>
       <damageData>
-        <rect>(0.38,0.2,0.56375,0.8)</rect>
-        <cornerTL>Damage/Corner</cornerTL>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
       </damageData>
       <shadowData>
-        <offset>(-0.13,-0.87,-0.1)</offset>
-        <volume>(0.5,0.4,1.05)</volume>
+        <volume>(1.5,0.35,1.4)</volume>
+        <offset>(0,0,-0.05)</offset>
       </shadowData>
     </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
-    <hasInteractionCell>True</hasInteractionCell>
-    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
-    <stealable>false</stealable>
-    <size>(2,2)</size>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <fillPercent>0.4</fillPercent>
-    <tickerType>Normal</tickerType>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Security</designationCategory>
-    <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
-    <comps>
-      <li Class="CompProperties_Forbiddable"/>
-      <li Class="CompProperties_Mannable">
-        <manWorkType>Violent</manWorkType>
-      </li>
-    </comps>
     <statBases>
       <MaxHitPoints>500</MaxHitPoints>
       <Flammability>0.7</Flammability>
@@ -1746,38 +1730,8 @@
       <Mass>1000</Mass>
       <Beauty>-20</Beauty>
     </statBases>
-    <building>
-      <turretBurstWarmupTime>4.0</turretBurstWarmupTime>
-      <turretBurstCooldownTime>2</turretBurstCooldownTime>
-      <spawnedConceptLearnOpportunity>CE_MortarDirectFire</spawnedConceptLearnOpportunity>
-      <buildingTags>
-        <li>Artillery</li>
-      </buildingTags>
-    </building>
-    <placeWorkers>
-      <li>PlaceWorker_NotUnderRoof</li>
-      <li>PlaceWorker_TurretTop</li>
-      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
-    </placeWorkers>
-    <uiIconScale>1.1</uiIconScale>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseMLGISArtilleryBuilding">
-    <defName>Turret_MLGIS_ID</defName>
-    <label>Multiple LGIS VLS</label>
-    <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
-    <graphicData>
-      <drawSize>(2,2)</drawSize>
-      <texPath>Things/Building/Turrets/3HST_Turret_VLS/3HST_Heavy_Turret_Base_VLS</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-    </graphicData>
-    <statBases>
-      <MaxHitPoints>500</MaxHitPoints>
-      <WorkToBuild>150000</WorkToBuild>
-      <Mass>1000</Mass>
-      <Bulk>1000</Bulk>
-    </statBases>
-    <techLevel>Spacer</techLevel>
+    <size>(2,2)</size>
+    <techLevel>Ultra</techLevel>
     <comps>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
@@ -1787,7 +1741,7 @@
       </li>
     </comps>
     <fillPercent>0.9</fillPercent>
-    <description>A multiple LGIS missile turret with it's targeting system set to indirect fire.</description>
+    <description>25 LGIS launch tubes installed upright and fitted with targeting devices. Not really a commissioned military equipment.</description>
     <costList>
       <Steel>1150</Steel>
       <Plasteel>385</Plasteel>
@@ -1798,11 +1752,14 @@
     </costList>
     <specialDisplayRadius>15</specialDisplayRadius>
     <building>
+      <spawnedConceptLearnOpportunity>CE_MortarDirectFire</spawnedConceptLearnOpportunity>
       <turretGunDef>Gun_MLGIS_ID</turretGunDef>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretTopDrawSize>4</turretTopDrawSize>
     </building>
-    <size>(2,2)</size>
+    <placeWorkers>
+      <li>PlaceWorker_NotUnderRoof</li>
+    </placeWorkers>
     <researchPrerequisites>
       <li>CE_TurretHeavyWeapons</li>
       <li>CE_AdvancedLaunchers</li>
@@ -1821,7 +1778,7 @@
     <soundInteract>Artillery_ShellLoaded</soundInteract>
     <statBases>
       <SightsEfficiency>5</SightsEfficiency>
-      <ShotSpread>4</ShotSpread>
+      <ShotSpread>3</ShotSpread>
       <SwayFactor>0</SwayFactor>
       <RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
       <MarketValue>16000</MarketValue>
@@ -1839,7 +1796,7 @@
         <burstShotCount>25</burstShotCount>
         <soundCast>InfernoCannon_Fire</soundCast>
         <muzzleFlashScale>16</muzzleFlashScale>
-        <circularError>4</circularError>
+        <circularError>3</circularError>
         <indirectFirePenalty>0.2</indirectFirePenalty>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
@@ -1868,22 +1825,31 @@
     </comps>
   </ThingDef>
 <!--======================= Dual high-angle LGIS Turret ===================-->
-  <ThingDef ParentName="BaseArtilleryBuilding">
+  <ThingDef ParentName="Base3HSTHeavyMannedTurretBuilding">
     <defName>Turret_DualLGIS_ID</defName>
     <label>dual high-angle LGIS turret</label>
-    <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
     <graphicData>
-      <drawSize>(3,3)</drawSize>
-      <texPath>Things/Building/Turrets/AGS30Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+      <texPath>Things/Building/Turrets/3HST_Small_Turret_Base</texPath>
     </graphicData>
+    <uiIconPath>UI/Icons/Security/3HST_DLGIS_icon</uiIconPath>
+    <tradeTags>
+      <li>CE_Turret</li>
+    </tradeTags>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
     <statBases>
       <MaxHitPoints>500</MaxHitPoints>
       <WorkToBuild>70000</WorkToBuild>
       <Mass>30</Mass>
       <Bulk>100</Bulk>
     </statBases>
-    <techLevel>Spacer</techLevel>
-    <description>A dual LGIS missile turret with it's targeting system set to indirect fire.</description>
+    <techLevel>Ultra</techLevel>
+    <description>A set of two LGIS launch tubes and advanced targeting device mounted on a tripod.</description>
+    <terrainAffordanceNeeded Inherit="False">Light</terrainAffordanceNeeded>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
     <costList>
       <Steel>50</Steel>
       <Plasteel>35</Plasteel>
@@ -1894,7 +1860,7 @@
     <building>
       <turretGunDef>Gun_DualLGIS_ID</turretGunDef>
       <ai_combatDangerous>true</ai_combatDangerous>
-      <turretTopDrawSize>2</turretTopDrawSize>
+      <turretTopDrawSize>1.5</turretTopDrawSize>
     </building>
     <placeWorkers>
       <li>PlaceWorker_NotUnderRoof</li>
@@ -1978,13 +1944,14 @@
       <texPath>Things/Building/Turrets/3HST_Turret_Heavy/3HST_Heavy_Turret_Base</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
     </graphicData>
+    <uiIconPath>UI/Icons/Security/3HST_MLGIS_icon</uiIconPath>
     <statBases>
       <MaxHitPoints>500</MaxHitPoints>
       <WorkToBuild>150000</WorkToBuild>
       <Mass>1000</Mass>
       <Bulk>1000</Bulk>
     </statBases>
-    <techLevel>Spacer</techLevel>
+    <techLevel>Ultra</techLevel>
     <thingCategories Inherit="False" />
     <comps>
       <li Class="CompProperties_Power">

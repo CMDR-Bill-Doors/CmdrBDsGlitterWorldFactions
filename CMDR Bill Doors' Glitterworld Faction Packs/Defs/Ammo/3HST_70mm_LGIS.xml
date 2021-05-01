@@ -1112,9 +1112,9 @@
 
   <RecipeDef ParentName="AmmoRecipeBase">
     <defName>MakeAmmo_70mmLGIS_EMP</defName>
-    <label>make LGIS smoke missiles x5</label>
-    <description>Craft 5 LGIS smoke missiles.</description>
-    <jobString>Making LGIS smoke missiles.</jobString>
+    <label>make LGIS EMP missiles x5</label>
+    <description>Craft 5 LGIS EMP missiles.</description>
+    <jobString>Making LGIS EMP missiles.</jobString>
     <workAmount>22000</workAmount>
     <ingredients>
       <li>
