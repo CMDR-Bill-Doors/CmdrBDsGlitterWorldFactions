@@ -80,7 +80,7 @@
     <products>
       <RailComponent>1</RailComponent>
     </products>
-    <researchPrerequisite>3HST_Railgun_Components</researchPrerequisite>
+    <researchPrerequisite>Research_3HST_Railgun_Components</researchPrerequisite>
     <skillRequirements>
       <Crafting>10</Crafting>
     </skillRequirements>

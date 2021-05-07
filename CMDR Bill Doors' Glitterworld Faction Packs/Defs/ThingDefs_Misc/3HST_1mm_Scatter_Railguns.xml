@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="BaseMakeableGun">
-    <defName>3HST_Scatter_Railgun</defName>
+    <defName>Gun_3HST_Scatter_Railgun</defName>
     <label>3HST "NCQ Sprayer" Scatter Railgun</label>
     <description>A pistol-sized automatic scatter railgun developed by 3HST Limited during the Third Elven Civil War. It is composed of a 19-barrel micro-railgun assembly and fires 19 minature railgun rounds at once.</description>
     <graphicData>
@@ -92,7 +92,7 @@
     </tools>
 
     <recipeMaker>
-      <researchPrerequisite>3HST_Railgun</researchPrerequisite>
+      <researchPrerequisite>Research_3HST_Railgun</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
       </recipeUsers>

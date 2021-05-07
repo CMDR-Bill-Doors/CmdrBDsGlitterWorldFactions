@@ -2,7 +2,7 @@
 <Defs>
   <!-- ================== 4mm autopistol =====================-->
   <ThingDef ParentName="BaseMakeableGun">
-    <defName>3HST_4mm_AutoRailPistol</defName>
+    <defName>Gun_3HST_4mm_AutoRailPistol</defName>
     <label>3HST 4mm AutoRailPistol</label>
     <description>Standard sidearm for 3HST combatants.</description>
     <graphicData>
@@ -37,7 +37,7 @@
       <li Class="CombatExtended.VerbPropertiesCE">
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Ammo_3HST4mmRG_Steel</defaultProjectile>
+        <defaultProjectile>Projectile_3HST4mmRG_Steel</defaultProjectile>
         <warmupTime>0.5</warmupTime>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
@@ -85,7 +85,7 @@
     </tools>
 
     <recipeMaker>
-      <researchPrerequisite>3HST_Railgun</researchPrerequisite>
+      <researchPrerequisite>Research_3HST_Railgun</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
       </recipeUsers>
@@ -94,7 +94,7 @@
 
   <!-- =================== 4mm Triple ========================-->
   <ThingDef ParentName="BaseMakeableGun">
-    <defName>3HST_4mm_TriRailPistol</defName>
+    <defName>Gun_3HST_4mm_TriRailPistol</defName>
     <label>3HST 4mm Triple RailPistol</label>
     <description>A highly simplified railgun that don't even contains srevos. Standard sidearm for 3HST slave-fodders</description>
     <graphicData>
@@ -127,7 +127,7 @@
       <li Class="CombatExtended.VerbPropertiesCE">
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Ammo_3HST4mmRG_Steel</defaultProjectile>
+        <defaultProjectile>Projectile_3HST4mmRG_Steel</defaultProjectile>
         <warmupTime>0.6</warmupTime>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>-1</ticksBetweenBurstShots>
@@ -149,7 +149,6 @@
         <aiAimMode>Snapshot</aiAimMode>
       </li>
     </comps>
-
     <tools>
       <li Class="CombatExtended.ToolCE">
         <label>grip</label>
@@ -173,9 +172,8 @@
         <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
       </li>
     </tools>
-
     <recipeMaker>
-      <researchPrerequisite>3HST_Railgun</researchPrerequisite>
+      <researchPrerequisite>Research_3HST_Railgun</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
       </recipeUsers>
@@ -184,7 +182,7 @@
 
   <!-- =================== 4mm SMG ============================-->
   <ThingDef ParentName="BaseMakeableGun">
-    <defName>3HST_4mm_SMG</defName>
+    <defName>Gun_3HST_4mm_SMG</defName>
     <label>3HST 4mm Submachinerailgun</label>
     <description>Standard sidearm for 3HST combatants.</description>
     <graphicData>
@@ -219,7 +217,7 @@
       <li Class="CombatExtended.VerbPropertiesCE">
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Ammo_3HST4mmRG_Steel</defaultProjectile>
+        <defaultProjectile>Projectile_3HST4mmRG_Steel</defaultProjectile>
         <warmupTime>0.6</warmupTime>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
@@ -277,7 +275,7 @@
     </tools>
 
     <recipeMaker>
-      <researchPrerequisite>3HST_Railgun</researchPrerequisite>
+      <researchPrerequisite>Research_3HST_Railgun</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
       </recipeUsers>

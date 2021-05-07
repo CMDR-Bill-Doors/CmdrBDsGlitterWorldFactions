@@ -1,24 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-<!--
+  <!--
   <ThingDef>
     <defName>3HSTtechJunkSmall</defName>
     <label>3HST technology junk</label>
     <description>Bits and nuts from dismantled 3HST railguns. May be sorted for usable resources.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/3HSTtechJunk</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Resource/WoodLog</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <techLevel>Ultra</techLevel>
     <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
     <useHitPoints>true</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
     <selectable>true</selectable>
-    <thingCategories>
-      <li>Chunks</li>
-    </thingCategories>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>0</Flammability>
@@ -26,12 +24,11 @@
       <Beauty>-10</Beauty>
       <WorkToMake>1000</WorkToMake>
       <MarketValue>300</MarketValue>
-      <Mass>1</Mass>
+      <Mass>0</Mass>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <stackLimit>1</stackLimit>
     <alwaysHaulable>true</alwaysHaulable>
-    <randomizeRotationOnSpawn>true</randomizeRotationOnSpawn>
     <comps>
       <li Class="CompProperties_Forbiddable" />
       <li Class="CompProperties_Drug">
@@ -51,16 +48,23 @@
         <li Class="Comp_manghe.loot">
           <list>
             <li>
-              <ccount>10</ccount>
-              <thingdef>Steel</thingdef>
-              <chance>0.5</chance>
-            </li>        
-            <li>
-              <ccount>1</ccount>
-              <thingdef>Steel</thingdef>
-              <chance>0.49</chance>
+              <minccount>1</minccount>
+              <maxccount>10</maxccount>
+              <thingdef>WoodLog</thingdef>
+              <chance>0.1</chance>
             </li>
-
+            <li>
+              <minccount>1</minccount>
+              <maxccount>10</maxccount>
+              <thingdef>WoodLog</thingdef>
+              <chance>0.5</chance>
+            </li>
+            <li>
+              <minccount>1</minccount>
+              <maxccount>10</maxccount>
+              <thingdef>WoodLog</thingdef>
+              <chance>0.5</chance>
+            </li>
           </list>
         </li>
       </outcomeDoers>
@@ -68,8 +72,8 @@
       <baseIngestTicks>60</baseIngestTicks>
       <chairSearchRadius>0</chairSearchRadius>
       <ingestHoldUsesTable>false</ingestHoldUsesTable>
-      <ingestCommandString>Sorting {0}</ingestCommandString>
-      <ingestReportString>Sorting {0}.</ingestReportString>
+      <ingestCommandString>打开 {0}</ingestCommandString>
+      <ingestReportString>打开 {0}.</ingestReportString>
     </ingestible>
   </ThingDef>
 -->

@@ -17,7 +17,7 @@
     </graphicData>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>14</damageAmountBase>
+      <damageAmountBase>10</damageAmountBase>
       <armorPenetrationSharp>22.3</armorPenetrationSharp>
       <armorPenetrationBlunt>170.7</armorPenetrationBlunt>
       <speed>260</speed>
@@ -26,7 +26,7 @@
 
 <!--================= Low Power Railgun ================-->
   <ThingDef ParentName="BaseMakeableGun">
-    <defName>3HST_LPRG</defName>
+    <defName>Gun_3HST_LPRG</defName>
     <label>3HST low power railgun</label>
     <description>Standard service rifle of 3HST slave-fodders. Decreased muzzle velocity and longer rail greatly reduced the stress of power system and rails, allowing cheaper materials to be used on this rifle.</description>    <graphicData>
       <texPath>Things/Weapons/3HST_IWR_13_Low_Power_Railgun-01</texPath>
@@ -115,7 +115,7 @@
       <li>3HST_SlaveRG</li>
     </weaponTags>
     <recipeMaker>
-      <researchPrerequisite>3HST_Railgun</researchPrerequisite>
+      <researchPrerequisite>Research_3HST_Railgun</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
       </recipeUsers>
@@ -124,7 +124,7 @@
 
 <!--================= Assault Railgun ===================-->
   <ThingDef ParentName="BaseMakeableGun">
-    <defName>3HST_Assault_Railgun</defName>
+    <defName>Gun_3HST_Assault_Railgun</defName>
     <label>3HST assault railgun</label>
     <description>Standard issue assault rifle of 3HST elven forces.</description>
     <graphicData>
@@ -218,7 +218,7 @@
     </tools>
 
     <recipeMaker>
-      <researchPrerequisite>3HST_Railgun</researchPrerequisite>
+      <researchPrerequisite>Research_3HST_Railgun</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
       </recipeUsers>
@@ -227,7 +227,7 @@
 
   <!--=============== Light Machine Gun =====================-->
   <ThingDef ParentName="BaseMakeableGun">
-    <defName>3HST_Light_Machine_Railgun</defName>
+    <defName>Gun_3HST_Light_Machine_Railgun</defName>
     <label>3HST light machine railgun</label>
     <description>Standard issue light machinegun of 3HST planetary forces.</description>
     <graphicData>
@@ -328,7 +328,7 @@
     </tools>
 
     <recipeMaker>
-      <researchPrerequisite>3HST_Railgun</researchPrerequisite>
+      <researchPrerequisite>Research_3HST_Railgun</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
       </recipeUsers>

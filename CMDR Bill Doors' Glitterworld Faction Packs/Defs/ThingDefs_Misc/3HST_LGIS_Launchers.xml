@@ -2,7 +2,7 @@
 <Defs>
   <!--==================== Single LGIS Launcher ===============  -->
   <ThingDef ParentName="BaseMakeableGun">
-    <defName>3HST_LGIS_Launcher</defName>
+    <defName>Gun_3HST_LGIS_Launcher</defName>
     <label>3HST LGIS missile Launcher</label>
     <description>Small caliber infantry-portable missile launcher employed by 3HST grenadiers. Built-in low-power rail accelerator gives missile greater range.</description>
     <graphicData>

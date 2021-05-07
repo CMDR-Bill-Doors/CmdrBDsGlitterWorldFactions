@@ -56,7 +56,7 @@
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <speed>300</speed>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>4</damageAmountBase>
+      <damageAmountBase>3</damageAmountBase>
       <armorPenetrationSharp>7.1</armorPenetrationSharp>
       <armorPenetrationBlunt>1.94</armorPenetrationBlunt>
       <spreadMult>17.8</spreadMult>

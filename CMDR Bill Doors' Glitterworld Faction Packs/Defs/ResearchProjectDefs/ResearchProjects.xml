@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ResearchProjectDef>
-    <defName>3HST_Railgun</defName>
+    <defName>Research_3HST_Railgun</defName>
     <label>3HST railguns</label>
     <description>Allows production of 3HST-designed railguns.</description>
     <baseCost>1000</baseCost>
@@ -18,13 +18,13 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>3HST_Railgun_Components</defName>
+    <defName>Research_3HST_Railgun_Components</defName>
     <label>3HST railgun components</label>
     <description>Allows production of advanced electromagnetic accelerators used by 3HST railguns.</description>
     <baseCost>2000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>3HST_Railgun</li>
+      <li>Research_3HST_Railgun</li>
     </prerequisites>
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>

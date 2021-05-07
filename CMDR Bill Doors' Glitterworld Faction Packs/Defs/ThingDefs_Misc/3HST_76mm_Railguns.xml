@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseMakeableGun">
+    <defName>Gun_3HST_76mm_Cannon</defName>
+    <label>3HST 76mm heavy railgun</label>
+    <description>A heavy railgun usually found ou 3HST tanks or corvettes, you can also choose to wield it with your hands, if you have the strenth to do so.</description>
+    <graphicData>
+      <texPath>Things/Weapons/3HST_76mm_Corvette_Gun_Item</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <techLevel>Ultra</techLevel>
+    <statBases>
+      <WorkToMake>100000</WorkToMake>
+      <Mass>3500</Mass>
+      <Bulk>76</Bulk>
+      <SwayFactor>6.64</SwayFactor>
+      <ShotSpread>0</ShotSpread>
+      <SightsEfficiency>5</SightsEfficiency>
+      <RangedWeapon_Cooldown>2.7</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>1520</Steel>
+      <Plasteel>3235</Plasteel>
+      <MilitaryCapacitor>100</MilitaryCapacitor>
+      <AdvancedServo>100</AdvancedServo>
+      <ComponentIndustrial>30</ComponentIndustrial>
+      <ComponentSpacer>10</ComponentSpacer>
+      <RailComponent>100</RailComponent>
+    </costList>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Projectile_3HST76mmRG_Steel</defaultProjectile>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <warmupTime>4.4</warmupTime>
+        <ticksBetweenBurstShots>60</ticksBetweenBurstShots>
+        <burstShotCount>4</burstShotCount>
+        <range>200</range>
+        <minRange>10</minRange>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>InfernoCannon_Fire</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>5</muzzleFlashScale>
+        <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+      </li>
+    </verbs>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawSize>3,3</DrawSize>
+        <DrawOffset>0.13,-0.03</DrawOffset>
+      </li>
+    </modExtensions>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>4</magazineSize>
+        <reloadTime>4</reloadTime>
+        <ammoSet>AmmoSet_3HST76mmRG</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aimedBurstShotCount>2</aimedBurstShotCount>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>800</power>
+        <cooldownTime>20.55</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetrationBlunt>2000.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>500</power>
+        <cooldownTime>20.02</cooldownTime>
+        <armorPenetrationBlunt>2000.630</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>muzzle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>800</power>
+        <cooldownTime>10.55</cooldownTime>
+        <armorPenetrationBlunt>2000.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+      </li>
+    </tools>
+
+    <recipeMaker>
+      <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+
+  <ThingDef ParentName="TurretMannedBase">
+    <defName>Turret_76mmCorvette</defName>
+    <label>3HST 76mm Corvette Maingun</label>
+    <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+    <rotatable Inherit="False">false</rotatable>
+    <graphicData>
+      <texPath>Things/Building/Security/TurretHeavy_Base</texPath>
+      <drawSize>(4.5,4.5)</drawSize>
+    </graphicData>
+    <uiIconPath>UI/Icons/Security/25mm_Antiship_Autocannon_icon</uiIconPath>
+    <tradeability>None</tradeability>
+    <interactionCellOffset Inherit="False">(0,0,0)</interactionCellOffset>
+    <passability Inherit="False">Standable</passability>
+    <statBases>
+      <WorkToBuild>575000</WorkToBuild>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <Mass>12000</Mass>
+      <Bulk>1000</Bulk>
+    </statBases>
+    <thingCategories Inherit="False" />
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>5000</basePowerConsumption>
+      </li>
+    </comps>
+    <description>A 3HST-XML-58 corvette maingun module armed with a 76mm heavy railgun. Turrets like this are commonly found on 3HST corvettes and frigates.</description>
+    <costList>
+      <Steel>2500</Steel>
+      <Plasteel>6000</Plasteel>
+      <ComponentIndustrial>200</ComponentIndustrial>
+      <ComponentSpacer>40</ComponentSpacer>
+      <Gun_3HST_76mm_Cannon>1</Gun_3HST_76mm_Cannon>
+    </costList>
+    <building>
+      <turretGunDef>Gun_76mmCorvette</turretGunDef>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretTopDrawSize>12</turretTopDrawSize>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+    <size>(5,5)</size>
+    <researchPrerequisites>
+      <li>CE_TurretHeavyWeapons</li>
+    </researchPrerequisites>
+    <designationCategory>Security</designationCategory>
+  </ThingDef>
+  <ThingDef ParentName="BaseTurretGun">
+    <defName>Gun_76mmCorvette</defName>
+    <label>3HST 76mm corvette maingun</label>
+    <graphicData>
+      <texPath>Things/Building/Turrets/3HST_76mm_Corvette_Gun_Turret</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>3HST 76mm heavy railgun on a ship turret.</description>
+    <soundInteract>Artillery_ShellLoaded</soundInteract>
+    <statBases>
+      <MarketValue>100000</MarketValue>
+      <SightsEfficiency>5</SightsEfficiency>
+      <ShotSpread>0.01</ShotSpread>
+      <SwayFactor>1</SwayFactor>
+      <RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>0</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Projectile_3HST76mmRG_Steel</defaultProjectile>
+        <warmupTime>4.7</warmupTime>
+        <range>500</range>
+        <minRange>20</minRange>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <burstShotCount>20</burstShotCount>
+        <soundCast>Shot_Autocannon</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>20</muzzleFlashScale>
+        <recoilPattern>Mounted</recoilPattern>
+        <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>240</magazineSize>
+        <reloadTime>7.8</reloadTime>
+        <ammoSet>AmmoSet_3HST76mmRG</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aimedBurstShotCount>5</aimedBurstShotCount>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+
+
+</Defs>
