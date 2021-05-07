@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_6mmScatterRG.label>3HST制6mm霰射磁轨弹</Ammo_6mmScatterRG.label>
+  <Ammo_6mmScatterRG.description>手枪弹尺寸的霰射磁轨弹，由一个蜂窝状弹托和19发1mm直径弹丸组成。用于一系列3HST制轻型霰射磁轨武器。</Ammo_6mmScatterRG.description>
+
+
+  <!-- Projectiles -->
+
+  <Projectile_6mmScatterRG.label>3HST制1mm霰射磁轨弹弹丸</Projectile_6mmScatterRG.label>
+
+
+</LanguageData>

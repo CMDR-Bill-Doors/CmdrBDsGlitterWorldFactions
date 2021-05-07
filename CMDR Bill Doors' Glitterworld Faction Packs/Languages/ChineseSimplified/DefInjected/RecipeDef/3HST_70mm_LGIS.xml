@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <制作Ammo_70mmLGIS_HEAT.label>制作 LGIS 破甲导弹 x5</制作Ammo_70mmLGIS_HEAT.label>
+  <制作Ammo_70mmLGIS_HEAT.description>制作 LGIS 破甲导弹 x5</制作Ammo_70mmLGIS_HEAT.description>
+  <制作Ammo_70mmLGIS_HEAT.jobString>正在制作 LGIS 破甲导弹 x5。</制作Ammo_70mmLGIS_HEAT.jobString>
+
+  <制作Ammo_70mmLGIS_Thermobaric.label>制作 LGIS 温压导弹 x5</制作Ammo_70mmLGIS_Thermobaric.label>
+  <制作Ammo_70mmLGIS_Thermobaric.description>制作 LGIS 温压导弹 x5</制作Ammo_70mmLGIS_Thermobaric.description>
+  <制作Ammo_70mmLGIS_Thermobaric.jobString>正在制作 LGIS 温压导弹 x5。</制作Ammo_70mmLGIS_Thermobaric.jobString>
+
+  <制作Ammo_70mmLGIS_Frag.label>制作 LGIS 破片导弹 x5</制作Ammo_70mmLGIS_Frag.label>
+  <制作Ammo_70mmLGIS_Frag.description>制作 LGIS 破片导弹 x5。</制作Ammo_70mmLGIS_Frag.description>
+  <制作Ammo_70mmLGIS_Frag.jobString>正在制作 LGIS 破片导弹 x5。</制作Ammo_70mmLGIS_Frag.jobString>
+
+  <制作Ammo_70mmLGIS_Confetti.label>制作 LGIS 礼花导弹 x5</制作Ammo_70mmLGIS_Confetti.label>
+  <制作Ammo_70mmLGIS_Confetti.description>制作 LGIS 礼花导弹 x5</制作Ammo_70mmLGIS_Confetti.description>
+  <制作Ammo_70mmLGIS_Confetti.jobString>正在制作 LGIS 礼花导弹 x5。</制作Ammo_70mmLGIS_Confetti.jobString>
+
+  <制作Ammo_70mmLGIS_Incendiary.label>制作 LGIS 燃烧导弹 x5</制作Ammo_70mmLGIS_Incendiary.label>
+  <制作Ammo_70mmLGIS_Incendiary.description>制作 LGIS 燃烧导弹 x5</制作Ammo_70mmLGIS_Incendiary.description>
+  <制作Ammo_70mmLGIS_Incendiary.jobString>正在制作 LGIS 燃烧导弹 x5。</制作Ammo_70mmLGIS_Incendiary.jobString>
+
+  <制作Ammo_70mmLGIS_Smoke.label>制作 LGIS 烟雾导弹 x5</制作Ammo_70mmLGIS_Smoke.label>
+  <制作Ammo_70mmLGIS_Smoke.description>制作 LGIS 烟雾导弹 x5</制作Ammo_70mmLGIS_Smoke.description>
+  <制作Ammo_70mmLGIS_Smoke.jobString>正在制作 LGIS 烟雾导弹 x5。</制作Ammo_70mmLGIS_Smoke.jobString>
+
+  <制作Ammo_70mmLGIS_Firefoam.label>制作 LGIS 灭火剂导弹 x5</制作Ammo_70mmLGIS_Firefoam.label>
+  <制作Ammo_70mmLGIS_Firefoam.description>制作 LGIS 灭火剂导弹 x5</制作Ammo_70mmLGIS_Firefoam.description>
+  <制作Ammo_70mmLGIS_Firefoam.jobString>正在制作 LGIS 灭火剂导弹 x5。</制作Ammo_70mmLGIS_Firefoam.jobString>
+
+  <制作Ammo_70mmLGIS_EMP.label>制作 LGIS EMP 导弹 x5</制作Ammo_70mmLGIS_EMP.label>
+  <制作Ammo_70mmLGIS_EMP.description>制作 LGIS EMP 导弹 x5</制作Ammo_70mmLGIS_EMP.description>
+  <制作Ammo_70mmLGIS_EMP.jobString>正在制作 LGIS EMP 导弹 x5。</制作Ammo_70mmLGIS_EMP.jobString>
+
+
+</LanguageData>
