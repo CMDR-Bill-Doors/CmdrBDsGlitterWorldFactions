@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- You need 12 childhoods and 20 adulthoods to not get errors, so.....heavy duplicates incoming -->
+<AlienRace.BackstoryDef>
+  <defName>BS_3HSTSlaveSoldierChild</defName>
+  <title>child slave soldier</title>
+  <titleShort>slave soldier</titleShort>
+  <baseDescription>[PAWN_nameDef] was born in gigantic building complex which served the sole porpose of raising and educating childs into servile slaves, or "wetware". [PAWN_pronoun] recieved basic military education that taught [PAWN_objective] how to fight.</baseDescription>
+  <slot>Childhood</slot>
+  <spawnCategories>
+    <li>3HSTSlaveRifleman</li>
+    <li>3HSTSlaveMachinegunner</li>
+    <li>3HSTSlaveSoldierChildhood</li>
+    <li>3HSTSlaveSniper</li>
+  </spawnCategories>
+  <skillGains>
+    <li>
+      <defName>Shooting</defName>
+      <amount>3</amount>
+    </li>
+    <li>
+      <defName>Melee</defName>
+      <amount>2</amount>
+    </li>
+    <li>
+      <defName>Medicine</defName>
+      <amount>2</amount>
+    </li>
+  </skillGains>
+  <forcedTraits>
+    <li>
+      <defName>Beauty</defName>
+      <degree>2</degree>
+      <chance>10</chance>
+    </li>
+    <li>
+      <defName>Psychopath</defName>
+      <chance>10</chance>
+    </li>
+    <li>
+      <defName>Bloodlust</defName>
+      <chance>50</chance>
+    </li>
+  </forcedTraits>
+  <disallowedTraits>
+    <li>
+      <defName>Kind</defName>
+      <chance>50</chance>
+    </li>
+    <li>
+      <defName>Brawler</defName>
+      <chance>100</chance>
+    </li>
+    <li>
+      <defName>Wimp</defName>
+      <chance>100</chance>
+    </li>
+  </disallowedTraits>
+  <workDisables>
+    <li>Artistic</li>
+    <li>Animals</li>
+    <li>Intellectual</li>
+  </workDisables>
+  <relationSettings>
+    <relationChanceModifierLover>0</relationChanceModifierLover>
+    <relationChanceModifierExLover>0</relationChanceModifierExLover>
+
+    <relationChanceModifierFiance>0</relationChanceModifierFiance>
+    <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+    <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+
+    <relationChanceModifierParent>0</relationChanceModifierParent>
+    <relationChanceModifierChild>0</relationChanceModifierChild>
+    <relationChanceModifierSibling>0</relationChanceModifierSibling>
+  </relationSettings>
+</AlienRace.BackstoryDef>
+
+
+  <AlienRace.BackstoryDef>
+    <defName>BS_3HSTSlaveGenericChild</defName>
+    <title>child slave</title>
+    <titleShort>slave soldier</titleShort>
+    <baseDescription>[PAWN_nameDef] was born in gigantic building complex which served the sole porpose of raising and educating childs into servile slaves, or "wetware". [PAWN_pronoun] recieved generic education that covered a bit of everything.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>3HSTSlaveRifleman</li>
+      <li>3HSTSlaveMachinegunner</li>
+      <li>3HSTSlaveGenericChildhood</li>
+      <li>3HSTSlaveSniper</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Beauty</defName>
+        <degree>2</degree>
+        <chance>40</chance>
+      </li>
+    </forcedTraits>
+    <disallowedTraits>
+      <li>
+        <defName>Wimp</defName>
+        <chance>50</chance>
+      </li>
+    </disallowedTraits>
+    <relationSettings>
+      <relationChanceModifierLover>0</relationChanceModifierLover>
+      <relationChanceModifierExLover>0</relationChanceModifierExLover>
+
+      <relationChanceModifierFiance>0</relationChanceModifierFiance>
+      <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+      <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+
+      <relationChanceModifierParent>0</relationChanceModifierParent>
+      <relationChanceModifierChild>0</relationChanceModifierChild>
+      <relationChanceModifierSibling>0</relationChanceModifierSibling>
+    </relationSettings>
+  </AlienRace.BackstoryDef>
+
+
+  <AlienRace.BackstoryDef>
+    <defName>BS_3HSTSlaveRifle</defName>
+    <title>slave rifleman</title>
+    <titleShort>slave rifleman</titleShort>
+    <baseDescription>[PAWN_nameDef] entered 3HST Planetary Forces and served as a railgunner. [PAWN_pronoun] learned how to shoot well, how to fire a LGIS without blowing [PAWN_objective]self up, how to survive enemy suppression and every other thing needed to be a good combatant.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>3HSTSlaveRifleman</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Psychopath</defName>
+        <chance>10</chance>
+      </li>
+      <li>
+        <defName>Bloodlust</defName>
+        <chance>50</chance>
+      
+    </li>
+      <li>
+        <defName>ShootingAccuracy</defName>
+        <degree>1</degree>
+        <chance>20</chance>
+      
+    </li>
+    </forcedTraits>
+    <disallowedTraits>
+      <li>
+        <defName>Kind</defName>
+        <chance>50</chance>
+      </li>
+    </disallowedTraits>
+    <workDisables>
+      <li>Artistic</li>
+      <li>Animals</li>
+      <li>Intellectual</li>
+    </workDisables>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <relationSettings>
+      <relationChanceModifierLover>0</relationChanceModifierLover>
+      <relationChanceModifierExLover>0</relationChanceModifierExLover>
+
+      <relationChanceModifierFiance>0</relationChanceModifierFiance>
+      <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+      <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+
+      <relationChanceModifierParent>0</relationChanceModifierParent>
+      <relationChanceModifierChild>0</relationChanceModifierChild>
+      <relationChanceModifierSibling>0</relationChanceModifierSibling>
+    </relationSettings>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>BS_3HSTSlaveSniper</defName>
+    <title>slave sniper</title>
+    <titleShort>slave sniper</titleShort>
+    <baseDescription>[PAWN_nameDef] entered 3HST Planetary Forces and served as a sniper. [PAWN_pronoun] was trained to be deadly accuate at shooting.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>3HSTSlaveSniper</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Psychopath</defName>
+        <chance>30</chance>
+      </li>
+      <li>
+        <defName>Bloodlust</defName>
+        <chance>50</chance>
+
+      </li>
+      <li>
+        <defName>ShootingAccuracy</defName>
+        <degree>1</degree>
+        <chance>70</chance>
+
+      </li>
+    </forcedTraits>
+    <disallowedTraits>
+      <li>
+        <defName>Kind</defName>
+        <chance>50</chance>
+      </li>
+    </disallowedTraits>
+    <workDisables>
+      <li>Artistic</li>
+      <li>Animals</li>
+      <li>Intellectual</li>
+    </workDisables>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <relationSettings>
+      <relationChanceModifierLover>0</relationChanceModifierLover>
+      <relationChanceModifierExLover>0</relationChanceModifierExLover>
+
+      <relationChanceModifierFiance>0</relationChanceModifierFiance>
+      <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+      <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+
+      <relationChanceModifierParent>0</relationChanceModifierParent>
+      <relationChanceModifierChild>0</relationChanceModifierChild>
+      <relationChanceModifierSibling>0</relationChanceModifierSibling>
+    </relationSettings>
+  </AlienRace.BackstoryDef>
+
+
+  <AlienRace.BackstoryDef>
+    <defName>BS_3HSTSlaveFodder</defName>
+    <title>slave fodder</title>
+    <titleShort>slave fodder</titleShort>
+    <baseDescription>[PAWN_nameDef] has just entered the 3HST Planetary Forces. [PAWN_pronoun] barely recieved any training before being deployed in combat.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>3HSTSlaveRifleman</li>
+      <li>3HSTSlaveMachinegunner</li>
+      <li>3HSTSlaveSniper</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Psychopath</defName>
+        <chance>10</chance>
+      </li>
+      <li>
+        <defName>Bloodlust</defName>
+        <chance>10</chance>
+      
+    </li>
+      <li>
+        <defName>ShootingAccuracy</defName>
+        <degree>-1</degree>
+        <chance>50</chance>
+      </li>
+    </forcedTraits>
+    <disallowedTraits>
+      <li>
+        <defName>Kind</defName>
+        <chance>10</chance>
+      </li>
+    </disallowedTraits>
+    <workDisables>
+      <li>Artistic</li>
+      <li>Animals</li>
+      <li>Intellectual</li>
+    </workDisables>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <relationSettings>
+      <relationChanceModifierLover>0</relationChanceModifierLover>
+      <relationChanceModifierExLover>0</relationChanceModifierExLover>
+
+      <relationChanceModifierFiance>0</relationChanceModifierFiance>
+      <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+      <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+
+      <relationChanceModifierParent>0</relationChanceModifierParent>
+      <relationChanceModifierChild>0</relationChanceModifierChild>
+      <relationChanceModifierSibling>0</relationChanceModifierSibling>
+    </relationSettings>
+
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>BS_3HSTSlaveMG</defName>
+    <title>slave machinegunner</title>
+    <titleShort>slave machinegunner</titleShort>
+    <baseDescription>[PAWN_nameDef] entered 3HST Planetary Forces and served as a machinegunner. [PAWN_pronoun] learned how to use [PAWN_possessive] machine-railgun to suppress enemies.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>3HSTSlaveMachinegunner</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Psychopath</defName>
+        <chance>10</chance>
+      </li>
+      <li>
+        <defName>Bloodlust</defName>
+        <chance>10</chance>
+      
+    </li>
+      <li>
+        <defName>ShootingAccuracy</defName>
+        <degree>-1</degree>
+        <chance>100</chance>
+      </li>
+    </forcedTraits>
+    <disallowedTraits>
+      <li>
+        <defName>Kind</defName>
+        <chance>50</chance>
+      </li>
+    </disallowedTraits>
+    <workDisables>
+      <li>Artistic</li>
+      <li>Animals</li>
+      <li>Intellectual</li>
+    </workDisables>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <relationSettings>
+      <relationChanceModifierLover>0</relationChanceModifierLover>
+      <relationChanceModifierExLover>0</relationChanceModifierExLover>
+
+      <relationChanceModifierFiance>0</relationChanceModifierFiance>
+      <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+      <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+
+      <relationChanceModifierParent>0</relationChanceModifierParent>
+      <relationChanceModifierChild>0</relationChanceModifierChild>
+      <relationChanceModifierSibling>0</relationChanceModifierSibling>
+    </relationSettings>
+  </AlienRace.BackstoryDef>
+
+
+</Defs>
+<!--
+Skills
+========================
+<skillGains>
+<li>
+<amount></amount>
+</li>
+</skillGains>
+========================
+<defName>Shooting</defName>
+<defName>Melee</defName>
+<defName>Construction</defName>
+<defName>Mining</defName>
+<defName>Cooking</defName>
+<defName>Plants</defName>
+<defName>Animals</defName>
+<defName>Crafting</defName>
+<defName>Artistic</defName>
+<defName>Medicine</defName>
+<defName>Social</defName>
+<defName>Intellectual</defName>
+Traits
+============================
+<forcedTraits>
+<li>
+<degree></degree>
+<chance></chance>
+</li>
+</forcedTraits>
+============================
+<defName>Nudist</defName>
+<defName>Bloodlust</defName>
+<defName>Kind</defName>
+<defName>Psychopath</defName>
+<defName>Cannibal</defName>
+<defName>Abrasive</defName>
+<defName>TooSmart</defName>
+<defName>Brawler</defName>
+<defName>Masochist</defName>
+<defName>NightOwl</defName>
+<defName>Greedy</defName>
+<defName>Jealous</defName>
+<defName>Ascetic</defName>
+<defName>Gay</defName>
+<defName>Bisexual</defName>
+<defName>Asexual</defName>
+<defName>AnnoyingVoice</defName>
+<defName>CreepyBreathing</defName>
+<defName>Pyromaniac</defName>
+<defName>Wimp</defName>
+<defName>Nimble</defName>
+<defName>FastLearner</defName>
+<defName>SlowLearner</defName>
+<defName>Undergrounder</defName>
+<defName>Transhumanist</defName>
+<defName>BodyPurist</defName>
+<defName>DislikesMen</defName>
+<defName>DislikesWomen</defName>
+<defName>GreatMemory</defName>
+<defName>Tough</defName>
+<defName>TorturedArtist</defName>
+<defName>Gourmand</defName>
+<defName>QuickSleeper</defName>
+<defName>SpeedOffset</defName><degree></degree>
+<defName>DrugDesire</defName><degree></degree>
+<defName>NaturalMood</defName><degree></degree>
+<defName>Nerves</defName><degree></degree>
+<defName>Neurotic</defName><degree></degree>
+<defName>Industriousness</defName><degree></degree>
+<defName>PsychicSensitivity</defName><degree></degree>
+<defName>ShootingAccuracy</defName><degree></degree>
+<defName>Beauty</defName><degree></degree>
+<defName>Immunity</defName><degree></degree>
+workDisables
+===================
+<workDisables>
+<li></li>
+</workDisables>
+===================
+<li>Animals</li>
+<li>Artistic</li>
+<li>Caring</li>
+<li>Cleaning</li>
+<li>Construction</li> ManulaSkilled
+<li>Cooking</li>
+<li>Crafting</li>
+<li>Firefighting</li>
+<li>Hauling</li>
+<li>Hunting</li>  
+<li>Intellectual</li>
+<li>ManualDumb</li>
+<li>ManualSkilled</li>
+<li>Medicine</li> Caring ?
+<li>Mining</li>
+<li>PlantWork</li>
+<li>Plants</li>
+<li>Shooting</li>
+<li>Social</li>
+<li>Violent</li>
+MetaWords
+============
+[PAWN_nameDef] Bobby
+[PAWN_nameFull] Juan Bobby Fisher
+[PAWN_pronoun] he/she
+[PAWN_possessive] his/her
+[PAWN_objective] him/her
+-->

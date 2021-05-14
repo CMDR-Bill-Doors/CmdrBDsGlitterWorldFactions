@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="Apparel3HSTArmorBase" ParentName="ArmorMachineableBase" Abstract="True">
+    <techLevel>Ultra</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <statBases>
+      <ArmorRating_Sharp>10</ArmorRating_Sharp>
+      <ArmorRating_Blunt>10</ArmorRating_Blunt>
+      <ArmorRating_Heat>0</ArmorRating_Heat>
+      <Insulation_Cold>10</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
+      <EquipDelay>11</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+        <li>Hands</li>
+        <li>Feet</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+        <li>Backpack</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+    <comps>
+      <li Class="CompProperties_BiocodableApparel"/>
+    </comps>
+  </ThingDef>
+
+  <HediffDef ParentName="DiseaseBase">
+    <defName>Hediff_3HSTHeavyArmor</defName>
+    <label>wearing 3HST heavy armor</label>
+    <description>The 3HST heavy infantry support armor sacrifices everything for combat. It'll increase your reload speed and your weapon handling, and helps you aim better, but at the cost of slowing you down. More over, the armor is not designed to do anything except combat, so you'll have a difficult time working while wearing it.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <Comfort>-10000</Comfort>
+          <ReloadSpeed>6</ReloadSpeed>
+          <JoyGainFactor>-1</JoyGainFactor>
+          <AimingDelayFactor>-0.25</AimingDelayFactor>
+          <!--
+          <MedicalQualityMax>0.8</MedicalQualityMax>
+          <MedicalTendQualityOffset>0.5</MedicalTendQualityOffset>
+          -->
+          <MeleeDodgeChance>-2</MeleeDodgeChance>
+          <RestRateMultiplier>-0.8</RestRateMultiplier>
+        </statOffsets>
+        <restFallFactorOffset>0.1</restFallFactorOffset>
+        <hungerRateFactorOffset>0.2</hungerRateFactorOffset>
+        <capMods>
+            <li>
+              <capacity>Manipulation</capacity>
+              <postFactor>0.3</postFactor>
+            </li>
+            <li>
+              <capacity>Moving</capacity>
+              <postFactor>0.8</postFactor>
+          </li>
+            <li>
+              <capacity>Sight</capacity>
+              <postFactor>1.50</postFactor>
+            </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+  <ThingDef ParentName="Apparel3HSTArmorBase">
+    <defName>Apparel_3HSTHeavyArmor</defName>
+    <label>heavy infantry support armor</label>
+    <description>A variant of recon armor with an integrated burst rocket for short-ranged flight. Locust armor is slightly less protective than standard recon armor. Each jump consumes a burst of fuel, so the armor must be reloaded after several uses.\n\nUnlike most ultratech military units, locusts train primarily with melee weapons. They usually avoid static shootouts, preferring to jump straight into enemy fortifications and fight hand-to-hand. They do poorly in static defense or confined quarters, but excel in mixed cover or shipcracking operations.</description>
+    <statBases>
+      <WorkToMake>125000</WorkToMake>
+      <MaxHitPoints>800</MaxHitPoints>
+      <Mass>250</Mass>
+      <Flammability>0</Flammability>
+      <ArmorRating_Sharp>58</ArmorRating_Sharp>
+      <ArmorRating_Blunt>750</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.6</ArmorRating_Heat>
+      <Insulation_Cold>100</Insulation_Cold>
+      <Insulation_Heat>50</Insulation_Heat>
+      <EquipDelay>9</EquipDelay>
+      <Bulk>100</Bulk>
+      <WornBulk>30</WornBulk>
+      <SmokepopBeltRadius>4.9</SmokepopBeltRadius>
+      <JumpRange>20</JumpRange>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisites>
+        <li>JumpPack</li>
+        <li>ReconArmor</li>
+      </researchPrerequisites>
+    </recipeMaker>
+    <tradeTags>
+      <li>HiTechArmor</li>
+    </tradeTags>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/LocustArmor/LocustArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedStatOffsets>
+      <CarryWeight>500</CarryWeight>
+      <CarryBulk>150</CarryBulk>
+      <ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
+      <ToxicSensitivity>-0.50</ToxicSensitivity>
+      <WorkSpeedGlobal>-0.6</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <apparel>
+      <scoreOffset>4</scoreOffset>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/LocustArmor/LocustArmor</wornGraphicPath>
+    </apparel>
+    <costList>
+      <Plasteel>120</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <Chemfuel>100</Chemfuel>
+    </costList>
+    <thingSetMakerTags>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>20</maxCharges>
+        <ammoDef>Chemfuel</ammoDef>
+        <ammoCountPerCharge>5</ammoCountPerCharge>
+        <baseReloadTicks>60</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc5</hotKey>
+        <chargeNoun>jump</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+      <li Class="VFECore.CompProperties_ApparelHediffs">
+        <hediffDefnames>
+          <li>Hediff_3HSTHeavyArmor</li>
+        </hediffDefnames>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Verb_Smokepop</verbClass>
+        <label>pop smoke</label>
+        <violent>false</violent>
+        <hasStandardCommand>true</hasStandardCommand>
+        <targetable>false</targetable>
+        <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+        <onlyManualCast>True</onlyManualCast>
+      </li>
+      <li>
+        <verbClass>Verb_Jump</verbClass>
+        <label>jump</label>
+        <commandIcon>Things/Pawn/Humanlike/Apparel/JumpPack/JumpPack</commandIcon>
+        <violent>false</violent>
+        <hasStandardCommand>true</hasStandardCommand>
+        <onlyManualCast>True</onlyManualCast>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <warmupTime>0.5</warmupTime>
+        <warmupEffecter>JumpWarmupEffect</warmupEffecter>
+        <requireLineOfSight>true</requireLineOfSight>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+          <canTargetPawns>false</canTargetPawns>
+          <canTargetBuildings>false</canTargetBuildings>
+        </targetParams>
+      </li>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <label>fire flamethrower</label>
+        <verbClass>CombatExtended.Verb_LaunchProjectileStaticCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <onlyManualCast>True</onlyManualCast>
+        <warmupTime>1.5</warmupTime>
+        <range>28</range>
+        <minRange>7</minRange>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <soundCast>Shot_IncendiaryLauncher</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+        <defaultProjectile>Bullet_Flamethrower_Napalm_Great</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <label>launch smoke grenade</label>
+        <verbClass>CombatExtended.Verb_LaunchProjectileStaticCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <onlyManualCast>True</onlyManualCast>
+        <warmupTime>1.5</warmupTime>
+        <range>40</range>
+        <minRange>5</minRange>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <soundCast>Shot_IncendiaryLauncher</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+        <defaultProjectile>Bullet_20x42mmGrenade_Smoke</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseFlamethrowerBullet">
+    <defName>Bullet_Flamethrower_Napalm_Great</defName>
+    <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+    <label>jellied chemfuel stream</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Flame</damageDef>
+      <damageAmountBase>9</damageAmountBase>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.5</preExplosionSpawnChance>
+      <soundExplode>CE_FlamethrowerExplosion</soundExplode>
+      <explosionRadius>2.5</explosionRadius>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+    </projectile>
+  </ThingDef>
+</Defs>

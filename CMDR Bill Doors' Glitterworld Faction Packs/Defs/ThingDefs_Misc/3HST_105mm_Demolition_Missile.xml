@@ -343,9 +343,6 @@
       <texPath>Things/Weapons/Demolition_Rocket/3HST_105mm_Demolition_Rocket_Incendiary_Launcher_Tacticool</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <weaponTags>
-      <li>GunHeavy</li>
-    </weaponTags>
     <statBases>
       <MarketValue>72</MarketValue>
     </statBases>

@@ -49,6 +49,8 @@
       </li>
     </verbs>
     <comps>
+      <li Class="CompProperties_BiocodableWeapon"/>
+
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>15</magazineSize>
         <reloadTime>4</reloadTime>
@@ -139,6 +141,8 @@
       </li>
     </verbs>
     <comps>
+      <li Class="CompProperties_BiocodableWeapon"/>
+
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>3</magazineSize>
         <reloadTime>0.85</reloadTime>
@@ -229,6 +233,8 @@
       </li>
     </verbs>
     <comps>
+      <li Class="CompProperties_BiocodableWeapon"/>
+
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>35</magazineSize>
         <reloadTime>4</reloadTime>

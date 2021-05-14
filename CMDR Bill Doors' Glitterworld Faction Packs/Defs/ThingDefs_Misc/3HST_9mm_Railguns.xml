@@ -49,6 +49,8 @@
       </li>
     </modExtensions>
     <comps>
+      <li Class="CompProperties_BiocodableWeapon"/>
+
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>5</magazineSize>
         <reloadTime>4.5</reloadTime>
@@ -158,6 +160,8 @@
       </li>
     </modExtensions>
     <comps>
+      <li Class="CompProperties_BiocodableWeapon"/>
+
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>60</magazineSize>
         <reloadTime>7.8</reloadTime>
@@ -215,6 +219,145 @@
         <li>FabricationBench</li>
       </recipeUsers>
     </recipeMaker>
+  </ThingDef>
+
+<!--Turret manned-->
+  <ThingDef ParentName="TurretMannedBase">
+    <defName>Turret_3HST9mmHMGmanned</defName>
+    <label>Manned 9mm heavy machine railgun</label>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>Things/Building/Turrets/3HST_Small_Turret_Base</texPath>
+      <drawSize>(1.5,1.5)</drawSize>
+    </graphicData>
+    <uiIconPath>UI/Icons/Security/25mm_Antiship_Autocannon_icon</uiIconPath>
+    <statBases>
+      <WorkToBuild>300</WorkToBuild>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>55</Mass>
+      <Bulk>70</Bulk>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>480</basePowerConsumption>
+      </li>
+    </comps>
+    <description>A 3HST heavy machine railgun mounted on an automatic mount. Despite the fact this turret is manually operated, this turret still needs a amount of power to operate since railguns consumes power.</description>
+    <costList>
+      <Steel>25</Steel>
+      <Gun_3HST_9mmHMG>1</Gun_3HST_9mmHMG>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <building>
+      <turretGunDef>Gun_9mmHMG_Turret</turretGunDef>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretTopDrawSize>2</turretTopDrawSize>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+    <size>(1,1)</size>
+    <researchPrerequisites>
+      <li>CE_TurretHeavyWeapons</li>
+    </researchPrerequisites>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <designationCategory>Security</designationCategory>
+  </ThingDef>
+
+  <!--Turret auto-->
+  <ThingDef ParentName="TurretAutoBase">
+    <defName>Turret_3HST9mmHMGAuto</defName>
+    <label>Auto 9mm heavy machine railgun</label>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>Things/Building/Turrets/3HST_Turret_Auto_Light/3HST_Turret_Auto_Light</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <uiIconPath>UI/Icons/Security/25mm_Antiship_Autocannon_icon</uiIconPath>
+    <statBases>
+      <WorkToBuild>300</WorkToBuild>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>55</Mass>
+      <Bulk>70</Bulk>
+      <AimingAccuracy>0.5</AimingAccuracy>
+      <ShootingAccuracyTurret>1</ShootingAccuracyTurret>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>760</basePowerConsumption>
+      </li>
+    </comps>
+    <description>A 3HST heavy machine railgun mounted on an automatic mount. Despite the fact this turret is manually operated, this turret still needs a amount of power to operate since railguns consumes power.</description>
+    <costList>
+      <Steel>25</Steel>
+      <Gun_3HST_9mmHMG>1</Gun_3HST_9mmHMG>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <building>
+      <turretGunDef>Gun_9mmHMG_Turret</turretGunDef>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretTopDrawSize>2</turretTopDrawSize>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+    <size>(1,1)</size>
+    <researchPrerequisites>
+      <li>CE_TurretHeavyWeapons</li>
+    </researchPrerequisites>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <designationCategory>Security</designationCategory>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseTurretGun">
+    <defName>Gun_9mmHMG_Turret</defName>
+    <label>Mounted 3HST 9mm HMG</label>
+    <graphicData>
+      <texPath>Things/Building/Turrets/3HST_HWR_03_HMG_Turret</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>3HST 9mm HMG on a stationary emplacement.</description>
+    <soundInteract>Artillery_ShellLoaded</soundInteract>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <SightsEfficiency>2.12</SightsEfficiency>
+      <ShotSpread>0.01</ShotSpread>
+      <SwayFactor>1.65</SwayFactor>
+      <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Projectile_3HST9mmRG_Steel</defaultProjectile>
+        <warmupTime>1.4</warmupTime>
+        <burstShotCount>10</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <range>86</range>
+        <soundCast>RG_9mm</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <recoilAmount>1.14</recoilAmount>
+        <muzzleFlashScale>18</muzzleFlashScale>
+        <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>180</magazineSize>
+        <reloadTime>7.8</reloadTime>
+        <ammoSet>AmmoSet_3HST9mmRG</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aimedBurstShotCount>5</aimedBurstShotCount>
+        <aiUseBurstMode>FALSE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
   </ThingDef>
 
 </Defs>

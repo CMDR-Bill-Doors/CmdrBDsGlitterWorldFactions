@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseMakeableGun">
+    <defName>Gun_3HST_AutoGrenade</defName>
+    <label>3HST automatic indirect grenade system</label>
+    <description>A automatic grenade launcher designed to fire at a high angle.</description>
+    <graphicData>
+      <drawSize>1.5,1.5</drawSize>
+      <texPath>Things/Weapons/3HST_Automatic_Indirect_Grenade_System</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <SightsEfficiency>1</SightsEfficiency>
+      <ShotSpread>0.15</ShotSpread>
+      <SwayFactor>2.43</SwayFactor>
+      <Bulk>24</Bulk>
+      <Mass>32</Mass>
+      <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
+      <MarketValue>1400</MarketValue>
+    </statBases>
+    <costList>
+      <Steel>165</Steel>
+      <Plasteel>65</Plasteel>
+      <Chemfuel>40</Chemfuel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
+      <AdvancedServo>8</AdvancedServo>
+    </costList>
+    <techLevel>Ultra</techLevel>
+    <weaponTags>
+      <li>3HST_AIGS</li>
+    </weaponTags>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_3HST40mmGrenade_HE</defaultProjectile>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <warmupTime>1.225</warmupTime>
+        <minRange>16</minRange>
+        <range>65</range>
+        <burstShotCount>6</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>InfernoCannon_Fire</soundCast>
+        <muzzleFlashScale>16</muzzleFlashScale>
+        <circularError>3</circularError>
+        <indirectFirePenalty>0.3</indirectFirePenalty>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_Charges">
+        <chargeSpeeds>
+          <li>5</li>
+          <li>10</li>
+          <li>20</li>
+          <li>30</li>
+          <li>40</li>
+          <li>50</li>
+          <li>60</li>
+          <li>70</li>
+          <li>80</li>
+          <li>90</li>
+          <li>100</li>
+          <li>110</li>
+          <li>120</li>
+          <li>130</li>
+        </chargeSpeeds>
+      </li>
+      <li Class="CompProperties_BiocodableWeapon"/>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>12</magazineSize>
+        <reloadTime>7.8</reloadTime>
+        <ammoSet>AmmoSet_3HST40mmGrenade</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>TRUE</aiUseBurstMode>
+        <aimedBurstShotCount>3</aimedBurstShotCount>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2.02</cooldownTime>
+        <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>muzzle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawSize>1.5,1.5</DrawSize>
+        <DrawOffset>0.0,0.0</DrawOffset>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+</Defs>

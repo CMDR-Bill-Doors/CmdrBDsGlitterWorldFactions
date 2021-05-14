@@ -56,6 +56,8 @@
     </modExtensions>
     -->
     <comps>
+      <li Class="CompProperties_BiocodableWeapon"/>
+
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>1</magazineSize>
         <reloadTime>8.6</reloadTime>
@@ -249,7 +251,7 @@
     </statBases>
     <weaponTags>
       <li>GunHeavy</li>
-      <li>3HST_LGIS_Disposable</li>
+      <li>3HST_LGIS_Disposable-Adv</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -282,10 +284,6 @@
     <statBases>
       <MarketValue>35.72</MarketValue>
     </statBases>
-    <weaponTags>
-      <li>GunHeavy</li>
-      <li>3HST_LGIS_Disposable</li>
-    </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
         <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
@@ -350,7 +348,7 @@
     </statBases>
     <weaponTags>
       <li>GunHeavy</li>
-      <li>3HST_LGIS_Disposable</li>
+      <li>3HST_LGIS_Disposable_Adv</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -445,10 +443,6 @@
     <statBases>
       <MarketValue>35.72</MarketValue>
     </statBases>
-    <weaponTags>
-      <li>GunHeavy</li>
-      <li>3HST_LGIS_Disposable</li>
-    </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
         <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
@@ -965,7 +959,7 @@
     </statBases>
     <weaponTags>
       <li>GunHeavy</li>
-      <li>3HST_LGIS_Disposable_ID</li>
+      <li>3HST_LGIS_Disposable_ID_Adv</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -1010,10 +1004,6 @@
     <statBases>
       <MarketValue>35.72</MarketValue>
     </statBases>
-    <weaponTags>
-      <li>GunHeavy</li>
-      <li>3HST_LGIS_Disposable_ID</li>
-    </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
         <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
@@ -1102,7 +1092,7 @@
     </statBases>
     <weaponTags>
       <li>GunHeavy</li>
-      <li>3HST_LGIS_Disposable_ID</li>
+      <li>3HST_LGIS_Disposable_ID_Adv</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -1113,7 +1103,7 @@
         <warmupTime>4.4</warmupTime>
         <burstShotCount />
         <range>90</range>
-        <minRange>10</minRange>
+        <minRange>20</minRange>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
@@ -1156,7 +1146,7 @@
         <warmupTime>4.4</warmupTime>
         <burstShotCount />
         <range>90</range>
-        <minRange>10</minRange>
+        <minRange>20</minRange>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
@@ -1199,7 +1189,7 @@
         <warmupTime>4.4</warmupTime>
         <burstShotCount />
         <range>90</range>
-        <minRange>10</minRange>
+        <minRange>20</minRange>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
@@ -1235,7 +1225,6 @@
     </statBases>
     <weaponTags>
       <li>GunHeavy</li>
-      <li>3HST_LGIS_Disposable_ID</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -1246,7 +1235,7 @@
         <warmupTime>4.4</warmupTime>
         <burstShotCount />
         <range>90</range>
-        <minRange>10</minRange>
+        <minRange>20</minRange>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
