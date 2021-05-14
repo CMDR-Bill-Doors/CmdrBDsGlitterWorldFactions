@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Race_3HST_Wolf.label>鲁珀族</Race_3HST_Wolf.label>
+  <Race_3HST_Wolf.description>Placeholder, Remember to change this.</Race_3HST_Wolf.description>
+  <Race_3HST_Wolf.tools.0.label>left claw</Race_3HST_Wolf.tools.0.label>
+  <Race_3HST_Wolf.tools.1.label>right claw</Race_3HST_Wolf.tools.1.label>
+  <Race_3HST_Wolf.tools.2.label>left fist</Race_3HST_Wolf.tools.2.label>
+  <Race_3HST_Wolf.tools.3.label>right fist</Race_3HST_Wolf.tools.3.label>
+  <Race_3HST_Wolf.tools.4.label>teeth</Race_3HST_Wolf.tools.4.label>
+  <Race_3HST_Wolf.tools.5.label>head</Race_3HST_Wolf.tools.5.label>
+
+
+</LanguageData>

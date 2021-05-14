@@ -14,4 +14,19 @@
   <Gun_3HST_9mmHMG.tools.2.label>枪口</Gun_3HST_9mmHMG.tools.2.label>
 
 
+  <!-- Turret manned -->
+
+  <Turret_3HST9mmHMGmanned.label>Manned 9mm heavy machine railgun</Turret_3HST9mmHMGmanned.label>
+  <Turret_3HST9mmHMGmanned.description>A 3HST heavy machine railgun mounted on an automatic mount. Despite the fact this turret is manually operated, this turret still needs a amount of power to operate since railguns consumes power.</Turret_3HST9mmHMGmanned.description>
+
+
+  <!-- Turret auto -->
+
+  <Turret_3HST9mmHMGAuto.label>Auto 9mm heavy machine railgun</Turret_3HST9mmHMGAuto.label>
+  <Turret_3HST9mmHMGAuto.description>A 3HST heavy machine railgun mounted on an automatic mount. Despite the fact this turret is manually operated, this turret still needs a amount of power to operate since railguns consumes power.</Turret_3HST9mmHMGAuto.description>
+
+  <Gun_9mmHMG_Turret.label>Mounted 3HST 9mm HMG</Gun_9mmHMG_Turret.label>
+  <Gun_9mmHMG_Turret.description>3HST 9mm HMG on a stationary emplacement.</Gun_9mmHMG_Turret.description>
+
+
 </LanguageData>

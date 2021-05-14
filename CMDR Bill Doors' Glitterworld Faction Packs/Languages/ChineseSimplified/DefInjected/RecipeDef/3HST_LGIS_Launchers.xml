@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!--  一次性LGIS Launchers -->
+  <!-- Disposable LGIS Launchers -->
 
   <MakeDLGISfrag.label>制作 一次性 LGIS 破片弹发射器 x5</MakeDLGISfrag.label>
   <MakeDLGISfrag.description>制作 一次性 LGIS 破片弹发射器x5。</MakeDLGISfrag.description>
@@ -36,7 +36,7 @@
   <MakeDLGISemp.jobString>正在制作 LGIS EMP弹发射器x5。</MakeDLGISemp.jobString>
 
 
-  <!--  一次性曲射LGIS Launchers -->
+  <!-- Disposable Indirect LGIS Launchers -->
 
   <MakeDLGISfragID.label>制作 一次性曲射 LGIS 破片弹发射器 x5</MakeDLGISfragID.label>
   <MakeDLGISfragID.description>制作 一次性 LGIS 破片弹发射器x5。</MakeDLGISfragID.description>
@@ -70,5 +70,8 @@
   <MakeDLGISempID.description>制作 一次性 LGIS EMP弹发射器x5。</MakeDLGISempID.description>
   <MakeDLGISempID.jobString>正在制作 LGIS EMP弹发射器x5。</MakeDLGISempID.jobString>
 
+
+  <!--  一次性LGIS Launchers -->
+  <!--  一次性曲射LGIS Launchers -->
 
 </LanguageData>

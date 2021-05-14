@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Faction_3HSTlimited.label>3HST有限公司特遣舰队</Faction_3HSTlimited.label>
+  <Faction_3HSTlimited.description>一支派到边境星区清剿海盗和帝国残余的3HST二线舰队。和装备了脉冲炮和引力震荡武器的一线部队不同，他们只有磁轨炮和第三次内战时产能过剩的LGIS导弹，以及少量迷迭香级轨道轰炸舰可用。</Faction_3HSTlimited.description>
+  <Faction_3HSTlimited.pawnsPlural>陆战队</Faction_3HSTlimited.pawnsPlural>
+  <Faction_3HSTlimited.leaderTitle>公司代表</Faction_3HSTlimited.leaderTitle>
+
+
+</LanguageData>

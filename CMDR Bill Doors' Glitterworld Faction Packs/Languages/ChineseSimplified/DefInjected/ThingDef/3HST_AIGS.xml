@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Gun_3HST_AutoGrenade.label>3HST制自动曲射榴弹系统</Gun_3HST_AutoGrenade.label>
+  <Gun_3HST_AutoGrenade.description>一个设计用于高角度曲射的自动榴弹发射器。</Gun_3HST_AutoGrenade.description>
+  <Gun_3HST_AutoGrenade.tools.0.label>枪托</Gun_3HST_AutoGrenade.tools.0.label>
+  <Gun_3HST_AutoGrenade.tools.1.label>枪管</Gun_3HST_AutoGrenade.tools.1.label>
+  <Gun_3HST_AutoGrenade.tools.2.label>枪口</Gun_3HST_AutoGrenade.tools.2.label>
+
+
+</LanguageData>
