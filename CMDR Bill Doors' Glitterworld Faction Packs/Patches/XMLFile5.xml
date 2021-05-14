@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Patch><!--
-
+<Patch>
+  <!--
   <Operation Class="PatchOperationRemove">
     <xpath>/Defs/ThingDef[defName="Silver"]</xpath>
   </Operation>
@@ -67,4 +67,23 @@
     </value>
   </Operation>
 -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/HairDef[defName="Mohawk"]/hairTags</xpath>
+    <value>
+      <hairTags>
+        <li>Punk</li>
+      </hairTags>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/HairDef[defName="Shaved" or defName="FancyBun"]/hairTags</xpath>
+    <value>
+      <hairTags>
+        <li>Punk</li>
+        <li>Tribal</li>
+        <li>Soldier</li>
+      </hairTags>
+    </value>
+  </Operation>
 </Patch>
