@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_6mmScatterRG.label>制作 3HST制6mm霰射磁轨弹 x200</MakeAmmo_6mmScatterRG.label>
+  <MakeAmmo_6mmScatterRG.description>制作 3HST制6mm霰射磁轨弹 x200</MakeAmmo_6mmScatterRG.description>
+  <MakeAmmo_6mmScatterRG.jobString>正在制作 3HST制6mm霰射磁轨弹 x200。</MakeAmmo_6mmScatterRG.jobString>
+
+  <MakeAmmo_8mmScatterRG.label>make 8mm Scatter Railgun cartridge (Sabot) x500</MakeAmmo_8mmScatterRG.label>
+  <MakeAmmo_8mmScatterRG.description>Craft 500 8mm Scatter Railgun (Sabot) cartridges.</MakeAmmo_8mmScatterRG.description>
+  <MakeAmmo_8mmScatterRG.jobString>Making 8mm Scatter Railgun (Sabot) cartridges.</MakeAmmo_8mmScatterRG.jobString>
+
+
+</LanguageData>

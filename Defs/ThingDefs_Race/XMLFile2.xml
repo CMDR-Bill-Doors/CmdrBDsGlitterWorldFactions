@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="HumanRace">
+    <defName>Race_3HST_Wolf</defName>
+    <label>Lupus</label>
+    <description>Placeholder, Remember to change this.</description>
+    <statBases>
+    <MarketValue Inherit="false">2000</MarketValue>
+    <MoveSpeed Inherit="false">5.5</MoveSpeed>
+    <ComfyTemperatureMin Inherit="false">10</ComfyTemperatureMin>
+    <ComfyTemperatureMax Inherit="false">26</ComfyTemperatureMax>
+    <RoyalFavorValue Inherit="false">4</RoyalFavorValue>
+    <CarryWeight Inherit="false">50</CarryWeight>
+    <Suppressability Inherit="false">0.75</Suppressability>
+    </statBases>
+    <comps>
+      <li>
+        <compClass>Comp_manghe.Comp_Mental</compClass>
+        </li>
+    </comps>
+    <tools Inherit="false">
+      <li Class="CombatExtended.ToolCE">
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>10.9</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+        <armorPenetrationBlunt>0.450</armorPenetrationBlunt>
+        <armorPenetrationSharp>0.05</armorPenetrationSharp>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>10.9</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+        <armorPenetrationBlunt>0.450</armorPenetrationBlunt>
+        <armorPenetrationSharp>0.05</armorPenetrationSharp>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+        <armorPenetrationBlunt>0.4</armorPenetrationBlunt>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+        <armorPenetrationBlunt>0.4</armorPenetrationBlunt>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.9</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+        <armorPenetrationSharp>0.43</armorPenetrationSharp>
+        <armorPenetrationBlunt>4.225</armorPenetrationBlunt>
+        <soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
+        <soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+        <armorPenetrationBlunt>0.8</armorPenetrationBlunt>
+      </li>
+    </tools>
+    <race>
+      <body Inherit="false">Alien_WolfBody</body>
+      <lifeExpectancy Inherit="false">60</lifeExpectancy>
+      <leatherDef Inherit="false">Leather_Wolf</leatherDef>
+      <nameCategory>HumanStandard</nameCategory>
+      <baseHealthScale Inherit="false">1.2</baseHealthScale>
+      <foodType Inherit="false">CarnivoreAnimal</foodType>
+      <gestationPeriodDays Inherit="false">25</gestationPeriodDays>
+      <manhunterOnDamageChance Inherit="false">1</manhunterOnDamageChance>
+      <manhunterOnTameFailChance Inherit="false">1</manhunterOnTameFailChance>
+      <lifeStageAges  Inherit="false">
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeToddler</def>
+          <minAge>1.2</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>3</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>10</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>16</minAge>
+        </li>
+      </lifeStageAges>
+      <ageGenerationCurve Inherit="false">
+        <points>
+          <li>(10,0)</li>
+          <li>(16,100)</li>
+          <li>(40,100)</li>
+          <li>(50,30)</li>
+          <li>(60,18)</li>
+          <li>(65,10)</li>
+          <li>(70,3)</li>
+          <li>(80,0)</li>
+        </points>
+      </ageGenerationCurve>
+    </race>
+
+    <alienRace>
+      <generalSettings>
+        <maleGenderProbability>0.4</maleGenderProbability>
+        <traitCount>3~4</traitCount>
+        <minAgeForAdulthood>16</minAgeForAdulthood>
+        <humanRecipeImport>true</humanRecipeImport>
+
+
+        <alienPartGenerator>
+          <alienbodytypes>
+            <li>Female</li>
+            <li>Thin</li>
+            <li>Hulk</li>
+            <li>Male</li>
+          </alienbodytypes>
+
+          <colorChannels>
+            <li>
+              <name>hair</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>4</weight>
+                    <min>(190,190,190)</min>
+                    <max>(170,170,170)</max>
+                  </li>
+                  <li>
+                    <weight>4</weight>
+                    <min>(170,170,170)</min>
+                    <max>(150,150,150)</max>
+                  </li>
+                  <li>
+                    <weight>4</weight>
+                    <min>(150,150,150)</min>
+                    <max>(130,130,130)</max>
+                  </li>
+                  <li>
+                    <weight>4</weight>
+                    <min>(130,130,130)</min>
+                    <max>(110,110,110)</max>
+                  </li>
+                  <li>
+                    <weight>8</weight>
+                    <min>(110,110,110)</min>
+                    <max>(90,90,90)</max>
+                  </li>
+                  <li>
+                    <weight>8</weight>
+                    <min>(90,90,90)</min>
+                    <max>(70,70,70)</max>
+                  </li>
+                  <li>
+                    <weight>8</weight>
+                    <min>(70,70,70)</min>
+                    <max>(50,50,50)</max>
+                  </li>
+                  <li>
+                    <weight>4</weight>
+                    <min>(120,120,128)</min>
+                    <max>(151,143,143)</max>
+                  </li>
+                  <li>
+                    <weight>4</weight>
+                    <min>(93,93,109)</min>
+                    <max>(120,120,128)</max>
+                  </li>
+                  <li>
+                    <weight>4</weight>
+                    <min>(76,76,101)</min>
+                    <max>(93,93,109)</max>
+                  </li>
+                  <li>
+                    <weight>4</weight>
+                    <min>(50,50,83)</min>
+                    <max>(76,76,101)</max>
+                  </li>
+                  <li>
+                    <weight>0.1</weight>
+                    <only>(163,155,200)</only>
+                  </li>
+                  <li>
+                    <weight>0.01</weight>
+                    <only>(220,220,220)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+          </colorChannels>
+
+          <bodyAddons>
+          <li>
+            <path>Things/Pawn/WolfTail/WolfTail</path>
+            <bodyPart>BodyPart_WolfTail</bodyPart>
+            <inFrontOfBody>false</inFrontOfBody>
+            <layerInvert>true</layerInvert>
+            <layerOffset>0.02</layerOffset>
+            <angle>0</angle>
+            <drawSize>(1,1)</drawSize>
+            <drawnInBed>false</drawnInBed>
+            <drawnDesiccated>false</drawnDesiccated>
+            <colorChannel>hair</colorChannel>
+            <offsets>
+              <south>
+                <bodyTypes>
+                  <Male>(-0.4,0)</Male>
+                  <Female>(-0.42,0)</Female>
+                  <Hulk>(-0.4,0)</Hulk>
+                  <Thin>(-0.4,0)</Thin>
+                </bodyTypes>
+              </south>
+              <north>
+                <bodyTypes>
+                  <Male>(0,-0.1)</Male>
+                  <Female>(0,-0.16)</Female>
+                  <Hulk>(0,-0.16)</Hulk>
+                  <Thin>(0,-0.1)</Thin>
+                </bodyTypes>
+              </north>
+              <east>
+                <bodyTypes>
+                  <Male>(0.01,-0.22)</Male>
+                  <Female>(0.13,-0.22)</Female>
+                  <Hulk>(0.13,-0.22)</Hulk>
+                  <Thin>(0.13,-0.22)</Thin>
+                </bodyTypes>
+              </east>
+            </offsets>
+          </li>
+
+            <li>
+              <path>Things/Pawn/WolfEar/WolfEar_Left</path>
+              <bodyPart>left ear</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerInvert>false</layerInvert>
+              <layerOffset>0</layerOffset>
+              <angle>0</angle>
+              <alignWithHead>true</alignWithHead>
+              <drawSize>(1.2,1)</drawSize>
+              <drawnDesiccated>false</drawnDesiccated>
+              <colorChannel>hair</colorChannel>
+              <!--
+            <backstoryGraphics>
+              <YouthSoldier>Things/Tails/TailXYouthSoldier</YouthSoldier>
+              <Winerunner>Things/Tails/TailXWinerunner</Winerunner>
+            </backstoryGraphics>
+            -->
+              <offsets>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>(-0.07,0.6)</Average_Normal>
+                    <Average_Wide>(-0.07,0.6)</Average_Wide>
+                    <Average_Pointy>(-0.07,0.6)</Average_Pointy>
+                    <Narrow_Normal>(-0.07,0.6)</Narrow_Normal>
+                    <Narrow_Pointy>(-0.07,0.6)</Narrow_Pointy>
+                    <Narrow_Wide>(-0.07,0.6)</Narrow_Wide>
+                  </crownTypes>
+                </north>
+                
+
+                <south>
+                  <layerOffset>0</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>(-0.44,0.3)</Average_Normal>
+                    <Average_Wide>(-0.44,0.3)</Average_Wide>
+                    <Average_Pointy>(-0.44,0.3)</Average_Pointy>
+                    <Narrow_Normal>(-0.44,0.3)</Narrow_Normal>
+                    <Narrow_Pointy>(-0.44,0.3)</Narrow_Pointy>
+                    <Narrow_Wide>(-0.44,0.3)</Narrow_Wide>
+                  </crownTypes>
+                  <portraitCrownTypes>
+                    <Average_Normal>(-0.44,0.3)</Average_Normal>
+                    <Average_Wide>(-0.44,0.3)</Average_Wide>
+                    <Average_Pointy>(-0.44,0.3)</Average_Pointy>
+                    <Narrow_Normal>(-0.44,0.3)</Narrow_Normal>
+                    <Narrow_Pointy>(-0.44,0.3)</Narrow_Pointy>
+                    <Narrow_Wide>(-0.44,0.3)</Narrow_Wide>
+                  </portraitCrownTypes>
+                </south>
+                
+
+                <east>
+                  <crownTypes>
+                    <Average_Normal>(-0.5,0.2)</Average_Normal>
+                    <Average_Wide>(-0.5,0.2)</Average_Wide>
+                    <Average_Pointy>(-0.5,0.2)</Average_Pointy>
+                    <Narrow_Normal>(-0.5,0.2)</Narrow_Normal>
+                    <Narrow_Pointy>(-0.5,0.2))</Narrow_Pointy>
+                    <Narrow_Wide>(-0.5,0.2)</Narrow_Wide>
+                  </crownTypes>
+                </east>
+
+              </offsets>
+            </li>
+
+            <li>
+              <path>Things/Pawn/WolfEar/WolfEar_Right</path>
+              <bodyPart>right ear</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerInvert>false</layerInvert>
+              <layerOffset>0</layerOffset>
+              <angle>0</angle>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <alignWithHead>true</alignWithHead>
+              <drawSize>(1.2,1)</drawSize>
+              <drawnDesiccated>false</drawnDesiccated>
+              <colorChannel>hair</colorChannel>
+              <offsets>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>(0.07,0.6)</Average_Normal>
+                    <Average_Wide>(0.07,0.6)</Average_Wide>
+                    <Average_Pointy>(0.07,0.6)</Average_Pointy>
+                    <Narrow_Normal>(0.07,0.6)</Narrow_Normal>
+                    <Narrow_Pointy>(0.07,0.6)</Narrow_Pointy>
+                    <Narrow_Wide>(0.07,0.6)</Narrow_Wide>
+                  </crownTypes>
+                </north>
+
+
+                <south>
+                  <layerOffset>0</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>(-0.39,0.3)</Average_Normal>
+                    <Average_Wide>(-0.39,0.3)</Average_Wide>
+                    <Average_Pointy>(-0.39,0.3)</Average_Pointy>
+                    <Narrow_Normal>(-0.39,0.3)</Narrow_Normal>
+                    <Narrow_Pointy>(-0.39,0.3)</Narrow_Pointy>
+                    <Narrow_Wide>(-0.39,0.3)</Narrow_Wide>
+                  </crownTypes>
+                  <portraitCrownTypes>
+                    <Average_Normal>(-0.39,0.3)</Average_Normal>
+                    <Average_Wide>(-0.39,0.3)</Average_Wide>
+                    <Average_Pointy>(-0.39,0.3)</Average_Pointy>
+                    <Narrow_Normal>(-0.39,0.3)</Narrow_Normal>
+                    <Narrow_Pointy>(-0.39,0.3)</Narrow_Pointy>
+                    <Narrow_Wide>(-0.39,0.3)</Narrow_Wide>
+                  </portraitCrownTypes>
+                </south>
+
+
+                <east>
+                  <crownTypes>
+                    <Average_Normal>(-0.5,0.2)</Average_Normal>
+                    <Average_Wide>(-0.5,0.2)</Average_Wide>
+                    <Average_Pointy>(-0.5,0.2)</Average_Pointy>
+                    <Narrow_Normal>(-0.5,0.2)</Narrow_Normal>
+                    <Narrow_Pointy>(-0.5,0.2)</Narrow_Pointy>
+                    <Narrow_Wide>(-0.5,0.2)</Narrow_Wide>
+                  </crownTypes>
+                </east>
+
+              </offsets>
+            </li>
+
+          </bodyAddons>
+        </alienPartGenerator>
+
+      </generalSettings>
+
+      <thoughtSettings>
+        <cannotReceiveThoughts>
+          <li>AteHumanlikeMeatDirect</li>
+          <li>AteHumanlikeMeatAsIngredient</li>
+        </cannotReceiveThoughts>
+
+        <butcherThoughtGeneral>
+          <thought>ButcheredHumanlikeCorpse</thought>
+          <knowThought>KnowButcheredHumanlikeCorpse</knowThought>
+        </butcherThoughtGeneral>
+      </thoughtSettings>
+
+
+      
+    </alienRace>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>

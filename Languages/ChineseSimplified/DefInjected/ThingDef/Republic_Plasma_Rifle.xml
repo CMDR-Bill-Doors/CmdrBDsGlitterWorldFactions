@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Republic_Plasma_Machinegun.label>共和国等离子机枪</Republic_Plasma_Machinegun.label>
+  <Republic_Plasma_Machinegun.description>A twin barrel plasma accelerator developed by Pan-Human Republic Arsenals serving the role of general-purpose machine gun.</Republic_Plasma_Machinegun.description>
+  <Republic_Plasma_Machinegun.tools.0.label>枪托</Republic_Plasma_Machinegun.tools.0.label>
+  <Republic_Plasma_Machinegun.tools.1.label>枪管</Republic_Plasma_Machinegun.tools.1.label>
+  <Republic_Plasma_Machinegun.tools.2.label>枪口</Republic_Plasma_Machinegun.tools.2.label>
+
+
+</LanguageData>

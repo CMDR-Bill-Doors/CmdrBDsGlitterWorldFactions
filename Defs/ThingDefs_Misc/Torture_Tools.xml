@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseMeleeWeapon">
+    <defName>MeleeWeapon_BrandingIron</defName>
+    <label>branding iron</label>
+    <description>A piece of red-hot iron stick with a handle on one end and a steel triangle on another. Not practical as a weapon, but excels at unnecessary harms (aka. torture).</description>
+    <graphicData>
+      <texPath>Things/Weapons/Misc/Torture_Tools_Iron</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+      <WorkToMake>600</WorkToMake>
+      <Mass>0.5</Mass>
+      <Bulk>1</Bulk>
+    </statBases>
+    <equippedStatOffsets>
+      <MeleeHitChance>10</MeleeHitChance>
+    </equippedStatOffsets>
+    <costList>
+      <Steel>10</Steel>
+      <WoodLog>5</WoodLog>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>1.5</glowRadius>
+        <glowColor>(252,187,113,0)</glowColor>
+      </li>
+    </comps>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>head</label>
+        <capacities>
+          <li>BrandingIron</li>
+        </capacities>
+        <power>5</power>
+        <chanceFactor>114514</chanceFactor>
+        <cooldownTime>1.9</cooldownTime>
+        <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting_ElectricSmelter</li>
+      <li>CE_AutoEnableCrafting_FueledSmithy</li>
+      <li>CE_AutoEnableCrafting_ElectricSmithy</li>
+      <li>CE_AutoEnableCrafting_Campfire</li>
+    </tradeTags>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <DamageDef>
+    <defName>BrandingIronBurn</defName>
+    <label>burn</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <externalViolence>true</externalViolence>
+    <makesBlood>false</makesBlood>
+    <deathMessage>{0} has burned to death.</deathMessage>
+    <hediff>Burn</hediff>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <bluntInnerHitChance>0</bluntInnerHitChance>
+    <armorCategory>Heat</armorCategory>
+    <impactSoundType>Blunt</impactSoundType>
+    <overkillPctToDestroyPart>10~20</overkillPctToDestroyPart>
+    <modExtensions>
+      <li Class="CombatExtended.DamageDefExtensionCE">
+        <harmOnlyOutsideLayers>true</harmOnlyOutsideLayers>
+      </li>
+    </modExtensions>
+  </DamageDef>
+
+  <ManeuverDef>
+    <defName>BrandingIron</defName>
+    <requiredCapacity>BrandingIron</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>BrandingIronBurn</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_BrandingIron_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_BrandingIron_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_BrandingIron_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_BrandingIron_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+
+
+  <ToolCapacityDef>
+    <defName>BrandingIron</defName>
+    <label>burn</label>
+  </ToolCapacityDef>
+
+  <RulePackDef>
+    <defName>Maneuver_BrandingIron</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>damaged_past->scorched</li>
+        <li>damaged_past->burned</li>
+        <li>damaged_past->blistered</li>
+        <li>damaged_past->seared</li>
+        <li>damaged_past->injured</li>
+        <li>damaged_past->damaged</li>
+        <li>damaged_past->wounded</li>
+        <li>damaged_past->hurt</li>
+
+        <li>damaged_present->scorching</li>
+        <li>damaged_present->burning</li>
+        <li>damaged_present->blistering</li>
+        <li>damaged_present->searing</li>
+        <li>damaged_present->injuring</li>
+        <li>damaged_present->damaging</li>
+        <li>damaged_present->wounding</li>
+        <li>damaged_present->hurting</li>
+
+        <li>destroyed_past->cremated</li>
+        <li>destroyed_past->incinerated</li>
+        <li>destroyed_past->charred</li>
+
+        <li>destroyed_present->cremating</li>
+        <li>destroyed_present->incinerating</li>
+        <li>destroyed_present->charring</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>Maneuver_BrandingIron_MeleeHit</defName>
+    <include>
+      <li>Maneuver_BrandingIron</li>
+      <li>Combat_Hit</li>
+    </include>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>Maneuver_BrandingIron_MeleeDeflect</defName>
+    <include>
+      <li>Maneuver_BrandingIron</li>
+      <li>Combat_Deflect</li>
+    </include>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>Maneuver_BrandingIron_MeleeMiss</defName>
+    <include>
+      <li>Maneuver_BrandingIron</li>
+      <li>Combat_Miss</li>
+    </include>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>Maneuver_BrandingIron_MeleeDodge</defName>
+    <include>
+      <li>Maneuver_BrandingIron</li>
+      <li>Combat_Dodge</li>
+    </include>
+  </RulePackDef>
+
+
+
+</Defs>

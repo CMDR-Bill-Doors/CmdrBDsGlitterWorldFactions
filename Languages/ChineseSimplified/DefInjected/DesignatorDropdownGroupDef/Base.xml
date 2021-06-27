@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Group_LGIS_Launchers.label>LGIS发射器</Group_LGIS_Launchers.label>
+  <Group_3HST_AutoRailgunTurret.label>自动磁轨炮炮塔</Group_3HST_AutoRailgunTurret.label>
+  <Group_3HST_ManualRailgunTurret.label>手动磁轨炮炮塔</Group_3HST_ManualRailgunTurret.label>
+  <Group_3HST_25mmGuns.label>25mm自动炮</Group_3HST_25mmGuns.label>
+  <Group_3HST_AIGS.label>3HST自动曲射榴弹系统</Group_3HST_AIGS.label>
+
+
+</LanguageData>

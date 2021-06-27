@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Projectiles -->
+
+  <Projectile_Silver.label>Money</Projectile_Silver.label>
+
+
+  <!-- Gun -->
+
+  <AprilFools_Money_Gun.label>撒币枪</AprilFools_Money_Gun.label>
+  <AprilFools_Money_Gun.description>伪装成人畜无害的撒币枪的一把3HST突击磁轨炮。</AprilFools_Money_Gun.description>
+  <AprilFools_Money_Gun.tools.0.label>枪托</AprilFools_Money_Gun.tools.0.label>
+  <AprilFools_Money_Gun.tools.1.label>枪管</AprilFools_Money_Gun.tools.1.label>
+  <AprilFools_Money_Gun.tools.2.label>枪口</AprilFools_Money_Gun.tools.2.label>
+
+
+</LanguageData>

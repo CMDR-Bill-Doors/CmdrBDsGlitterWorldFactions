@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Projectile_3HST20mmPulser.label>步兵脉冲炮能量体</Projectile_3HST20mmPulser.label>
+
+  <Gun_3HST_Infantry_Pulser.label>3HST步兵脉冲炮</Gun_3HST_Infantry_Pulser.label>
+  <Gun_3HST_Infantry_Pulser.description>3HST精英部队列装的先进单兵武器，将小质量的等离子体加速到极高的速度，造成大量钝器伤害。</Gun_3HST_Infantry_Pulser.description>
+  <Gun_3HST_Infantry_Pulser.tools.0.label>枪托</Gun_3HST_Infantry_Pulser.tools.0.label>
+  <Gun_3HST_Infantry_Pulser.tools.1.label>枪管</Gun_3HST_Infantry_Pulser.tools.1.label>
+  <Gun_3HST_Infantry_Pulser.tools.2.label>枪口</Gun_3HST_Infantry_Pulser.tools.2.label>
+  <Gun_3HST_Infantry_Pulser.tools.3.label>能量刺刀刀刃</Gun_3HST_Infantry_Pulser.tools.3.label>
+  <Gun_3HST_Infantry_Pulser.tools.4.label>能量刺刀刀尖</Gun_3HST_Infantry_Pulser.tools.4.label>
+
+
+</LanguageData>

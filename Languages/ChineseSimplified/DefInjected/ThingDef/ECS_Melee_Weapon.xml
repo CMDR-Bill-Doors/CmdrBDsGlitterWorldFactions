@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Melee_3HST_ECSBlade.label>ECS剑刃</Melee_3HST_ECSBlade.label>
+  <Melee_3HST_ECSBlade.description>用一片ECS护盾力场作为刀刃的军刀。比羽毛更轻，比单分子剑更锐利，但是很脆而且伤害不高。</Melee_3HST_ECSBlade.description>
+  <Melee_3HST_ECSBlade.tools.0.label>剑柄</Melee_3HST_ECSBlade.tools.0.label>
+  <Melee_3HST_ECSBlade.tools.1.label>剑尖</Melee_3HST_ECSBlade.tools.1.label>
+  <Melee_3HST_ECSBlade.tools.2.label>剑刃</Melee_3HST_ECSBlade.tools.2.label>
+
+  <Melee_3HST_ECSBlade_Bladelink.label>Δ'ECS剑刃</Melee_3HST_ECSBlade_Bladelink.label>
+  <Melee_3HST_ECSBlade_Bladelink.description>用一片ECS护盾力场作为刀刃的军刀。比羽毛更轻，比单分子剑更锐利，但是很脆而且伤害不高。\n\n这件武器自身具备智能人格只能与一名使用者进行绑定。持有者和智能武器可以同调两者之间的本能反应以及攻击步调、准确性、创造力。一但与持有者绑定，这件武器的智能人格将拒绝其它人的使用。</Melee_3HST_ECSBlade_Bladelink.description>
+  <Melee_3HST_ECSBlade_Bladelink.tools.0.label>剑柄</Melee_3HST_ECSBlade_Bladelink.tools.0.label>
+  <Melee_3HST_ECSBlade_Bladelink.tools.1.label>剑尖</Melee_3HST_ECSBlade_Bladelink.tools.1.label>
+  <Melee_3HST_ECSBlade_Bladelink.tools.2.label>剑刃</Melee_3HST_ECSBlade_Bladelink.tools.2.label>
+  <Melee_3HST_ECSBlade_Bladelink.tools.3.label>handle</Melee_3HST_ECSBlade_Bladelink.tools.3.label>
+  <Melee_3HST_ECSBlade_Bladelink.tools.4.label>point</Melee_3HST_ECSBlade_Bladelink.tools.4.label>
+  <Melee_3HST_ECSBlade_Bladelink.tools.5.label>edge</Melee_3HST_ECSBlade_Bladelink.tools.5.label>
+
+
+</LanguageData>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_3HST25x320mm_FMJ.label>制作 3HST制25mm反舰自动炮弹 (全金属被甲弹)  x200</MakeAmmo_3HST25x320mm_FMJ.label>
+  <MakeAmmo_3HST25x320mm_FMJ.description>制作 3HST制25mm反舰自动炮弹 (全金属被甲弹)x200。</MakeAmmo_3HST25x320mm_FMJ.description>
+  <MakeAmmo_3HST25x320mm_FMJ.jobString>正在制作 3HST制25mm反舰自动炮弹 (全金属被甲弹)x200。</MakeAmmo_3HST25x320mm_FMJ.jobString>
+
+  <MakeAmmo_3HST25x320mm_Incendiary.label>制作 3HST制25mm反舰自动炮弹 (穿甲燃烧弹)  x200</MakeAmmo_3HST25x320mm_Incendiary.label>
+  <MakeAmmo_3HST25x320mm_Incendiary.description>制作 3HST制25mm反舰自动炮弹 (穿甲燃烧弹)x200。</MakeAmmo_3HST25x320mm_Incendiary.description>
+  <MakeAmmo_3HST25x320mm_Incendiary.jobString>正在制作 3HST制25mm反舰自动炮弹 (穿甲燃烧弹)x200。</MakeAmmo_3HST25x320mm_Incendiary.jobString>
+
+  <MakeAmmo_3HST25x320mm_HE.label>制作 3HST制25mm反舰自动炮弹 (高爆)  x200</MakeAmmo_3HST25x320mm_HE.label>
+  <MakeAmmo_3HST25x320mm_HE.description>制作 3HST制25mm反舰自动炮弹 (高爆)x200。</MakeAmmo_3HST25x320mm_HE.description>
+  <MakeAmmo_3HST25x320mm_HE.jobString>正在制作 3HST制25mm反舰自动炮弹 (高爆)x200。</MakeAmmo_3HST25x320mm_HE.jobString>
+
+  <MakeAmmo_3HST25x320mm_Sabot.label>制作 3HST制25mm反舰自动炮弹 (脱壳穿甲弹)  x200</MakeAmmo_3HST25x320mm_Sabot.label>
+  <MakeAmmo_3HST25x320mm_Sabot.description>制作 3HST制25mm反舰自动炮弹 (脱壳穿甲弹)x200。</MakeAmmo_3HST25x320mm_Sabot.description>
+  <MakeAmmo_3HST25x320mm_Sabot.jobString>正在制作 3HST制25mm反舰自动炮弹 (脱壳穿甲弹)x200。</MakeAmmo_3HST25x320mm_Sabot.jobString>
+
+  <MakeAmmo_3HST25x320mm_Frag.label>制作 3HST制25mm反舰自动炮弹 (破片)  x200</MakeAmmo_3HST25x320mm_Frag.label>
+  <MakeAmmo_3HST25x320mm_Frag.description>制作 3HST制25mm反舰自动炮弹 (破片)x200。</MakeAmmo_3HST25x320mm_Frag.description>
+  <MakeAmmo_3HST25x320mm_Frag.jobString>正在制作 3HST制25mm反舰自动炮弹 (破片)x200。</MakeAmmo_3HST25x320mm_Frag.jobString>
+
+  <MakeAmmo_3HST25x320mm_Buck.label>制作 3HST制25mm反舰自动炮弹 (鹿弹)  x200</MakeAmmo_3HST25x320mm_Buck.label>
+  <MakeAmmo_3HST25x320mm_Buck.description>制作 3HST制25mm反舰自动炮弹 (鹿弹)x200。</MakeAmmo_3HST25x320mm_Buck.description>
+  <MakeAmmo_3HST25x320mm_Buck.jobString>正在制作 3HST制25mm反舰自动炮弹 (鹿弹)x200。</MakeAmmo_3HST25x320mm_Buck.jobString>
+
+
+</LanguageData>

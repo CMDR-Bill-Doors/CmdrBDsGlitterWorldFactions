@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Disposable LGIS Launchers -->
+
+  <MakeDLGISfrag.label>制作 一次性 LGIS 破片弹发射器 x5</MakeDLGISfrag.label>
+  <MakeDLGISfrag.description>制作 一次性 LGIS 破片弹发射器x5。</MakeDLGISfrag.description>
+  <MakeDLGISfrag.jobString>正在制作 LGIS 破片弹发射器x5。</MakeDLGISfrag.jobString>
+
+  <MakeDLGISheat.label>制作 一次性 LGIS 破甲弹发射器 x5</MakeDLGISheat.label>
+  <MakeDLGISheat.description>制作 一次性 LGIS 破甲弹发射器x5。</MakeDLGISheat.description>
+  <MakeDLGISheat.jobString>正在制作 LGIS 破甲弹发射器x5。</MakeDLGISheat.jobString>
+
+  <MakeDLGISthermobaric.label>制作 一次性 LGIS 温压弹发射器 x5</MakeDLGISthermobaric.label>
+  <MakeDLGISthermobaric.description>制作 一次性 LGIS 温压弹发射器x5。</MakeDLGISthermobaric.description>
+  <MakeDLGISthermobaric.jobString>正在制作 LGIS 温压弹发射器x5。</MakeDLGISthermobaric.jobString>
+
+  <MakeDLGISconfetti.label>制作 一次性 LGIS 礼花弹发射器 x5</MakeDLGISconfetti.label>
+  <MakeDLGISconfetti.description>制作 一次性 LGIS 礼花弹发射器x5。</MakeDLGISconfetti.description>
+  <MakeDLGISconfetti.jobString>正在制作 LGIS 礼花弹发射器x5。</MakeDLGISconfetti.jobString>
+
+  <MakeDLGISincendiary.label>制作 一次性 LGIS 燃烧弹发射器 x5</MakeDLGISincendiary.label>
+  <MakeDLGISincendiary.description>制作 一次性 LGIS 燃烧弹发射器x5。</MakeDLGISincendiary.description>
+  <MakeDLGISincendiary.jobString>正在制作 LGIS 燃烧弹发射器x5。</MakeDLGISincendiary.jobString>
+
+  <MakeDLGISsmoke.label>制作 一次性 LGIS 烟雾弹发射器 x5</MakeDLGISsmoke.label>
+  <MakeDLGISsmoke.description>制作smoke  LGIS launcherx5。</MakeDLGISsmoke.description>
+  <MakeDLGISsmoke.jobString>正在制作 LGIS 烟雾弹发射器x5。</MakeDLGISsmoke.jobString>
+
+  <MakeDLGISfirefoam.label>制作 一次性 LGIS 灭火弹发射器 x5</MakeDLGISfirefoam.label>
+  <MakeDLGISfirefoam.description>制作firefoam  LGIS launcherx5。</MakeDLGISfirefoam.description>
+  <MakeDLGISfirefoam.jobString>正在制作 LGIS 灭火弹发射器x5。</MakeDLGISfirefoam.jobString>
+
+  <MakeDLGISemp.label>制作 一次性 LGIS EMP弹发射器 x5</MakeDLGISemp.label>
+  <MakeDLGISemp.description>制作  LGIS EMP弹发射器x5。</MakeDLGISemp.description>
+  <MakeDLGISemp.jobString>正在制作 LGIS EMP弹发射器x5。</MakeDLGISemp.jobString>
+
+
+  <!-- Disposable Indirect LGIS Launchers -->
+
+  <MakeDLGISfragID.label>制作 一次性曲射 LGIS 破片弹发射器 x5</MakeDLGISfragID.label>
+  <MakeDLGISfragID.description>制作 一次性 LGIS 破片弹发射器x5。</MakeDLGISfragID.description>
+  <MakeDLGISfragID.jobString>正在制作 LGIS 破片弹发射器x5。</MakeDLGISfragID.jobString>
+
+  <MakeDLGISheatID.label>制作 一次性曲射 LGIS 破甲弹发射器 x5</MakeDLGISheatID.label>
+  <MakeDLGISheatID.description>制作 一次性 LGIS 破甲弹发射器x5。</MakeDLGISheatID.description>
+  <MakeDLGISheatID.jobString>正在制作 LGIS 破甲弹发射器x5。</MakeDLGISheatID.jobString>
+
+  <MakeDLGISthermobaricID.label>制作 一次性曲射 LGIS 温压弹发射器 x5</MakeDLGISthermobaricID.label>
+  <MakeDLGISthermobaricID.description>制作 一次性 LGIS 温压弹发射器x5。</MakeDLGISthermobaricID.description>
+  <MakeDLGISthermobaricID.jobString>正在制作 LGIS 温压弹发射器x5。</MakeDLGISthermobaricID.jobString>
+
+  <MakeDLGISconfettiID.label>制作 一次性曲射 LGIS 礼花弹发射器 x5</MakeDLGISconfettiID.label>
+  <MakeDLGISconfettiID.description>制作 一次性 LGIS 礼花弹发射器x5。</MakeDLGISconfettiID.description>
+  <MakeDLGISconfettiID.jobString>正在制作 LGIS 礼花弹发射器x5。</MakeDLGISconfettiID.jobString>
+
+  <MakeDLGISincendiaryID.label>制作 一次性曲射 LGIS 燃烧弹发射器 x5</MakeDLGISincendiaryID.label>
+  <MakeDLGISincendiaryID.description>制作 一次性 LGIS 燃烧弹发射器x5。</MakeDLGISincendiaryID.description>
+  <MakeDLGISincendiaryID.jobString>正在制作 LGIS 燃烧弹发射器x5。</MakeDLGISincendiaryID.jobString>
+
+  <MakeDLGISsmokeID.label>制作 一次性曲射 LGIS 烟雾弹发射器 x5</MakeDLGISsmokeID.label>
+  <MakeDLGISsmokeID.description>制作 一次性 LGIS 烟雾弹发射器x5。</MakeDLGISsmokeID.description>
+  <MakeDLGISsmokeID.jobString>正在制作 LGIS 烟雾弹发射器x5。</MakeDLGISsmokeID.jobString>
+
+  <MakeDLGISfirefoamID.label>制作 一次性曲射 LGIS 灭火弹发射器 x5</MakeDLGISfirefoamID.label>
+  <MakeDLGISfirefoamID.description>制作 一次性 LGIS 灭火弹发射器x5。</MakeDLGISfirefoamID.description>
+  <MakeDLGISfirefoamID.jobString>正在制作 LGIS 灭火弹发射器x5。</MakeDLGISfirefoamID.jobString>
+
+  <MakeDLGISempID.label>制作 一次性曲射 LGIS EMP弹发射器 x5</MakeDLGISempID.label>
+  <MakeDLGISempID.description>制作 一次性 LGIS EMP弹发射器x5。</MakeDLGISempID.description>
+  <MakeDLGISempID.jobString>正在制作 LGIS EMP弹发射器x5。</MakeDLGISempID.jobString>
+
+
+  <!--  一次性LGIS Launchers -->
+  <!--  一次性曲射LGIS Launchers -->
+
+</LanguageData>

@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingCategoryDef>
+    <defName>AmmoCategory_6mmScatterRG</defName>
+    <label>3HST 6mm Scatter Railgun Cartridge</label>
+    <parent>AmmoAdvanced</parent>
+    <iconPath>UI/Icons/ThingCategories/CaliberRailgunPistol</iconPath>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>AmmoCategory_8mmScatterRG</defName>
+    <label>3HST 8mm Scatter Railgun Cartridge</label>
+    <parent>AmmoAdvanced</parent>
+    <iconPath>UI/Icons/ThingCategories/CaliberRailgunPistol</iconPath>
+  </ThingCategoryDef>
+
+  <!-- ==================== AmmoSet ========================== -->
+
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_6mmScatterRG</defName>
+    <label>3HST 6mm scatter railgun</label>
+    <ammoTypes>
+      <Ammo_6mmScatterRG>Projectile_6mmScatterRG</Ammo_6mmScatterRG>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_8mmScatterRG</defName>
+    <label>3HST 8mm scatter railgun</label>
+    <ammoTypes>
+      <Ammo_8mmScatterRG>Projectile_8mmScatterRG</Ammo_8mmScatterRG>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+
+  <!-- ==================== Ammo ========================== -->
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
+    <defName>Ammo_6mmScatterRG</defName>
+    <label>3HST 6mm Scatter Railgun Cartridge</label>
+    <description>Pistol round sized cartridge containing 19 1mm railgun sabots. Used on light 3HST scatter railguns.</description>
+    <statBases>
+      <Mass>0.01</Mass>
+      <Bulk>0.02</Bulk>
+      <MarketValue>0.06</MarketValue>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting_FabricationBench</li>
+      <!-- Plasma ammo can't be handloaded, and the containment cell must be precision-machined anyway -->
+    </tradeTags>
+    <thingCategories>
+      <li>AmmoCategory_6mmScatterRG</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Ammo/Railgun/Pistol</texPath>
+      <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
+    </graphicData>
+    <ammoClass>RailgunSabot</ammoClass>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
+    <defName>Ammo_8mmScatterRG</defName>
+    <label>3HST 8mm Scatter Railgun Cartridge</label>
+    <description>Rifle round sized cartridge containing seven 2mm railgun sabots. Used on heavy 3HST scatter railguns.</description>
+    <statBases>
+      <Mass>0.01</Mass>
+      <Bulk>0.05</Bulk>
+      <MarketValue>0.1</MarketValue>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting_FabricationBench</li>
+    </tradeTags>
+    <thingCategories>
+      <li>AmmoCategory_8mmScatterRG</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Ammo/Railgun/Pistol</texPath>
+      <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
+    </graphicData>
+    <ammoClass>RailgunSabot</ammoClass>
+  </ThingDef>
+
+
+  <!-- ================== Projectiles ================== -->
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseBullet">
+    <defName>Projectile_6mmScatterRG</defName>
+    <label>1mm Scatter Railgun Sabot</label>
+    <graphicData>
+      <texPath>Things/Projectile/Shotgun_Pellet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <speed>300</speed>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>3</damageAmountBase>
+      <armorPenetrationSharp>7.1</armorPenetrationSharp>
+      <armorPenetrationBlunt>1.94</armorPenetrationBlunt>
+      <spreadMult>17.8</spreadMult>
+      <pelletCount>19</pelletCount>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseBullet">
+    <defName>Projectile_8mmScatterRG</defName>
+    <label>2mm Scatter Railgun Sabot</label>
+    <graphicData>
+      <texPath>Things/Projectile/Shotgun_Pellet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <speed>300</speed>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>7</damageAmountBase>
+      <armorPenetrationSharp>16.1</armorPenetrationSharp>
+      <armorPenetrationBlunt>25.88</armorPenetrationBlunt>
+      <spreadMult>17.8</spreadMult>
+      <pelletCount>7</pelletCount>
+    </projectile>
+  </ThingDef>
+
+  <!-- ==================== Recipes ========================== -->
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_6mmScatterRG</defName>
+    <label>make 6mm Scatter Railgun cartridge (Sabot) x500</label>
+    <description>Craft 500 6mm Scatter Railgun (Sabot) cartridges.</description>
+    <jobString>Making 6mm Scatter Railgun (Sabot) cartridges.</jobString>
+    <workAmount>1100</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>Uranium</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_6mmScatterRG>500</Ammo_6mmScatterRG>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_8mmScatterRG</defName>
+    <label>make 8mm Scatter Railgun cartridge (Sabot) x500</label>
+    <description>Craft 500 8mm Scatter Railgun (Sabot) cartridges.</description>
+    <jobString>Making 8mm Scatter Railgun (Sabot) cartridges.</jobString>
+    <workAmount>1200</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>Uranium</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_8mmScatterRG>500</Ammo_8mmScatterRG>
+    </products>
+  </RecipeDef>
+
+
+</Defs>

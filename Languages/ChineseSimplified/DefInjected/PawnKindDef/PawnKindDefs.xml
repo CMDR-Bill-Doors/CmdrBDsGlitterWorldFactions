@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Pawn_3HSTSlaveRifleman.label>3HST奴隶炮灰</Pawn_3HSTSlaveRifleman.label>
+  <Pawn_3HSTSlaveRifleman.labelPlural>3HST奴隶炮灰</Pawn_3HSTSlaveRifleman.labelPlural>
+  <Pawn_3HSTSlaveRifleman.labelMale>3HST奴隶炮灰</Pawn_3HSTSlaveRifleman.labelMale>
+  <Pawn_3HSTSlaveRifleman.labelMalePlural>3HST奴隶炮灰</Pawn_3HSTSlaveRifleman.labelMalePlural>
+  <Pawn_3HSTSlaveRifleman.labelFemale>3HST奴隶炮灰</Pawn_3HSTSlaveRifleman.labelFemale>
+  <Pawn_3HSTSlaveRifleman.labelFemalePlural>3HST奴隶炮灰</Pawn_3HSTSlaveRifleman.labelFemalePlural>
+
+  <Pawn_3HSTSlaveAutoGrenadier.label>3HST奴隶榴弹支援手</Pawn_3HSTSlaveAutoGrenadier.label>
+  <Pawn_3HSTSlaveAutoGrenadier.labelPlural>3HST奴隶榴弹支援手</Pawn_3HSTSlaveAutoGrenadier.labelPlural>
+  <Pawn_3HSTSlaveAutoGrenadier.labelMale>3HST奴隶榴弹支援手</Pawn_3HSTSlaveAutoGrenadier.labelMale>
+  <Pawn_3HSTSlaveAutoGrenadier.labelMalePlural>3HST奴隶榴弹支援手</Pawn_3HSTSlaveAutoGrenadier.labelMalePlural>
+  <Pawn_3HSTSlaveAutoGrenadier.labelFemale>3HST奴隶榴弹支援手</Pawn_3HSTSlaveAutoGrenadier.labelFemale>
+  <Pawn_3HSTSlaveAutoGrenadier.labelFemalePlural>3HST奴隶榴弹支援手</Pawn_3HSTSlaveAutoGrenadier.labelFemalePlural>
+
+  <Pawn_3HSTSlaveSupporter.label>3HST奴隶曲射掷弹兵</Pawn_3HSTSlaveSupporter.label>
+  <Pawn_3HSTSlaveSupporter.labelPlural>3HST奴隶曲射掷弹兵</Pawn_3HSTSlaveSupporter.labelPlural>
+  <Pawn_3HSTSlaveSupporter.labelMale>3HST奴隶曲射掷弹兵</Pawn_3HSTSlaveSupporter.labelMale>
+  <Pawn_3HSTSlaveSupporter.labelMalePlural>3HST奴隶曲射掷弹兵</Pawn_3HSTSlaveSupporter.labelMalePlural>
+  <Pawn_3HSTSlaveSupporter.labelFemale>3HST奴隶曲射掷弹兵</Pawn_3HSTSlaveSupporter.labelFemale>
+  <Pawn_3HSTSlaveSupporter.labelFemalePlural>3HST奴隶曲射掷弹兵</Pawn_3HSTSlaveSupporter.labelFemalePlural>
+
+  <Pawn_3HSTSlaveGrenadier.label>3HST奴隶掷弹兵</Pawn_3HSTSlaveGrenadier.label>
+  <Pawn_3HSTSlaveGrenadier.labelPlural>3HST奴隶掷弹兵</Pawn_3HSTSlaveGrenadier.labelPlural>
+  <Pawn_3HSTSlaveGrenadier.labelMale>3HST奴隶掷弹兵</Pawn_3HSTSlaveGrenadier.labelMale>
+  <Pawn_3HSTSlaveGrenadier.labelMalePlural>3HST奴隶掷弹兵</Pawn_3HSTSlaveGrenadier.labelMalePlural>
+  <Pawn_3HSTSlaveGrenadier.labelFemale>3HST奴隶掷弹兵</Pawn_3HSTSlaveGrenadier.labelFemale>
+  <Pawn_3HSTSlaveGrenadier.labelFemalePlural>3HST奴隶掷弹兵</Pawn_3HSTSlaveGrenadier.labelFemalePlural>
+
+  <Pawn_3HSTSlaveSupporterAdv.label>3HST高级奴隶曲射掷弹兵</Pawn_3HSTSlaveSupporterAdv.label>
+  <Pawn_3HSTSlaveSupporterAdv.labelPlural>3HST高级奴隶曲射掷弹兵</Pawn_3HSTSlaveSupporterAdv.labelPlural>
+  <Pawn_3HSTSlaveSupporterAdv.labelMale>3HST高级奴隶曲射掷弹兵</Pawn_3HSTSlaveSupporterAdv.labelMale>
+  <Pawn_3HSTSlaveSupporterAdv.labelMalePlural>3HST高级奴隶曲射掷弹兵</Pawn_3HSTSlaveSupporterAdv.labelMalePlural>
+  <Pawn_3HSTSlaveSupporterAdv.labelFemale>3HST高级奴隶曲射掷弹兵</Pawn_3HSTSlaveSupporterAdv.labelFemale>
+  <Pawn_3HSTSlaveSupporterAdv.labelFemalePlural>3HST高级奴隶曲射掷弹兵</Pawn_3HSTSlaveSupporterAdv.labelFemalePlural>
+
+  <Pawn_3HSTSlaveGrenadierAdv.label>3HST高级奴隶掷弹兵</Pawn_3HSTSlaveGrenadierAdv.label>
+  <Pawn_3HSTSlaveGrenadierAdv.labelPlural>3HST高级奴隶掷弹兵</Pawn_3HSTSlaveGrenadierAdv.labelPlural>
+  <Pawn_3HSTSlaveGrenadierAdv.labelMale>3HST高级奴隶掷弹兵</Pawn_3HSTSlaveGrenadierAdv.labelMale>
+  <Pawn_3HSTSlaveGrenadierAdv.labelMalePlural>3HST高级奴隶掷弹兵</Pawn_3HSTSlaveGrenadierAdv.labelMalePlural>
+  <Pawn_3HSTSlaveGrenadierAdv.labelFemale>3HST高级奴隶掷弹兵</Pawn_3HSTSlaveGrenadierAdv.labelFemale>
+  <Pawn_3HSTSlaveGrenadierAdv.labelFemalePlural>3HST高级奴隶掷弹兵</Pawn_3HSTSlaveGrenadierAdv.labelFemalePlural>
+
+  <Pawn_3HSTSlaveMG.label>3HST奴隶机枪手</Pawn_3HSTSlaveMG.label>
+  <Pawn_3HSTSlaveMG.labelPlural>3HST奴隶机枪手</Pawn_3HSTSlaveMG.labelPlural>
+  <Pawn_3HSTSlaveMG.labelMale>3HST奴隶机枪手</Pawn_3HSTSlaveMG.labelMale>
+  <Pawn_3HSTSlaveMG.labelMalePlural>3HST奴隶机枪手</Pawn_3HSTSlaveMG.labelMalePlural>
+  <Pawn_3HSTSlaveMG.labelFemale>3HST奴隶机枪手</Pawn_3HSTSlaveMG.labelFemale>
+  <Pawn_3HSTSlaveMG.labelFemalePlural>3HST奴隶机枪手</Pawn_3HSTSlaveMG.labelFemalePlural>
+
+  <Pawn_3HSTSlaveSniper.label>3HST奴隶狙击手</Pawn_3HSTSlaveSniper.label>
+  <Pawn_3HSTSlaveSniper.labelPlural>3HST奴隶狙击手</Pawn_3HSTSlaveSniper.labelPlural>
+  <Pawn_3HSTSlaveSniper.labelMale>3HST奴隶狙击手</Pawn_3HSTSlaveSniper.labelMale>
+  <Pawn_3HSTSlaveSniper.labelMalePlural>3HST奴隶狙击手</Pawn_3HSTSlaveSniper.labelMalePlural>
+  <Pawn_3HSTSlaveSniper.labelFemale>3HST奴隶狙击手</Pawn_3HSTSlaveSniper.labelFemale>
+  <Pawn_3HSTSlaveSniper.labelFemalePlural>3HST奴隶狙击手</Pawn_3HSTSlaveSniper.labelFemalePlural>
+
+  <Pawn_3HSTOfficer.label>3HST军官</Pawn_3HSTOfficer.label>
+  <Pawn_3HSTOfficer.labelPlural>3HST军官</Pawn_3HSTOfficer.labelPlural>
+
+
+</LanguageData>

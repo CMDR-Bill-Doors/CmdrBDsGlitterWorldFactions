@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Pulsershot.label>脉冲炮伤</Pulsershot.label>
+  <Pulsershot.description>被脉冲炮击中造成的伤口。</Pulsershot.description>
+  <Pulsershot.comps.0.labelTendedWell>已包扎</Pulsershot.comps.0.labelTendedWell>
+  <Pulsershot.comps.0.labelTendedWellInner>已缝合</Pulsershot.comps.0.labelTendedWellInner>
+  <Pulsershot.comps.0.labelSolidTendedWell>已简单缝合</Pulsershot.comps.0.labelSolidTendedWell>
+  <Pulsershot.injuryProps.destroyedLabel>被击碎</Pulsershot.injuryProps.destroyedLabel>
+  <Pulsershot.labelNoun>脉冲炮伤</Pulsershot.labelNoun>
+
+
+</LanguageData>

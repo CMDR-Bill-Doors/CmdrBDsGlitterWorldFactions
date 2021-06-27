@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Pulser.label>脉冲武器</Pulser.label>
+  <Pulser.deathMessage>{0} 被脉冲炮击碎了。</Pulser.deathMessage>
+
+
+</LanguageData>

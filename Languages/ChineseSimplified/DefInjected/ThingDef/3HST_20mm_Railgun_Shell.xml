@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_3HST20mmRG_Steel.label>3HST制20mm磁轨机炮弹</Ammo_3HST20mmRG_Steel.label>
+  <Ammo_3HST20mmRG_Steel.description>用于一系列3HST制重武器的大口径磁轨机炮炮弹</Ammo_3HST20mmRG_Steel.description>
+
+
+  <!-- Projectiles -->
+
+  <Projectile_3HST20mmRG_Steel.label>3HST制20mm磁轨机炮弹 (脱壳穿甲弹)</Projectile_3HST20mmRG_Steel.label>
+
+
+</LanguageData>

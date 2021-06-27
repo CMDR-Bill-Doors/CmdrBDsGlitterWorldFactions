@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\CMDR Bill Doors' Glitterworld Faction Packs\Assemblies\GlitterworldFactionPacks.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\CMDR Bill Doors' Glitterworld Faction Packs\Assemblies\GlitterworldFactionPacks.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\CMDR Bill Doors' Glitterworld Faction Packs\Source\GlitterworldFactionPacks\obj\Debug\GlitterworldFactionPacks.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\CMDR Bill Doors' Glitterworld Faction Packs\Source\GlitterworldFactionPacks\obj\Debug\GlitterworldFactionPacks.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\CMDR Bill Doors' Glitterworld Faction Packs\Source\GlitterworldFactionPacks\obj\Debug\GlitterworldFactionPacks.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\CMDR Bill Doors' Glitterworld Faction Packs\Source\GlitterworldFactionPacks\obj\Debug\GlitterworldFactionPacks.pdb

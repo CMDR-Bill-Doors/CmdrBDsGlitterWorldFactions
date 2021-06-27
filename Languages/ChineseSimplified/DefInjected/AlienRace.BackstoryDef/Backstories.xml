@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- You need 12 childhoods and 20 adulthoods to not get errors, so.....heavy duplicates incoming -->
+
+  <BS_3HSTSlaveSoldierChild.title>幼年奴隶士兵</BS_3HSTSlaveSoldierChild.title>
+  <BS_3HSTSlaveSoldierChild.titleShort>奴隶少年兵</BS_3HSTSlaveSoldierChild.titleShort>
+  <BS_3HSTSlaveSoldierChild.baseDescription>[PAWN_nameDef]在一处巨大的“人类农场”出生，那是用于繁育和培养温顺的奴隶，或者3HST有限公司的人更愿意称之为“湿件”，的地方。[PAWN_pronoun]从小接受专门的军事化教育。</BS_3HSTSlaveSoldierChild.baseDescription>
+
+  <BS_3HSTSlaveGenericChild.title>幼年奴隶</BS_3HSTSlaveGenericChild.title>
+  <BS_3HSTSlaveGenericChild.titleShort>奴隶</BS_3HSTSlaveGenericChild.titleShort>
+  <BS_3HSTSlaveGenericChild.baseDescription>[PAWN_nameDef]在一处巨大的“人类农场”出生，那是用于繁育和培养温顺的奴隶，或者3HST有限公司的人更愿意称之为“湿件”，的地方。 [PAWN_pronoun]从小接受各方面都有涉及的通用教育。</BS_3HSTSlaveGenericChild.baseDescription>
+
+  <BS_3HSTSlaveRifle.title>奴隶步枪手</BS_3HSTSlaveRifle.title>
+  <BS_3HSTSlaveRifle.titleShort>奴隶步枪手</BS_3HSTSlaveRifle.titleShort>
+  <BS_3HSTSlaveRifle.baseDescription>[PAWN_nameDef]在3HST地面部队服役并成为了一名步枪手。在那里[PAWN_pronoun]学会了如何射击，如何在不把[PAWN_objective]自己炸飞的前提下发射LGIS导弹，如何面对敌军火力压制，以及其他士兵的基本素质。</BS_3HSTSlaveRifle.baseDescription>
+
+  <BS_3HSTSlaveSniper.title>奴隶狙击手</BS_3HSTSlaveSniper.title>
+  <BS_3HSTSlaveSniper.titleShort>奴隶狙击手</BS_3HSTSlaveSniper.titleShort>
+  <BS_3HSTSlaveSniper.baseDescription>[PAWN_nameDef]在3HST地面部队服役并成为了一名狙击手。 [PAWN_pronoun] 接受了精确射击的训练。</BS_3HSTSlaveSniper.baseDescription>
+
+  <BS_3HSTSlaveFodder.title>奴隶炮灰</BS_3HSTSlaveFodder.title>
+  <BS_3HSTSlaveFodder.titleShort>奴隶炮灰</BS_3HSTSlaveFodder.titleShort>
+  <BS_3HSTSlaveFodder.baseDescription>[PAWN_nameDef]是3HST地面部队的一个新兵。[PAWN_pronoun]没接受任何系统性的训练就被投入进了战场。</BS_3HSTSlaveFodder.baseDescription>
+
+  <BS_3HSTSlaveMG.title>奴隶机枪手</BS_3HSTSlaveMG.title>
+  <BS_3HSTSlaveMG.titleShort>奴隶机枪手</BS_3HSTSlaveMG.titleShort>
+  <BS_3HSTSlaveMG.baseDescription>[PAWN_nameDef]在3HST地面部队服役并成为了一名机枪手。在那里[PAWN_pronoun]学会了如何最有效地用[PAWN_possessive]机枪去压制敌人。</BS_3HSTSlaveMG.baseDescription>
+
+
+  <!-- Duplicates -->
+
+</LanguageData>

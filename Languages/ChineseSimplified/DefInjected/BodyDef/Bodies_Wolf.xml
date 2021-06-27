@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Alien_WolfBody.label>wolf</Alien_WolfBody.label>
+  <Alien_WolfBody.corePart.parts.7.customLabel>left lung</Alien_WolfBody.corePart.parts.7.customLabel>
+  <Alien_WolfBody.corePart.parts.8.customLabel>right lung</Alien_WolfBody.corePart.parts.8.customLabel>
+  <Alien_WolfBody.corePart.parts.9.customLabel>left kidney</Alien_WolfBody.corePart.parts.9.customLabel>
+  <Alien_WolfBody.corePart.parts.10.customLabel>right kidney</Alien_WolfBody.corePart.parts.10.customLabel>
+  <Alien_WolfBody.corePart.parts.12.parts.0.parts.1.customLabel>left eye</Alien_WolfBody.corePart.parts.12.parts.0.parts.1.customLabel>
+  <Alien_WolfBody.corePart.parts.12.parts.0.parts.2.customLabel>right eye</Alien_WolfBody.corePart.parts.12.parts.0.parts.2.customLabel>
+  <Alien_WolfBody.corePart.parts.12.parts.0.parts.3.customLabel>left ear</Alien_WolfBody.corePart.parts.12.parts.0.parts.3.customLabel>
+  <Alien_WolfBody.corePart.parts.12.parts.0.parts.4.customLabel>right ear</Alien_WolfBody.corePart.parts.12.parts.0.parts.4.customLabel>
+  <Alien_WolfBody.corePart.parts.13.customLabel>left shoulder</Alien_WolfBody.corePart.parts.13.customLabel>
+  <Alien_WolfBody.corePart.parts.13.parts.0.customLabel>left clavicle</Alien_WolfBody.corePart.parts.13.parts.0.customLabel>
+  <Alien_WolfBody.corePart.parts.13.parts.1.customLabel>left arm</Alien_WolfBody.corePart.parts.13.parts.1.customLabel>
+  <Alien_WolfBody.corePart.parts.13.parts.1.parts.0.customLabel>left humerus</Alien_WolfBody.corePart.parts.13.parts.1.parts.0.customLabel>
+  <Alien_WolfBody.corePart.parts.13.parts.1.parts.1.customLabel>left radius</Alien_WolfBody.corePart.parts.13.parts.1.parts.1.customLabel>
+  <Alien_WolfBody.corePart.parts.13.parts.1.parts.2.customLabel>left hand</Alien_WolfBody.corePart.parts.13.parts.1.parts.2.customLabel>
+  <Alien_WolfBody.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>left pinky</Alien_WolfBody.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
+  <Alien_WolfBody.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>left ring finger</Alien_WolfBody.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
+  <Alien_WolfBody.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>left middle finger</Alien_WolfBody.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
+  <Alien_WolfBody.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>left index finger</Alien_WolfBody.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
+  <Alien_WolfBody.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>left thumb</Alien_WolfBody.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
+  <Alien_WolfBody.corePart.parts.14.customLabel>right shoulder</Alien_WolfBody.corePart.parts.14.customLabel>
+  <Alien_WolfBody.corePart.parts.14.parts.0.customLabel>right clavicle</Alien_WolfBody.corePart.parts.14.parts.0.customLabel>
+  <Alien_WolfBody.corePart.parts.14.parts.1.customLabel>right arm</Alien_WolfBody.corePart.parts.14.parts.1.customLabel>
+  <Alien_WolfBody.corePart.parts.14.parts.1.parts.0.customLabel>right humerus</Alien_WolfBody.corePart.parts.14.parts.1.parts.0.customLabel>
+  <Alien_WolfBody.corePart.parts.14.parts.1.parts.1.customLabel>right radius</Alien_WolfBody.corePart.parts.14.parts.1.parts.1.customLabel>
+  <Alien_WolfBody.corePart.parts.14.parts.1.parts.2.customLabel>right hand</Alien_WolfBody.corePart.parts.14.parts.1.parts.2.customLabel>
+  <Alien_WolfBody.corePart.parts.14.parts.1.parts.2.parts.0.customLabel>right pinky</Alien_WolfBody.corePart.parts.14.parts.1.parts.2.parts.0.customLabel>
+  <Alien_WolfBody.corePart.parts.14.parts.1.parts.2.parts.1.customLabel>right ring finger</Alien_WolfBody.corePart.parts.14.parts.1.parts.2.parts.1.customLabel>
+  <Alien_WolfBody.corePart.parts.14.parts.1.parts.2.parts.2.customLabel>right middle finger</Alien_WolfBody.corePart.parts.14.parts.1.parts.2.parts.2.customLabel>
+  <Alien_WolfBody.corePart.parts.14.parts.1.parts.2.parts.3.customLabel>right index finger</Alien_WolfBody.corePart.parts.14.parts.1.parts.2.parts.3.customLabel>
+  <Alien_WolfBody.corePart.parts.14.parts.1.parts.2.parts.4.customLabel>right thumb</Alien_WolfBody.corePart.parts.14.parts.1.parts.2.parts.4.customLabel>
+  <Alien_WolfBody.corePart.parts.16.customLabel>left leg</Alien_WolfBody.corePart.parts.16.customLabel>
+  <Alien_WolfBody.corePart.parts.16.parts.0.customLabel>left femur</Alien_WolfBody.corePart.parts.16.parts.0.customLabel>
+  <Alien_WolfBody.corePart.parts.16.parts.1.customLabel>left tibia</Alien_WolfBody.corePart.parts.16.parts.1.customLabel>
+  <Alien_WolfBody.corePart.parts.16.parts.2.customLabel>left foot</Alien_WolfBody.corePart.parts.16.parts.2.customLabel>
+  <Alien_WolfBody.corePart.parts.16.parts.2.parts.0.customLabel>left little toe</Alien_WolfBody.corePart.parts.16.parts.2.parts.0.customLabel>
+  <Alien_WolfBody.corePart.parts.16.parts.2.parts.1.customLabel>left fourth toe</Alien_WolfBody.corePart.parts.16.parts.2.parts.1.customLabel>
+  <Alien_WolfBody.corePart.parts.16.parts.2.parts.2.customLabel>left middle toe</Alien_WolfBody.corePart.parts.16.parts.2.parts.2.customLabel>
+  <Alien_WolfBody.corePart.parts.16.parts.2.parts.3.customLabel>left second toe</Alien_WolfBody.corePart.parts.16.parts.2.parts.3.customLabel>
+  <Alien_WolfBody.corePart.parts.16.parts.2.parts.4.customLabel>left big toe</Alien_WolfBody.corePart.parts.16.parts.2.parts.4.customLabel>
+  <Alien_WolfBody.corePart.parts.17.customLabel>right leg</Alien_WolfBody.corePart.parts.17.customLabel>
+  <Alien_WolfBody.corePart.parts.17.parts.0.customLabel>right femur</Alien_WolfBody.corePart.parts.17.parts.0.customLabel>
+  <Alien_WolfBody.corePart.parts.17.parts.1.customLabel>right tibia</Alien_WolfBody.corePart.parts.17.parts.1.customLabel>
+  <Alien_WolfBody.corePart.parts.17.parts.2.customLabel>right foot</Alien_WolfBody.corePart.parts.17.parts.2.customLabel>
+  <Alien_WolfBody.corePart.parts.17.parts.2.parts.0.customLabel>right little toe</Alien_WolfBody.corePart.parts.17.parts.2.parts.0.customLabel>
+  <Alien_WolfBody.corePart.parts.17.parts.2.parts.1.customLabel>right fourth toe</Alien_WolfBody.corePart.parts.17.parts.2.parts.1.customLabel>
+  <Alien_WolfBody.corePart.parts.17.parts.2.parts.2.customLabel>right middle toe</Alien_WolfBody.corePart.parts.17.parts.2.parts.2.customLabel>
+  <Alien_WolfBody.corePart.parts.17.parts.2.parts.3.customLabel>right second toe</Alien_WolfBody.corePart.parts.17.parts.2.parts.3.customLabel>
+  <Alien_WolfBody.corePart.parts.17.parts.2.parts.4.customLabel>right big toe</Alien_WolfBody.corePart.parts.17.parts.2.parts.4.customLabel>
+
+
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MeleeWeapon_BrandingIron.label>烙铁</MeleeWeapon_BrandingIron.label>
+  <MeleeWeapon_BrandingIron.description>一块烧红的烙铁，作为武器并不实用，但是可以用来折磨囚犯。</MeleeWeapon_BrandingIron.description>
+  <MeleeWeapon_BrandingIron.tools.0.label>烙铁头</MeleeWeapon_BrandingIron.tools.0.label>
+
+
+</LanguageData>

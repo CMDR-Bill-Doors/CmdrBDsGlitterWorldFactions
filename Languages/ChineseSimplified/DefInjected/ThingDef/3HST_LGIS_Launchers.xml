@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Single LGIS Launcher -->
+
+  <Gun_3HST_LGIS_Launcher.label>3HST制单装LGIS发射器</Gun_3HST_LGIS_Launcher.label>
+  <Gun_3HST_LGIS_Launcher.description>3HST掷弹兵标配小口径导弹发射器，内置低功率磁轨加速器，让导弹达到仅靠火箭推进不可能达到的射程。</Gun_3HST_LGIS_Launcher.description>
+  <Gun_3HST_LGIS_Launcher.tools.0.label>枪托</Gun_3HST_LGIS_Launcher.tools.0.label>
+  <Gun_3HST_LGIS_Launcher.tools.1.label>枪管</Gun_3HST_LGIS_Launcher.tools.1.label>
+  <Gun_3HST_LGIS_Launcher.tools.2.label>枪口</Gun_3HST_LGIS_Launcher.tools.2.label>
+  <Gun_3HST_LGIS_Launcher.tools.3.label>energy bayonet blade</Gun_3HST_LGIS_Launcher.tools.3.label>
+  <Gun_3HST_LGIS_Launcher.tools.4.label>energy bayonet point</Gun_3HST_LGIS_Launcher.tools.4.label>
+
+
+  <!-- Disposable LGIS Launchers -->
+
+  <Gun_3HST_LGIS_Launcher_Disposable_frag.label>一次性 破片 LGIS发射器</Gun_3HST_LGIS_Launcher_Disposable_frag.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_frag.description>一个简易一次性LGIS导弹发射器，用于给炮灰提供最基础的重火力支援。和多次使用的LGIS发射器不同，该发射器没有磁轨加速器，而是使用爆炸性推进剂助推导弹。\n在第三次内战中，反抗帝国的3HST有限公司急需一种可以大规模装备的单兵重武器，而这款简易一次性LGIS发射器便是他们的答案。利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的攻顶打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的一次性发射器便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。</Gun_3HST_LGIS_Launcher_Disposable_frag.description>
+  <Gun_3HST_LGIS_Launcher_Disposable_frag.tools.0.label>枪托</Gun_3HST_LGIS_Launcher_Disposable_frag.tools.0.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_frag.tools.1.label>枪管</Gun_3HST_LGIS_Launcher_Disposable_frag.tools.1.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_frag.tools.2.label>枪口</Gun_3HST_LGIS_Launcher_Disposable_frag.tools.2.label>
+
+  <Gun_3HST_LGIS_Launcher_Disposable_thermobaric.label>一次性 温压 LGIS发射器</Gun_3HST_LGIS_Launcher_Disposable_thermobaric.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_thermobaric.description>一个简易一次性LGIS导弹发射器，用于给炮灰提供最基础的重火力支援。和多次使用的LGIS发射器不同，该发射器没有磁轨加速器，而是使用爆炸性推进剂助推导弹。\n在第三次内战中，反抗帝国的3HST有限公司急需一种可以大规模装备的单兵重武器，而这款简易一次性LGIS发射器便是他们的答案。利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的攻顶打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的一次性发射器便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。</Gun_3HST_LGIS_Launcher_Disposable_thermobaric.description>
+  <Gun_3HST_LGIS_Launcher_Disposable_thermobaric.tools.0.label>枪托</Gun_3HST_LGIS_Launcher_Disposable_thermobaric.tools.0.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_thermobaric.tools.1.label>枪管</Gun_3HST_LGIS_Launcher_Disposable_thermobaric.tools.1.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_thermobaric.tools.2.label>枪口</Gun_3HST_LGIS_Launcher_Disposable_thermobaric.tools.2.label>
+
+  <Gun_3HST_LGIS_Launcher_Disposable_heat.label>一次性 破甲 LGIS发射器</Gun_3HST_LGIS_Launcher_Disposable_heat.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_heat.description>一个简易一次性LGIS导弹发射器，用于给炮灰提供最基础的重火力支援。和多次使用的LGIS发射器不同，该发射器没有磁轨加速器，而是使用爆炸性推进剂助推导弹。\n在第三次内战中，反抗帝国的3HST有限公司急需一种可以大规模装备的单兵重武器，而这款简易一次性LGIS发射器便是他们的答案。利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的攻顶打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的一次性发射器便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。</Gun_3HST_LGIS_Launcher_Disposable_heat.description>
+  <Gun_3HST_LGIS_Launcher_Disposable_heat.tools.0.label>枪托</Gun_3HST_LGIS_Launcher_Disposable_heat.tools.0.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_heat.tools.1.label>枪管</Gun_3HST_LGIS_Launcher_Disposable_heat.tools.1.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_heat.tools.2.label>枪口</Gun_3HST_LGIS_Launcher_Disposable_heat.tools.2.label>
+
+  <Gun_3HST_LGIS_Launcher_Disposable_confetti.label>一次性 礼花 LGIS发射器</Gun_3HST_LGIS_Launcher_Disposable_confetti.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_confetti.description>一个简易一次性LGIS导弹发射器，用于给炮灰提供最基础的重火力支援。和多次使用的LGIS发射器不同，该发射器没有磁轨加速器，而是使用爆炸性推进剂助推导弹。\n在第三次内战中，反抗帝国的3HST有限公司急需一种可以大规模装备的单兵重武器，而这款简易一次性LGIS发射器便是他们的答案。利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的攻顶打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的一次性发射器便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。</Gun_3HST_LGIS_Launcher_Disposable_confetti.description>
+  <Gun_3HST_LGIS_Launcher_Disposable_confetti.tools.0.label>枪托</Gun_3HST_LGIS_Launcher_Disposable_confetti.tools.0.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_confetti.tools.1.label>枪管</Gun_3HST_LGIS_Launcher_Disposable_confetti.tools.1.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_confetti.tools.2.label>枪口</Gun_3HST_LGIS_Launcher_Disposable_confetti.tools.2.label>
+
+  <Gun_3HST_LGIS_Launcher_Disposable_incendiary.label>一次性 燃烧 LGIS发射器</Gun_3HST_LGIS_Launcher_Disposable_incendiary.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_incendiary.description>一个简易一次性LGIS导弹发射器，用于给炮灰提供最基础的重火力支援。和多次使用的LGIS发射器不同，该发射器没有磁轨加速器，而是使用爆炸性推进剂助推导弹。\n在第三次内战中，反抗帝国的3HST有限公司急需一种可以大规模装备的单兵重武器，而这款简易一次性LGIS发射器便是他们的答案。利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的攻顶打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的一次性发射器便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。</Gun_3HST_LGIS_Launcher_Disposable_incendiary.description>
+  <Gun_3HST_LGIS_Launcher_Disposable_incendiary.tools.0.label>枪托</Gun_3HST_LGIS_Launcher_Disposable_incendiary.tools.0.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_incendiary.tools.1.label>枪管</Gun_3HST_LGIS_Launcher_Disposable_incendiary.tools.1.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_incendiary.tools.2.label>枪口</Gun_3HST_LGIS_Launcher_Disposable_incendiary.tools.2.label>
+
+  <Gun_3HST_LGIS_Launcher_Disposable_smoke.label>一次性 烟雾 LGIS发射器</Gun_3HST_LGIS_Launcher_Disposable_smoke.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_smoke.description>一个简易一次性LGIS导弹发射器，用于给炮灰提供最基础的重火力支援。和多次使用的LGIS发射器不同，该发射器没有磁轨加速器，而是使用爆炸性推进剂助推导弹。\n在第三次内战中，反抗帝国的3HST有限公司急需一种可以大规模装备的单兵重武器，而这款简易一次性LGIS发射器便是他们的答案。利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的攻顶打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的一次性发射器便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。</Gun_3HST_LGIS_Launcher_Disposable_smoke.description>
+  <Gun_3HST_LGIS_Launcher_Disposable_smoke.tools.0.label>枪托</Gun_3HST_LGIS_Launcher_Disposable_smoke.tools.0.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_smoke.tools.1.label>枪管</Gun_3HST_LGIS_Launcher_Disposable_smoke.tools.1.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_smoke.tools.2.label>枪口</Gun_3HST_LGIS_Launcher_Disposable_smoke.tools.2.label>
+
+  <Gun_3HST_LGIS_Launcher_Disposable_firefoam.label>一次性 灭火 LGIS发射器</Gun_3HST_LGIS_Launcher_Disposable_firefoam.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_firefoam.description>一个简易一次性LGIS导弹发射器，用于给炮灰提供最基础的重火力支援。和多次使用的LGIS发射器不同，该发射器没有磁轨加速器，而是使用爆炸性推进剂助推导弹。\n在第三次内战中，反抗帝国的3HST有限公司急需一种可以大规模装备的单兵重武器，而这款简易一次性LGIS发射器便是他们的答案。利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的攻顶打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的一次性发射器便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。</Gun_3HST_LGIS_Launcher_Disposable_firefoam.description>
+  <Gun_3HST_LGIS_Launcher_Disposable_firefoam.tools.0.label>枪托</Gun_3HST_LGIS_Launcher_Disposable_firefoam.tools.0.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_firefoam.tools.1.label>枪管</Gun_3HST_LGIS_Launcher_Disposable_firefoam.tools.1.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_firefoam.tools.2.label>枪口</Gun_3HST_LGIS_Launcher_Disposable_firefoam.tools.2.label>
+
+  <Gun_3HST_LGIS_Launcher_Disposable_EMP.label>一次性 EMP LGIS发射器</Gun_3HST_LGIS_Launcher_Disposable_EMP.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_EMP.description>一个简易一次性LGIS导弹发射器，用于给炮灰提供最基础的重火力支援。和多次使用的LGIS发射器不同，该发射器没有磁轨加速器，而是使用爆炸性推进剂助推导弹。\n在第三次内战中，反抗帝国的3HST有限公司急需一种可以大规模装备的单兵重武器，而这款简易一次性LGIS发射器便是他们的答案。利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的攻顶打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的一次性发射器便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。</Gun_3HST_LGIS_Launcher_Disposable_EMP.description>
+  <Gun_3HST_LGIS_Launcher_Disposable_EMP.tools.0.label>枪托</Gun_3HST_LGIS_Launcher_Disposable_EMP.tools.0.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_EMP.tools.1.label>枪管</Gun_3HST_LGIS_Launcher_Disposable_EMP.tools.1.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_EMP.tools.2.label>枪口</Gun_3HST_LGIS_Launcher_Disposable_EMP.tools.2.label>
+
+
+  <!-- Disposable Indirect LGIS Launchers -->
+
+  <Gun_3HST_LGIS_Launcher_Disposable_frag_ID.label>一次性 曲射 破片 LGIS发射器</Gun_3HST_LGIS_Launcher_Disposable_frag_ID.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_frag_ID.description>一个简易一次性LGIS导弹发射器，用于给炮灰提供最基础的重火力支援。和多次使用的LGIS发射器不同，该发射器没有磁轨加速器，而是使用爆炸性推进剂助推导弹。\n该发射器装备了曲射瞄具。\n在第三次内战中，反抗帝国的3HST有限公司急需一种可以大规模装备的单兵重武器，而这款简易一次性LGIS发射器便是他们的答案。利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的攻顶打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的一次性发射器便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。</Gun_3HST_LGIS_Launcher_Disposable_frag_ID.description>
+  <Gun_3HST_LGIS_Launcher_Disposable_frag_ID.tools.0.label>枪托</Gun_3HST_LGIS_Launcher_Disposable_frag_ID.tools.0.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_frag_ID.tools.1.label>枪管</Gun_3HST_LGIS_Launcher_Disposable_frag_ID.tools.1.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_frag_ID.tools.2.label>枪口</Gun_3HST_LGIS_Launcher_Disposable_frag_ID.tools.2.label>
+
+  <Gun_3HST_LGIS_Launcher_Disposable_thermobaric_ID.label>一次性 曲射 温压 LGIS发射器</Gun_3HST_LGIS_Launcher_Disposable_thermobaric_ID.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_thermobaric_ID.description>一个简易一次性LGIS导弹发射器，用于给炮灰提供最基础的重火力支援。和多次使用的LGIS发射器不同，该发射器没有磁轨加速器，而是使用爆炸性推进剂助推导弹。\n该发射器装备了曲射瞄具。\n在第三次内战中，反抗帝国的3HST有限公司急需一种可以大规模装备的单兵重武器，而这款简易一次性LGIS发射器便是他们的答案。利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的攻顶打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的一次性发射器便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。</Gun_3HST_LGIS_Launcher_Disposable_thermobaric_ID.description>
+  <Gun_3HST_LGIS_Launcher_Disposable_thermobaric_ID.tools.0.label>枪托</Gun_3HST_LGIS_Launcher_Disposable_thermobaric_ID.tools.0.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_thermobaric_ID.tools.1.label>枪管</Gun_3HST_LGIS_Launcher_Disposable_thermobaric_ID.tools.1.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_thermobaric_ID.tools.2.label>枪口</Gun_3HST_LGIS_Launcher_Disposable_thermobaric_ID.tools.2.label>
+
+  <Gun_3HST_LGIS_Launcher_Disposable_heat_ID.label>一次性 曲射 破甲 LGIS发射器</Gun_3HST_LGIS_Launcher_Disposable_heat_ID.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_heat_ID.description>一个简易一次性LGIS导弹发射器，用于给炮灰提供最基础的重火力支援。和多次使用的LGIS发射器不同，该发射器没有磁轨加速器，而是使用爆炸性推进剂助推导弹。\n该发射器装备了曲射瞄具。\n在第三次内战中，反抗帝国的3HST有限公司急需一种可以大规模装备的单兵重武器，而这款简易一次性LGIS发射器便是他们的答案。利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的攻顶打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的一次性发射器便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。</Gun_3HST_LGIS_Launcher_Disposable_heat_ID.description>
+  <Gun_3HST_LGIS_Launcher_Disposable_heat_ID.tools.0.label>枪托</Gun_3HST_LGIS_Launcher_Disposable_heat_ID.tools.0.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_heat_ID.tools.1.label>枪管</Gun_3HST_LGIS_Launcher_Disposable_heat_ID.tools.1.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_heat_ID.tools.2.label>枪口</Gun_3HST_LGIS_Launcher_Disposable_heat_ID.tools.2.label>
+
+  <Gun_3HST_LGIS_Launcher_Disposable_confetti_ID.label>一次性 曲射 礼花 LGIS发射器</Gun_3HST_LGIS_Launcher_Disposable_confetti_ID.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_confetti_ID.description>一个简易一次性LGIS导弹发射器，用于给炮灰提供最基础的重火力支援。和多次使用的LGIS发射器不同，该发射器没有磁轨加速器，而是使用爆炸性推进剂助推导弹。\n该发射器装备了曲射瞄具。\n在第三次内战中，反抗帝国的3HST有限公司急需一种可以大规模装备的单兵重武器，而这款简易一次性LGIS发射器便是他们的答案。利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的攻顶打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的一次性发射器便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。</Gun_3HST_LGIS_Launcher_Disposable_confetti_ID.description>
+  <Gun_3HST_LGIS_Launcher_Disposable_confetti_ID.tools.0.label>枪托</Gun_3HST_LGIS_Launcher_Disposable_confetti_ID.tools.0.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_confetti_ID.tools.1.label>枪管</Gun_3HST_LGIS_Launcher_Disposable_confetti_ID.tools.1.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_confetti_ID.tools.2.label>枪口</Gun_3HST_LGIS_Launcher_Disposable_confetti_ID.tools.2.label>
+
+  <Gun_3HST_LGIS_Launcher_Disposable_incendiary_ID.label>一次性 曲射 燃烧 LGIS发射器</Gun_3HST_LGIS_Launcher_Disposable_incendiary_ID.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_incendiary_ID.description>一个简易一次性LGIS导弹发射器，用于给炮灰提供最基础的重火力支援。和多次使用的LGIS发射器不同，该发射器没有磁轨加速器，而是使用爆炸性推进剂助推导弹。\n该发射器装备了曲射瞄具。\n在第三次内战中，反抗帝国的3HST有限公司急需一种可以大规模装备的单兵重武器，而这款简易一次性LGIS发射器便是他们的答案。利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的攻顶打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的一次性发射器便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。</Gun_3HST_LGIS_Launcher_Disposable_incendiary_ID.description>
+  <Gun_3HST_LGIS_Launcher_Disposable_incendiary_ID.tools.0.label>枪托</Gun_3HST_LGIS_Launcher_Disposable_incendiary_ID.tools.0.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_incendiary_ID.tools.1.label>枪管</Gun_3HST_LGIS_Launcher_Disposable_incendiary_ID.tools.1.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_incendiary_ID.tools.2.label>枪口</Gun_3HST_LGIS_Launcher_Disposable_incendiary_ID.tools.2.label>
+
+  <Gun_3HST_LGIS_Launcher_Disposable_smoke_ID.label>一次性 曲射 烟雾 LGIS发射器</Gun_3HST_LGIS_Launcher_Disposable_smoke_ID.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_smoke_ID.description>一个简易一次性LGIS导弹发射器，用于给炮灰提供最基础的重火力支援。和多次使用的LGIS发射器不同，该发射器没有磁轨加速器，而是使用爆炸性推进剂助推导弹。\n该发射器装备了曲射瞄具。\n在第三次内战中，反抗帝国的3HST有限公司急需一种可以大规模装备的单兵重武器，而这款简易一次性LGIS发射器便是他们的答案。利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的攻顶打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的一次性发射器便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。</Gun_3HST_LGIS_Launcher_Disposable_smoke_ID.description>
+  <Gun_3HST_LGIS_Launcher_Disposable_smoke_ID.tools.0.label>枪托</Gun_3HST_LGIS_Launcher_Disposable_smoke_ID.tools.0.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_smoke_ID.tools.1.label>枪管</Gun_3HST_LGIS_Launcher_Disposable_smoke_ID.tools.1.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_smoke_ID.tools.2.label>枪口</Gun_3HST_LGIS_Launcher_Disposable_smoke_ID.tools.2.label>
+
+  <Gun_3HST_LGIS_Launcher_Disposable_firefoam_ID.label>一次性 曲射 灭火 LGIS发射器</Gun_3HST_LGIS_Launcher_Disposable_firefoam_ID.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_firefoam_ID.description>一个简易一次性LGIS导弹发射器，用于给炮灰提供最基础的重火力支援。和多次使用的LGIS发射器不同，该发射器没有磁轨加速器，而是使用爆炸性推进剂助推导弹。\n该发射器装备了曲射瞄具。\n在第三次内战中，反抗帝国的3HST有限公司急需一种可以大规模装备的单兵重武器，而这款简易一次性LGIS发射器便是他们的答案。利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的攻顶打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的一次性发射器便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。</Gun_3HST_LGIS_Launcher_Disposable_firefoam_ID.description>
+  <Gun_3HST_LGIS_Launcher_Disposable_firefoam_ID.tools.0.label>枪托</Gun_3HST_LGIS_Launcher_Disposable_firefoam_ID.tools.0.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_firefoam_ID.tools.1.label>枪管</Gun_3HST_LGIS_Launcher_Disposable_firefoam_ID.tools.1.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_firefoam_ID.tools.2.label>枪口</Gun_3HST_LGIS_Launcher_Disposable_firefoam_ID.tools.2.label>
+
+  <Gun_3HST_LGIS_Launcher_Disposable_emp_ID.label>一次性 曲射 EMP LGIS发射器</Gun_3HST_LGIS_Launcher_Disposable_emp_ID.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_emp_ID.description>一个简易一次性LGIS导弹发射器，用于给炮灰提供最基础的重火力支援。和多次使用的LGIS发射器不同，该发射器没有磁轨加速器，而是使用爆炸性推进剂助推导弹。\n该发射器装备了曲射瞄具。\n在第三次内战中，反抗帝国的3HST有限公司急需一种可以大规模装备的单兵重武器，而这款简易一次性LGIS发射器便是他们的答案。利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的攻顶打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的一次性发射器便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。</Gun_3HST_LGIS_Launcher_Disposable_emp_ID.description>
+  <Gun_3HST_LGIS_Launcher_Disposable_emp_ID.tools.0.label>枪托</Gun_3HST_LGIS_Launcher_Disposable_emp_ID.tools.0.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_emp_ID.tools.1.label>枪管</Gun_3HST_LGIS_Launcher_Disposable_emp_ID.tools.1.label>
+  <Gun_3HST_LGIS_Launcher_Disposable_emp_ID.tools.2.label>枪口</Gun_3HST_LGIS_Launcher_Disposable_emp_ID.tools.2.label>
+
+
+  <!-- Multiple high-angle LGIS Turret -->
+
+  <Turret_MLGIS_ID.label>多联LGIS发射井</Turret_MLGIS_ID.label>
+  <Turret_MLGIS_ID.description>由25个垂直放置的LGIS发射单元构成的火力支援平台，并非3HST有限公司制式装备，而是一种简易发射平台。</Turret_MLGIS_ID.description>
+
+  <Gun_MLGIS_ID.label>多连LGIS发射井</Gun_MLGIS_ID.label>
+  <Gun_MLGIS_ID.description>数个LGIS发射单元，内置的磁轨加速器大大提高了导弹的射程。</Gun_MLGIS_ID.description>
+
+
+  <!-- Dual high-angle LGIS Turret -->
+
+  <Turret_DualLGIS_ID.label>双联高角LGIS发射器</Turret_DualLGIS_ID.label>
+  <Turret_DualLGIS_ID.description>安置在三脚架上面的两个LGIS发射筒和观瞄系统。</Turret_DualLGIS_ID.description>
+
+  <Gun_DualLGIS_ID.label>双联LGIS发射器（曲射炮塔用）</Gun_DualLGIS_ID.label>
+  <Gun_DualLGIS_ID.description>安装在三脚架上面的两个LGIS发射筒。</Gun_DualLGIS_ID.description>
+
+
+  <!-- Multiple Direct LGIS Turret -->
+
+  <Turret_MLGIS.label>多联LGIS炮塔</Turret_MLGIS.label>
+  <Turret_MLGIS.description>一个直射27联LGIS炮塔。</Turret_MLGIS.description>
+
+  <Gun_MLGIS.label>多联LGIS发射器（炮塔用）</Gun_MLGIS.label>
+  <Gun_MLGIS.description>一个能搭载27发LGIS导弹的火箭巢，内置的磁轨加速器大大提高了导弹的射程。</Gun_MLGIS.description>
+
+
+  <!-- Single LGIS发射器 -->
+  <!-- 一次性 LGIS发射器s -->
+  <!-- 一次性曲射 LGIS发射器s -->
+
+</LanguageData>

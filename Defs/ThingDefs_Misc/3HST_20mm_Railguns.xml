@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="Base3HSTHeavyGun">
+    <defName>Gun_3HST_20mmAutocannon</defName>
+    <label>3HST 20mm vehicle rail autocannon</label>
+    <description>High caliber, fast firing railgun commonly found on a wide variety of 3HST vehicles, from IFV to space warship AA guns.</description>
+    <graphicData>
+      <texPath>Things/Weapons/3HST_HWR_11_Autocannon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>124500</WorkToMake>
+      <Mass>120</Mass>
+      <Bulk>27.7</Bulk>
+      <SwayFactor>10.2</SwayFactor>
+      <ShotSpread>0.01</ShotSpread>
+      <SightsEfficiency>1</SightsEfficiency>
+      <RangedWeapon_Cooldown>0.69</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>420</Steel>
+      <Plasteel>150</Plasteel>
+      <Chemfuel>100</Chemfuel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
+      <RailComponent>15</RailComponent>
+      <MilitaryCapacitor>20</MilitaryCapacitor>
+      <AdvancedServo>10</AdvancedServo>
+    </costList>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Projectile_3HST20mmRG_Steel</defaultProjectile>
+        <warmupTime>4.3</warmupTime>
+        <range>112</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>14</ticksBetweenBurstShots>
+        <soundCast>RG_20mm</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <recoilAmount>5.32</recoilAmount>
+        <muzzleFlashScale>20</muzzleFlashScale>
+      </li>
+    </verbs>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawSize>2,2</DrawSize>
+        <DrawOffset>0.12,-0.10</DrawOffset>
+      </li>
+    </modExtensions>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>30</magazineSize>
+        <reloadTime>7.8</reloadTime>
+        <ammoSet>AmmoSet_3HST20mmRG</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aimedBurstShotCount>3</aimedBurstShotCount>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+    <weaponTags>
+      <li>3HST_Autocannon</li>
+    </weaponTags>
+    <!--<AllowWithRunAndGun>false</AllowWithRunAndGun>-->
+    <recipeMaker>
+      <researchPrerequisite>Research_3HST_Railgun</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+
+  <!--Turret manned-->
+  <ThingDef ParentName="TurretMannedBase">
+    <defName>Turret_3HST20mmACmanned</defName>
+    <label>Manned 20mm rail autocannon</label>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>Things/Building/Turrets/FlakTurret_Base</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <uiIconPath>UI/Icons/Security/3HST_HWR_11_Autocannon_Manned_icon</uiIconPath>
+    <statBases>
+      <WorkToBuild>300</WorkToBuild>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>126</Mass>
+      <Bulk>70</Bulk>
+    </statBases>
+    <designatorDropdown>Group_3HST_ManualRailgunTurret</designatorDropdown>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>700</basePowerConsumption>
+      </li>
+    </comps>
+    <description>A 3HST rail autocannon mounted on an fixed mount. Despite the fact this turret is manually operated, this turret still needs a amount of power to operate since railguns consumes power.</description>
+    <costList>
+      <Steel>25</Steel>
+      <Gun_3HST_20mmAutocannon>1</Gun_3HST_20mmAutocannon>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <building>
+      <turretGunDef>Gun_20mmAC_Turret</turretGunDef>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretTopDrawSize>4</turretTopDrawSize>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+    <castEdgeShadows>false</castEdgeShadows>
+    <size>(2,2)</size>
+    <researchPrerequisites>
+      <li>CE_TurretHeavyWeapons</li>
+    </researchPrerequisites>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <designationCategory>Security</designationCategory>
+  </ThingDef>
+
+  <!--Turret auto-->
+  <ThingDef ParentName="TurretAutoBase">
+    <defName>Turret_3HST20mmHMGAuto</defName>
+    <label>Auto 20mm rail autocannon</label>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>Things/Building/Turrets/3HST_Turret_Heavy/3HST_Heavy_Turret_Base</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <uiIconPath>UI/Icons/Security/3HST_HWR_11_Autocannon_auto_icon</uiIconPath>
+    <tradeability>None</tradeability>
+    <thingCategories Inherit="False" />
+    <statBases>
+      <WorkToBuild>300</WorkToBuild>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>130</Mass>
+      <Bulk>70</Bulk>
+      <AimingAccuracy>0.5</AimingAccuracy>
+      <ShootingAccuracyTurret>1</ShootingAccuracyTurret>
+    </statBases>
+    <designatorDropdown>Group_3HST_AutoRailgunTurret</designatorDropdown>
+
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>1400</basePowerConsumption>
+      </li>
+    </comps>
+    <description>A 3HST rail autocannon mounted on an automatic mount.</description>
+    <costList>
+      <Steel>35</Steel>
+      <Gun_3HST_20mmAutocannon>1</Gun_3HST_20mmAutocannon>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <building>
+      <turretGunDef>Gun_20mmAC_Turret</turretGunDef>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretTopDrawSize>4</turretTopDrawSize>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+    <size>(2,2)</size>
+    <researchPrerequisites>
+      <li>CE_TurretHeavyWeapons</li>
+    </researchPrerequisites>
+    <minifiedDef Inherit="False" />
+    <designationCategory>Security</designationCategory>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseTurretGun">
+    <defName>Gun_20mmAC_Turret</defName>
+    <label>Mounted 3HST 20mm rail autocannon</label>
+    <graphicData>
+      <texPath>Things/Building/Turrets/3HST_HWR_11_Autocannon_Turret</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>3HST 20mm rail autocannon on a stationary emplacement.</description>
+    <soundInteract>Artillery_ShellLoaded</soundInteract>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <SightsEfficiency>1.1</SightsEfficiency>
+      <ShotSpread>0.01</ShotSpread>
+      <SwayFactor>0.98</SwayFactor>
+      <RangedWeapon_Cooldown>0.56</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Projectile_3HST20mmRG_Steel</defaultProjectile>
+        <warmupTime>4.2</warmupTime>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <range>112</range>
+        <minRange>15</minRange>
+        <soundCast>RG_20mm</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <recoilAmount>2.51</recoilAmount>
+        <muzzleFlashScale>20</muzzleFlashScale>
+        <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>100</magazineSize>
+        <reloadTime>7.8</reloadTime>
+        <ammoSet>AmmoSet_3HST20mmRG</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aimedBurstShotCount>3</aimedBurstShotCount>
+        <aiUseBurstMode>FALSE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>
